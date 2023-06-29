@@ -1,0 +1,6904 @@
+﻿/* =add font
+*************************************************/
+@font-face { font-family: HCRDotum; 
+			 src: url('../Font/HANDotum.ttf'); } 
+
+
+.main-title-header
+{
+	height:12px;
+	padding:5px 0;
+	border-bottom:2px solid #cc0000;
+}
+
+
+/* =slides
+*************************************************/
+/* 메인 페이지의 아이템샵 슬라이드에 필요한 스타일 시트 정의 */
+.slides
+{   
+    z-index:100;
+}
+
+.slides_container
+{
+    width:400px;
+    height:110px;
+    overflow:hidden;
+    display:none;
+}
+
+.slides .slide
+{   
+    width:400px;
+    height:110px;
+    display:block;
+}
+
+/* =tab
+*************************************************/
+.tab-line
+{
+    width:100%;
+    border-top:1px solid #000;
+    background:url(../Images/Main/main_title_bg.gif) repeat-x 0 0;
+}
+
+.tab-line-left
+{  
+    width:100%;
+    background:url(../Images/Main/tab_middle_line.gif) no-repeat 0 0;
+}
+
+.tab-line-right
+{   
+    width:100%;
+    background:url(../Images/Main/tab_middle_line.gif) no-repeat 100% 0;
+}
+
+/* =tabs
+*************************************************/
+.main-tabs
+{
+    width:458px;
+    background:url(../Images/Main/main_title_bg.gif) repeat-x 0 0;
+    border:1px solid #000;
+    border-bottom:none;
+    float:left;
+}
+
+.main-tabs li
+{
+    float:left;
+}
+
+.sub-tabs-wrap
+{
+	width:700px;
+	height:27px;
+	border-bottom:2px solid #cc0000;
+}
+
+.sub-tabs
+{
+	width:698px;
+	background:url(../Images/Background/tab_bg.gif) repeat-x 0 0;
+	border:1px solid #000;
+	border-bottom:none;
+	float:left;
+}
+
+.sub-tabs li
+{
+	float:left;
+}
+
+/* =sub-title
+*************************************************/
+.sub-title
+{
+	height:40px;
+	margin-bottom:15px;
+}
+
+.sub-title-btn
+{
+	padding-top:5px;
+	float:right;
+}
+
+.page-history
+{
+	height:17px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#555;
+	text-align:right;
+}
+
+.page-history .page-history-select
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:bold;
+	color:#555;
+}
+
+/* =login
+*************************************************/
+/* 메인 업데이트로 인한 수정 - 180126 */
+.main-login
+{
+	width:238px;
+	height:104px;
+	/*padding:14px 16px;*/
+	margin-top:3px;
+	border:1px solid #393B3A;
+	background:url(../Images/Login/login_bg.gif) 0 0;
+	color:#777;
+	position:absolute;
+}
+
+/* 110521_member 만들면서 추가*/
+.main-login legend
+{
+	visibility:hidden;
+	overflow:hidden;
+}
+
+/* 메인 업데이트로 인한 수정 - 180126 */
+.main-login .main-login-on
+{
+	position:absolute;
+	left:16px;
+	top:3px;
+	color:#bbb;
+}
+
+.main-login .main-login-on span a
+{   
+    font-family: "Verdana", "굴림";
+	font-size:11px;
+    color:#999;
+}
+
+.main-login .main-login-on span a:hover
+{   
+	color:#cc0000;
+	text-decoration:none;
+}
+
+.main-login .login-input
+{
+	width:130px;
+	/*margin-right:5px;*/
+	position:absolute;
+	left:16px;
+	top:14px;
+	float:left;
+}
+
+.main-login .login-button
+{
+	width:64px;
+	position:absolute;
+	right:16px;
+	top:14px;
+	float:right;
+}
+
+.main-login .login-input input
+{
+	width:133px;
+	height:17px;
+	border:1px solid #4F4F4F;
+}
+
+.main-login .login-input .main-idText
+{
+	margin-bottom:5px;
+	background:#000 url(../Images/Login/id_txt.gif) no-repeat 5% 50%;
+}
+
+.main-login .login-input .main-pwdText
+{
+	background:#000 url(../Images/Login/pwd_txt.gif) no-repeat 5% 50%;
+}
+
+/* 메인 업데이트로 인한 수정 - 180126 */
+.main-login .member-management
+{
+	width:205px;
+	position:absolute;
+	left:28px;
+	top:60px;
+	color:#999;
+}
+
+.main-login .login-management2
+{
+	width:205px;
+	height: 16px;
+	vertical-align: middle;
+	position:absolute;
+	left:20px;
+	top:76px;
+	color:#999;
+}
+
+.main-login .login-management2 span a
+{
+	font-family: "HCR Dotum";
+	font-size:11px;
+	color:#999;
+}
+
+.main-login .login-management2 span a:hover {
+	color: #cc0000;
+	text-decoration: none;
+}
+
+.main-login .member-management span
+{
+	font-family: "HCR Dotum";
+	font-size:11px;
+}
+
+.main-login .member-management span a
+{
+	font-family: "HCR Dotum";
+	font-size:11px;
+	color:#999;
+}
+
+.main-login .member-management span a:hover
+{
+	color:#cc0000;
+	text-decoration:underline;
+}
+
+.selector
+{
+	display:inline-block;
+	margin:0 3px;
+	color:#ccc;
+}
+
+.main-login .main-recharge
+{
+	color:#349cd2;
+	text-decoration:underline;
+}
+
+/* 대표캐릭터 */
+.main-login .login-id-info
+{
+	margin-bottom:3px;
+}
+
+.main-login .character-name
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#fff;
+}
+
+.main-login .character-info
+{
+    line-height:1.6em;
+}
+
+.main-login .character-info, 
+.main-login .my-cash
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.main-login .my-cash strong
+{
+	color:#c9c9c9;
+}
+
+.main-login .my-cash em
+{
+	font-family: "Verdana", "굴림";
+	color: #00fcd6;
+	font-size:11px;
+}
+
+.main-login .my-account
+{
+	margin-top:8px;
+}
+.my-account a{
+	text-decoration:none;
+}
+.my-account a:hover{
+	text-decoration:none;
+}
+.represent-character
+{
+	width:210px;
+	/*height:130px;*/
+	padding:14px 14px 9px 14px;
+	border:1px solid #393b3a;
+	border-top:none;
+	background:#080808;
+	position:absolute;
+	left:0;
+	top:210px;
+	z-index:101;
+}
+
+.represent-character ul
+{
+	width:190px;
+	height:80px;
+	margin-bottom:10px;
+	padding:5px 0 0 10px;
+	line-height:17px;
+	background:#272727;
+	overflow-y:auto;
+}
+
+.represent-character ul li a
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.represent-character ul li a:hover
+{
+	color:#cc0000;
+	text-decoration:underline;
+}
+
+.represent-character ul li.nothing
+{
+	padding-top:20px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:center;
+	color:#888;
+}
+
+/* =calendar
+*************************************************/
+.calendar
+{
+    width:218px;
+    background:#000 url(../Images/Calendar/calendar_bg.gif) repeat-x 0 0;    
+    border:1px solid #000;
+    margin-bottom:20px;
+    position:relative;
+    z-index:99;
+}
+
+.calendar table
+{
+    width:193px;    
+    margin:0 auto;
+    padding:0;
+}
+
+.calendar table caption
+{    
+    margin:0;
+    padding:0;
+    font-size:11px;
+    text-align:left;
+    color:#888;
+    display:table-caption;
+}
+
+.calendar table p
+{
+    margin:0;
+    padding:0;
+    line-height:13px;
+}
+
+.calendar table figure
+{   
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.calendar table figure em
+{
+    font-style:normal;   
+    color:#74aa01;
+}
+
+.calendar .yearmonth
+{  
+    height:29px; 
+    padding:0 5px;
+    font-size:12px;
+}
+
+.calendar .yearmonth div
+{
+    padding-top:7px;
+}
+
+.calendar .yearmonth span
+{   
+    font-size:11px;
+    font-weight:bold;
+    color:#ec0b0b;
+    vertical-align:middle;
+}
+
+.calendar table .blankline
+{
+    height:3px;
+}
+
+.calendar table .blankline2
+{
+    height:10px;
+}
+
+.calendar table .blankcell
+{
+    height:3px;
+}
+
+.calendar table th
+{
+    width:25px;
+    height:20px;
+    background:url(../Images/Calendar/week_bg.gif) repeat-x 0 0;
+    padding:0;
+    margin:0;
+    font-size:10px;
+    font-weight:normal;
+    color:#fff;
+    text-align:center;
+}
+
+.calendar table th.blank
+{
+    width:3px;
+}
+
+.calendar table td
+{
+    width:25px;
+    height:20px;
+    margin:0;
+    padding:0;
+    font-size:11px;
+    color:#888;
+    text-align:center;
+}
+
+.calendar table td.blank
+{
+    width:3px;
+}
+
+.calendar table td.now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+}
+
+.calendar table td.event
+{   
+    background:#303030;
+    font-weight:bold;
+    color:#888;
+}
+
+.calendar table td.event-now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+    background:#303030;
+    font-weight:bold;
+}
+
+.calendar-event-wrapper
+{
+    width:288px;
+    background:#111;
+    border:1px solid #303030;
+    padding-bottom:5px;
+    position:relative;
+    overflow:auto;
+}
+
+.calendar-event-wrapper header
+{   
+    width:260px;
+    height:30px;    
+    margin:5px auto 10px auto;
+    padding:0 10px;
+    background:#444;    
+    line-height:30px;
+}
+
+.calendar-event-wrapper .event-date
+{
+    color:#ccc;
+}
+
+.calendar-event-wrapper dl
+{
+    width:270px;
+    margin:0 auto;
+}
+
+.calendar-event-wrapper dl dt
+{
+    width:85px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    float:left;
+    clear:both;
+}
+
+.calendar-event-wrapper dl dt span
+{
+    width:83px;
+    height:43px;
+    border:1px solid #666;
+    display:block;
+}
+
+.calendar-event-wrapper dl dt img
+{
+    width:81px;
+    height:41px;
+    border:1px solid #000;
+}
+
+.calendar-event-wrapper dl dd
+{
+    width:175px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    float:right;
+}
+
+.calendar-event-wrapper dl dd .title
+{
+    font-family:굴림;
+    font-size:12px;
+    color:#aaa;
+    display:block;
+}
+
+.calendar-event-wrapper dl dd .date
+{
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    color:#666;
+}
+
+.calendar-event-wrapper .more
+{   
+    width:270px;
+    margin:0 auto;
+    text-align:right;
+    clear:both;
+}
+
+/* =nav-banners
+*************************************************/
+.nav-blank
+{
+    height:195px;
+}
+
+.nav-banners
+{   
+    position:relative;
+    z-index:99;
+}
+
+.nav-banners img
+{
+    margin-bottom:3px;
+}
+
+.faq_banner
+{
+	width:220px;
+	height:90px;
+	margin:7px 0 10px 0;
+	background:url(../Images/Main/faq_banner.gif) no-repeat;
+	position:relative;
+}
+
+.faq_banner .search
+{
+    position:absolute;
+    left:17px;
+    top:53px;      
+}
+
+.faq_banner .search input
+{
+	width:143px;
+	height:18px;
+	border:1px solid #c4bbb6;
+}
+
+/* =main-poll
+*************************************************/
+.main-poll
+{
+	width:198px;
+	background:#fff;
+	padding:10px;
+	border:1px solid #DEDEDE;
+}
+
+.main-poll fieldset
+{
+    border:0;
+    margin-bottom:10px;
+}
+
+.main-poll .question
+{
+   	margin:5px 0;
+   	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+}
+
+.pollList li
+{	
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+	line-height:1.8em;
+}
+
+/*
+.pollList li input
+{
+    width:20px;    
+    float:left;
+}
+
+.pollList li label
+{
+    width:170px;
+    display:block;
+    float:left;
+}
+*/
+
+/* =left-nav
+*************************************************/
+.left-nav ul
+{
+    width:190px;
+	background:#333;
+	padding:15px;
+}
+
+.left-nav li
+{
+	padding-bottom:7px;
+}
+
+.left-nav li a
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#aaa;
+}
+
+.left-nav li.last-depth
+{
+	padding-bottom:0;
+}
+
+.left-nav li.select-menu a
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#D52121;
+}
+
+/* =nav-news
+*************************************************/
+.nav-news
+{	
+	width:198px;
+	height:133px;
+	border:1px solid #d1c9c1;
+	margin-top:20px;
+	padding:10px;
+	position:relative;
+}
+
+.nav-news ul
+{
+	padding-top:10px;
+}
+
+.nav-news ul li
+{
+    background:url(../Images/Icon/news_title_icon.gif) no-repeat 0 30%;
+	padding-left:7px;
+	line-height:20px;
+	font-size:12px;
+}
+
+.nav-news .ul li.last
+{   
+	margin-bottom:0px;
+}
+
+
+/* =main-item-shop
+*************************************************/
+.main-item-shop
+{
+    width:460px;
+    margin-bottom:20px;
+}
+
+.main-item-wrapper
+{   
+    border-top:2px solid #cc0000;
+}
+
+.main-item-box
+{
+	width:458px;
+	height:125px;
+	border-right:1px solid #dedede;
+    border-left:1px solid #dedede;
+	position:relative;
+}
+
+.main-item-box .inner-box
+{
+    padding-left:30px;
+    padding-top:10px;
+}
+
+.main-item-box ul
+{
+    width:400px;
+    margin:0 auto;
+}
+
+.main-item-box .prev
+{
+    display:block;
+    position:absolute;
+	left:10px;
+	top:48px;
+}
+
+.main-item-box .next
+{
+    display:block;
+	position:absolute;
+	left:435px;
+	top:48px;
+}
+
+.main-item-box .main-item-list
+{   
+    width:400px;
+    height:105px;
+}
+
+.main-item-box .main-item-list li
+{
+	width:100px;
+	height:105px;
+	float:left;
+	text-align:center;
+}
+
+.main-item-box .item-title
+{
+	width:90px;
+	margin:5px auto 0 auto;
+	font-weight:bold;
+	text-align:center;
+	font-size:10px;
+	font-family: "Verdana", "굴림";
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis; 
+	/* resize:horizontal; */
+   
+}
+
+.item-momey
+{
+	width:100px;
+	margin-top:2px;
+	font-size:11px;
+	color:#888;
+}
+
+.main-itemsearch-wrapper
+{   
+    width:458px;
+    height:42px;
+    border:1px solid #dedede;
+    background:#EEEEEE;
+}
+
+.main-itemsearch-wrapper fieldset
+{
+    border-top:1px solid #fff; 
+    padding:7px 0;
+    text-align:center;
+}
+
+/* =main-leadclub, main-ranking
+*************************************************/
+.main-ranking
+{
+	width:460px;
+	margin-bottom:20px;
+}
+
+.main-ranking .main-ranking-wrapper
+{
+	width:460px;
+	background:#eee;
+	border-top:2px solid #cc0000;
+}
+
+.main-ranking .server1
+{
+	width:198px;
+	padding:10px 15px;
+	border:1px solid #ccc;
+	border-top:none;
+	float:left;
+}
+
+.main-ranking .server2
+{
+	width:199px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:10px 15px;
+	float:left;
+}
+
+.main-ranking header
+{
+	margin-bottom:5px;
+}
+
+.main-ranking .ranking-type
+{
+	height:18px;
+	margin-bottom:5px;
+	float:left;
+}
+
+.main-ranking .ranking-type li
+{
+	float:left;
+}
+
+.main-ranking .ranking-list li
+{
+	padding:5px 0;
+	height:15px;
+	background:url(../Images/Icon/dot_path.gif) repeat-x 0 100%;
+}
+
+.main-ranking .ranking-list li.last
+{
+	background:none;
+}
+
+.type1
+{
+	width:30px;
+	padding-left:5px;
+	display:inline-block;
+	float:left;
+}
+
+.type2
+{
+	width:110px;
+	padding:0 5px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:bold;
+	color:#444;
+	display:inline-block;
+	float:left;
+}
+
+.type3
+{
+	width:33px;
+	padding-right:7px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+	display:inline-block;
+	text-align:right;
+	float:right;
+}
+
+
+/* =main-screenshot
+*************************************************/
+.main-screenshot
+{
+	width:220px;
+	margin-bottom:20px;
+	position:relative;
+
+}
+
+.main-screenshot figure
+{   
+    width:105px;
+    margin-top:10px;
+    float:left;
+}
+
+.main-screenshot figure.last
+{
+    margin-left:10px;
+}
+
+.main-screenshot figure img
+{
+    width:103px;
+	height:73px;
+    border:1px solid #000;
+}
+
+.main-screenshot figcaption
+{
+    margin-top:5px;
+}
+
+.main-screenshot figcaption span.screensubject
+{
+    margin-bottom:5px;
+    font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+	text-align:center;
+    display:block;
+}
+
+.main-screenshot figcaption span.nickname
+{   
+    font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+	text-align:center;
+	display:block;
+}
+
+/* =error
+*************************************************/
+.error-wrapper
+{
+	width:940px;
+	margin:100px auto;
+}
+
+.logo
+{
+	width:940px;
+	height:66px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.error
+{
+	width:610px;
+	height:310px;
+	margin:0 auto;
+	border-top:4px solid #5e6264;
+	border-bottom:4px solid #5e6264;
+}
+
+.error header
+{
+	border-bottom:1px solid #eaeaea;
+}
+
+.error .error-info
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#666;
+	padding:20px 0 50px 50px;
+}
+
+.error .error-info span
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+/* =member
+*************************************************/
+#member-content .content-top
+{
+	width:940px;
+	height:25px;
+	background:url(../Images/Member/content_top.png) no-repeat;
+}
+
+#member-content .content-middle
+{
+	width:680px;
+	padding:85px 130px 250px 130px;
+	background:url(../Images/Member/content_middle.png) no-repeat;
+}
+
+/*default*/
+.member-category
+{
+	width:860px;
+	height:80px;
+	margin-top:30px;
+}
+
+.member-category .member-category-list
+{
+	width:726px;
+	height:80px;
+	margin:0 auto; 	
+}
+
+.member-category .member-category-list li
+{
+	float:left;
+}
+
+.heading
+{
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.step
+{
+	margin-bottom:50px;
+}
+
+.member fieldset, .event fieldset.fieldset-none
+{
+	margin-top:30px;
+}
+
+.member fieldset.fieldset-none, .event fieldset.fieldset-none
+{
+	margin-top:0;
+}
+
+.member fieldset.fieldset-check, .event fieldset.fieldset-check
+{
+	margin-top:5px;
+}
+
+/*h*/
+.member h1, .event h1
+{
+	height:70px;
+}
+
+.member h2, .event h2
+{
+	padding-bottom:7px;
+	border-bottom:3px solid #000000;
+}
+
+.member h3, .member h4, .event h3, .event h4
+{
+	height:25px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+}
+
+/*text*/
+.focus-notice
+{	
+	margin-top:30px;
+}
+
+.focus-notice.find
+{	
+	margin-bottom:30px;
+}
+
+.focus-notice p
+{
+	margin-bottom:5px;
+	padding-left:17px;
+	display:block;
+	background:url(../Images/Member/notice_icon.gif) no-repeat;
+}
+
+.tip
+{
+	margin-top:10px;
+	padding-left:17px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:left;
+	color:#444444;
+	display:inline-block;
+    background: url(../Images/Icon/tip_icon.gif) no-repeat;
+	
+}
+
+.tell
+{
+	text-align:center;
+	margin:50px 0;
+}
+
+.inform
+{
+	padding:30px 0;
+	font-family: "Verdana", "굴림";
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	color:#CC0000;
+}
+
+.profile .ok-info
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:bold;
+	color:#0CB308;
+}
+
+.profile .no-info
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:bold;
+	color:#CC0000;
+}
+
+.profile .default-info
+{
+    font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:normal;
+	color:#888888;
+}
+
+.info
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:normal;
+	color:#888888;
+}
+
+/*button*/
+.button-center
+{
+	padding-top:30px;
+	text-align:center;
+}
+
+/*input*/
+.member input, .event input
+{
+	padding:3px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444444;
+}
+
+.member .txt-short, .event .txt-short
+{
+	width:58px;
+	height:13px;
+	border:2px solid #CCCCCC;
+}
+
+.member .txt-middle, .event .txt-middle
+{
+	width:130px;
+	height:13px;
+	border:2px solid #CCCCCC;
+}
+
+
+.member .txt-middleR, .event .txt-middleR
+{
+	width:160px;
+	height:13px;
+	border:2px solid #CCCCCC;
+}
+
+
+.member .txt-long, .event .txt-long
+{
+	width:358px;
+	height:13px;
+	border:2px solid #CCCCCC;
+}
+
+.member .focus
+{
+    border-color:#cc0000;   
+}
+
+/*box*/
+.agreement
+{
+	margin-top:30px;
+}
+
+.agreement-box
+{
+	height:200px;
+	padding:10px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+	overflow:auto;
+}
+
+.agreement-box p, .agreement-box ul
+{
+	margin-bottom:10px;
+}
+
+.address-box
+{   
+    width:450px;
+	height:100px;
+	padding:10px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+	overflow:auto;
+}
+
+.gray-box, .id-check
+{
+	width:638px;
+	margin-top:5px;
+	padding:20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.gray-box p
+{
+	margin-bottom:10px;
+}
+
+/*STEP2 namecheck*/
+.cert-select
+{
+	margin:30px 0 10px;
+}
+
+.namecheck
+{
+	width:638px;
+	padding:20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.namecheck dt, .namecheck dd
+{
+	float:left;
+}
+
+.namecheck dt
+{
+	margin-right:10px;
+}
+
+.namecheck dd
+{
+	margin-right:10px;
+}
+
+.namecheck dd.last
+{
+	margin-right:0;
+}
+
+.namecheck label
+{
+	display:inline-block;
+	font-weight:bold;
+	margin-top:5px;
+	vertical-align: text-top;
+}
+
+/*STEP2 idcheck*/
+.id-info li
+{
+	height:20px;
+	margin-bottom:10px;
+	clear:both;
+}
+
+.id-info li.last
+{
+	margin-bottom:0;
+}
+
+.id-info .id-option
+{
+	float:right;
+}
+
+.id-info .id-option span
+{
+	margin-left:10px;
+}
+
+.id-info .id-list
+{
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	font-weight:bold;
+	color:#444444;
+	float:left;
+}
+
+.id-info .id-list span
+{
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	font-weight:bold;
+	color:#CC0000;
+}
+
+.id-info li.id-hicocoon
+{
+	height:100px;
+}
+
+.id-info .hicocoon-box span
+{
+	margin-left:17px;
+}
+
+/*STEP3 realperson*/
+.person-list
+{
+	margin-top:30px;
+}
+
+
+.person-box
+{
+	width:680px;
+	height:60px;
+	margin-bottom:5px;
+	clear:both;
+}
+
+.person-info
+{
+	width:519px;
+	height:58px;
+	border:1px solid #CCCCCC;
+	border-left:none;
+	background:#F7F7F7;
+	float:right;
+}
+
+.person-info p, .person-info fieldset 
+{
+	width:390px;
+	margin-top:23px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888888;
+}
+
+.person-info p.phone
+{	
+	margin-top:17px;
+}
+
+.person-info fieldset
+{
+	margin-top:18px;
+}
+
+.person-info div
+{
+	margin:11px 7px 0 7px;
+}
+
+.person-list .tip
+{
+	margin-top:20px;
+}
+
+/*STEP4 profile*/
+.profile
+{
+	width:100%;
+	border-top:2px solid #CCCCCC;
+	border-bottom:2px solid #CCCCCC;
+}
+
+.profile tr
+{
+	height:30px;
+	background:#FFFFFF;
+}
+
+.profile th
+{
+	width:130px;
+	padding:5px 10px;
+	text-align:left;
+	background:#F7F7F7;
+	border-top:1px solid #EEEEEE;
+	border-bottom:1px solid #EEEEEE;
+}
+
+.profile td
+{
+	height:30px;
+	padding:7px 15px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444444;
+	text-align:left;
+	border-top:1px solid #EEEEEE;
+	border-bottom:1px solid #EEEEEE;
+}
+
+.profile td p
+{
+	margin-top:5px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888888;
+	font-weight:normal;
+}
+
+.profile .myinfo span
+{
+	margin-left:30px;
+}
+
+.check-info
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:normal;
+	color:#CC0000;
+}
+
+.code-img
+{
+	float:left;
+	margin-right:10px;
+}
+
+.callnumber, .adress
+{
+	margin-top:5px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444444;
+}
+
+/*STEP5 completion*/
+.sitemap /* 120808 수정 */
+{
+	width:680px;
+	height:156px;
+	margin-top:30px;
+	border-top:3px solid #CCCCCC;
+}
+
+.sitemap li /* 120808 수정 */
+{
+	width:65px;
+	height:125px;
+	padding:20px 10px;
+	border-bottom:3px solid #CCCCCC;
+	background:#F7F7F7 url(../Images/Member/y_dot.gif) repeat-y;
+	float:left;
+	text-align:center;
+}
+
+.sitemap li.first
+{
+	background:#F7F7F7;
+}
+
+.sitemap dt
+{
+	margin-bottom:10px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444444;
+}
+
+.sitemap dd
+{
+	margin-bottom:3px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#444444;
+	letter-spacing:-1px;
+}
+
+/*modal-box*/
+.modal-box
+{
+	width:610px;
+	padding:20px;
+	border:5px solid #CC0000;
+	background:#FFFFFF;
+}
+
+.none-box
+{
+	padding:20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.choose-id header
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	margin:30px 0 10px 0;
+}
+
+.modal-smallbox
+{
+	width:350px;
+	padding:20px;
+	border:5px solid #CC0000;
+	background:#FFFFFF;
+}
+
+.modal-smallbox header
+{
+	margin-bottom:15px;
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	font-weight:bold;
+	color:#444444;
+}
+
+.modal-smallbox li
+{
+	margin-bottom:7px;
+	padding-left:10px;
+	display:block;
+	background:url(../Images/Icon/red_dot_icon.gif) no-repeat 0 20%;
+}
+
+/* =login
+*************************************************/
+.login
+{
+	width:638px;
+	margin-top:30px;
+	padding:30px 20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.login .loginbox-left
+{
+	width:179px;
+	padding-top:10px;
+	text-align:center;
+	border-right:1px solid #CCCCCC;
+	float:left;
+}
+
+.login .loginbox-right
+{
+	width:378px;
+	padding:0 40px;
+	float:right;
+}
+
+.login .loginbox-right form, .login .loginbox-right fieldset
+{
+    margin:0;
+    padding:0;
+}
+
+.login .loginbox-right .login-info
+{
+    width:250px;	
+	float:left;
+}
+
+.login .loginbox-right .registration-info
+{
+    width:290px;	
+	float:left;
+}
+
+.login .loginbox-right .login-button
+{	
+	float:left;
+}
+
+.login .loginbox-right dl
+{  	
+	overflow:auto;
+	clear:both;
+}
+
+.login .loginbox-right dt
+{
+	width:100px;
+	padding-top:5px;
+	font-weight:bold;
+	float:left;
+}
+
+.login .loginbox-right dt.pwd
+{
+    /*overflow:auto;*/
+	clear:both;
+	padding-top:10px;
+}
+
+.login .loginbox-right dt.validate
+{
+    /*overflow:auto;*/
+	clear:both;
+	padding-top:10px;
+}
+
+.login .loginbox-right dd
+{
+	width:140px;
+	float:left;
+}
+
+.login .loginbox-right dd.pwd
+{   
+	padding-top:5px;
+}
+
+.login .loginbox-right dd.validate
+{   
+	padding-top:5px;
+}
+
+.login .vali-wrapper
+{
+    margin-top:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid #CCCCCC;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.login .vali-wrapper2
+{
+    margin-top:20px;
+    padding-bottom:10px;
+    font-size:11px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.login .vali-wrapper div
+{
+    margin-left:20px;
+}
+
+.login .vali-wrapper p
+{
+    margin-bottom:5px;
+}
+
+.login-management
+{
+	margin-top:10px;
+}
+
+.login-management-left
+{
+	width:230px;
+	float:left;
+}
+
+.login-management-right
+{
+	width:110px;
+	float:left;
+}
+
+.login-management-right img
+{
+	margin-top:5px;
+}
+
+.postfax-guide
+{
+	margin-top:30px;
+}
+
+.postfax-guide header
+{
+	margin-bottom:5px;
+}
+
+.dropout-agreement .gray-box
+{
+	margin-top:30px;
+}
+
+/* =find-info
+*************************************************/
+.find-account
+{
+	margin-top:30px;
+}
+
+.find-account .find-box
+{
+	width:248px;
+	margin-top:10px;
+	padding:20px 20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.find-account .find-id
+{
+	margin-right:20px;
+	float:left;
+}
+
+.find-account .find-password
+{
+	float:right;
+}
+
+.find-account fieldset
+{
+	margin-bottom:20px;
+	padding-bottom:72px;
+	border-bottom:1px solid #ccc;
+}
+
+.find-account .find-password fieldset
+{
+	padding-bottom:20px;
+}
+
+.find-account dt
+{
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+.find-account dd
+{
+	margin-bottom:10px;
+}
+
+.find-id-check
+{
+	
+}
+
+/*dropout*/
+.none-box
+{
+	padding:20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.dropout-agreement .gray-box
+{
+	margin-top:30px;
+}
+
+/* 140828_작업부분*/
+.login .loginbox-right2 {float:right; width:378px; padding:0 40px;}
+.login .loginbox-right2 .login_pw_txt {padding-bottom:10px; line-height:1.4em;}
+.login .loginbox-right2 form, .login .loginbox-right2 fieldset {margin:0; padding:0;}
+.login .loginbox-right2 .login_pw_info {float:left; width:400px;}
+.login .loginbox-right2 dl {overflow:auto; clear:both;}
+.login .loginbox-right2 dt {float:left; width:100px; padding-top:10px; font-weight:bold; clear:both;}
+.login .loginbox-right2 dd {float:left; width:140px; padding-top:5px;}
+.login .password_btn {margin-top:20px; padding-top:20px; border-top:1px solid #CCCCCC;}
+.member .txt-middle2 {height:13px; width:150px; border:2px solid #CCCCCC;}
+
+
+.choose-id header
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	margin-top:30px;
+}
+
+.cash-info, .account-info
+{
+	margin-top:30px;
+}
+
+.cash-info header, .account-info header
+{
+	margin-bottom:5px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+}
+
+.reason-list li
+{
+	width:250px;
+	height:25px;
+	float:left;
+}
+
+/* =event
+ * 2011-07-25 케릭터 선물 추가
+ * event 클래스명 변경 필요
+ * event 가 끝나면?
+ * event 라는 메뉴도 있음
+*************************************************/
+#event-wrapper
+{
+	width:940px;
+	min-width:940px;
+	margin:0 auto;
+	padding:0;
+}
+
+#event-header
+{
+	width:860px;
+	height:230px;
+	margin:0;
+	padding:0 40px;
+	position:relative;
+}
+
+#event-header nav
+{
+	height:20px;
+	padding-top:10px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:right;
+	color:#444444;
+	position:relative;
+}
+
+#event-header hgroup
+{
+    width:300px;
+    float:left;
+}
+
+#event-header hgroup h1, #event-header hgroup h2
+{
+    border-bottom:none;
+}
+
+#event-header .character
+{
+    float:right;
+}
+
+.event-logo
+{
+	margin-bottom:40px;
+}
+
+#event-content
+{
+	width:940px;
+	position:relative;
+}
+
+#event-content .event-content-top
+{
+	width:940px;	
+	height:4px;
+	background:url(../Images/ChaGift/event_content_top.png) repeat-y 0 0;
+}
+
+#event-content .event-content-middle
+{
+	width:680px;
+	padding:85px 130px 250px 130px;
+	background:url(../Images/Member/content_middle.png) no-repeat 0 0;
+}
+
+.event-agreement
+{
+	margin-top:30px;
+}
+
+.event-agreement li
+{
+	margin-bottom:7px;
+	padding-left:10px;
+	display:block;
+	background:url(../Images/Icon/red_dot_icon.gif) no-repeat 0 20%;
+}
+
+.event-agreement h4
+{
+	padding:15px 0;
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	text-decoration:underline;	
+	color:#CC0000;
+}
+
+.character-list
+{
+	width:100%;
+	margin-bottom:30px;
+	border-top:3px solid #CCCCCC;
+	display:table;
+}
+
+.character-list li
+{
+	padding:15px 0;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.character-list li .server-list
+{
+	width:70px;
+	float:left;
+}
+
+.character-list li .info-list
+{
+	width:480px;
+	text-align:left;
+	float:left;
+}
+
+.character-list li .state-list
+{
+	width:110px;
+	text-align:center;
+	float:left;
+}
+
+.character-list li p.character-name
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444444;
+}
+
+.character-list li p.server
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:center;
+	color:#888888;
+}
+
+.character-list li p.character-info
+{
+	margin-top:3px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888888;
+}
+
+.character-list li p.account
+{
+	margin-top:10px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444444;
+}
+
+.character-list li p.state
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:bold;
+	color:#444444;
+}
+
+.character-list li p.state-time
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#CC0000;
+}
+
+.character-list li.no-select p
+{
+	color:#BBBBBB;
+}
+
+.character-list li .state-btn
+{
+	margin-top:7px;
+}
+
+.profile.mt30
+{
+	margin-top:30px;
+}
+
+.profile td span.cash-want
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#CC0000;
+	display:inline-block;
+	font-weight:normal;
+}
+
+.profile td.td-cash
+{
+	text-align:right;
+}
+
+/* =board
+*************************************************/
+/* board list */
+.board-top-btn
+{
+    margin-top:20px;
+	margin-bottom:10px;
+	text-align:right;
+}
+
+.board-list
+{
+	width:700px;
+	margin-bottom:10px;
+	text-align:center;	
+	background:url(../Images/Board/board_top_bg.gif) repeat-x;
+}
+
+.board-list th
+{
+	height:27px;
+	border-bottom:2px solid #cc0000;
+	background:url(../Images/Board/board_top_tab.gif) no-repeat right;
+	line-height:0;
+}
+
+.board-list th.last
+{
+	background:none;
+}
+
+.board-list td
+{
+	padding:8px 0 6px 0;
+	border-bottom:1px solid #ccc;
+	background:#fff;
+}
+
+.board-list .notice td
+{
+	padding:4px 0 3px 0;
+}
+
+.board-list td.subject
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+	padding-left:10px;
+	text-align:left;
+}
+
+.board-list td.writer
+{
+	padding-left:10px;
+	font-weight:normal;
+	text-align:left;
+}
+
+.board-list tr.blind-content .subject
+{
+	color:#bbb;
+}
+
+.writer
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+}
+
+.no, .date, .view, .recommend, .number
+{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#888;
+}
+
+.board-list td .reply-number
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#cc0000;
+}
+
+/* paging */
+/* paging */
+.paging
+{
+	padding:10px 0;
+	text-align:center;
+}
+
+.paging img
+{
+	padding:1 3px;
+}
+
+.paging li.try
+{
+	padding:0 10px;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#444;
+	display:inline-block;
+	background:url(../Images/Icon/tab_icon.gif) no-repeat 100% 50%;
+}
+
+.paging li.last
+{
+	background:none;
+}
+
+
+.paging a.image , .paging li.image
+{
+    padding:0;
+	background:none;
+}
+
+.paging li:hover
+{
+	color:#CC0000;
+	text-decoration:none;
+}
+
+.paging li.on
+{
+	font-size:11px;
+	font-weight: bold;
+	color:#cc0000;
+}
+
+.board-search
+{   
+	padding:10px 0;	
+	border:1px solid #ccc;
+	background:#eee;
+}
+
+.board-search section
+{   
+	width:300px;
+	margin:0 auto;
+}
+
+/* board view */
+.board-view .view-subject
+{
+	height:12px;
+	padding:9px 20px;
+	background:url(../Images/Board/board_top_bg.gif) repeat-x;
+}
+
+.board-view .view-subject .subject
+{
+	margin-left:10px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:Bold;
+	color:#fff;
+}
+
+.board-view .view-info
+{
+	padding:9px 20px;
+	border-bottom:1px solid #ccc;
+}
+
+.board-view .view-info .view-info-title
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#444;
+	display:inline-block;
+}
+
+.board-view .view-info .writer
+{
+	padding-left:10px;
+	display:inline-block;
+}
+
+/*
+white-space:pre-wrap;       
+white-space:-moz-pre-wrap;  /* Mozilla, since 1999 
+white-space:-pre-wrap;      /* Opera 4-6 
+white-space:-o-pre-wrap;    /* Opera 7 
+word-wrap:break-word;       /* Internet Explorer 5.5+  css-3 
+word-break:break-all;
+*/
+
+.content-view
+{
+	width:660px;
+    padding:20px 20px 30px 20px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;	
+    word-break:break-all;
+    word-wrap:break-word;       /* Internet Explorer 5.5+  css-3 */
+}
+
+.content-view figcaption
+{
+	margin-top:10px;
+	font-family:굴림, Verdana;
+    font-size:12px;
+    color:#444;
+}
+
+.content-copy
+{
+	height:30px;
+	margin:20px 0 10px 0;
+	padding-top:10px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	color:#888;
+}
+
+.content-copy p
+{
+	margin-top:2px;
+}
+
+.reply-count
+{
+	margin:30px 0 10px 0 ;
+	font-weight:bold;
+}
+
+.reply-write-wrap
+{
+	padding:15px 20px;
+	background:#eaeaea;
+}
+
+textarea.txt-reply
+{
+	width:557px;
+	height:40px;
+	padding:10px;
+}
+
+textarea.txt-re-reply
+{
+	width:529px;
+	height:40px;
+	padding:10px;
+}
+
+.reply-list-wrapper
+{
+    padding-bottom:5px;
+	background:#f8f8ff;
+}
+
+.reply-list
+{
+	
+	padding:0 20px;	
+	background:#f8f8ff;
+}
+
+.reply-list-wrapper-right {
+	padding-bottom: 5px;
+	background: #b0e0e6;
+	
+}
+
+.reply-list-right {
+	padding: 0 20px;
+	background: #b0e0e6;
+}
+
+.reply-list .reply
+{
+	margin:10px auto;
+	padding:10px 0 13px 0;
+}
+
+.reply-list .reply .reply-info
+{
+	margin-bottom:8px;
+}
+
+.reply-list .reply .reply-info .date
+{
+	margin:5px 0 0 5px;
+	display:inline-block;
+}
+
+.reply-list .reply .reply-info .action
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#444;
+}
+
+.reply-list .reply .reply-content
+{ 
+	
+    word-break:break-all;
+    word-wrap:break-word;       /* Internet Explorer 5.5+  css-3 */
+}
+
+.reply-list .reply .reply-content img
+{
+	width: 100px;
+	margin-right:10px;
+	float:left;
+}
+
+.reply-list .reply .re-reply-content
+{
+	
+	padding-left:35px;
+}
+
+
+/* RIGHT */
+.reply-list-right .reply {
+	
+	margin: 10px auto;
+	padding: 10px 0 13px 0;
+}
+
+.reply-list-right .reply .reply-info {
+	text-align: right;
+	margin-bottom: 8px;
+}
+
+.reply-list-right .reply .reply-info .date {
+	margin: 5px 0 0 5px;
+	display: inline-block;
+}
+
+.reply-list-right .reply .reply-info .action {
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	color: #444;
+}
+
+.reply-list-right .reply .reply-content {
+	word-break: break-all;
+	word-wrap: break-word;
+	/* Internet Explorer 5.5+  css-3 */
+}
+
+.reply-list-right .reply .reply-content img {
+	width: 100px;
+	margin-right: 10px;
+	float: left;
+}
+
+.reply-list-right .reply .re-reply-content {
+	
+	padding-left: 35px;
+}
+
+
+/* RIGHT */
+
+.reply-list .re-reply-write
+{
+	margin-top:20px;
+}
+
+/* community write */
+.community-write
+{
+	width:700px;
+	margin-bottom:10px;
+}
+
+.community-write .subject-wrapper
+{
+	margin-bottom:10px;
+	padding:15px 20px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background:#f6f6f6;
+}
+
+.community-write .subject
+{
+	width:100px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+	display:inline-block;
+}
+
+.community-write p
+{
+	margin-bottom:8px;
+}
+
+.community-write p.last
+{
+	margin:0;
+}
+
+/* board write */
+.board-write
+{
+    width:700px;
+	margin-bottom:20px;
+	background:#fdfdfd;
+	border:1px solid #e0e0e0;
+}
+
+.board-write th
+{
+	width:100px;
+	height:18px;
+	padding:9px 0 3px 30px;
+	text-align:left;
+	color:#747373;
+	vertical-align:top;
+}
+
+.board-write td
+{
+	height:22px;
+	text-align:left;
+	padding:4px 0 3px 0;
+	color:#666;
+	border:none;
+}
+
+.board-write tr.board-headline th, 
+.board-write tr.board-headline td
+{
+	height:30px;
+	background:#eee;
+	vertical-align:middle;
+}
+
+.board-write td.write-tool
+{
+	padding:0;
+}
+
+textarea.txt-write
+{
+	width:658px;
+	height:250px;
+	padding:10px;
+	color:#444;
+	border:none;
+	overflow:hidden;
+}
+
+textarea.txt-community-write
+{
+	width:658px;
+	height:250px;
+	padding:20px;
+	font-family: "Verdana", "굴림";
+	color:#444;
+	border:1px solid #ccc;
+}
+
+.board-write td.txt-write-area
+{
+	padding:10px;
+}
+
+/* screenshot list */
+.screenshot .bestshot
+{	
+	padding:20px;
+	background:#141414;
+}
+
+.screenshot .screenshot-list
+{
+	margin-bottom:10px;
+	display:block;
+	float:left;
+}
+
+.screenshot .recommend
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+.bestshot header
+{
+	margin-bottom:20px;
+}
+
+.bestshot-list .best-label
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.bestshot figcaption a
+{
+	color:#ccc;
+}
+
+.screenshot .screenshot-thumb
+{
+	margin-bottom:20px;
+}
+
+.bestshot .bestshot-thumb
+{
+	margin-bottom:20px;
+	border:1px solid #cc0000;
+}
+
+.screenshot-list p.writer
+{
+	margin-bottom:15px;
+	font-weight:normal;
+}
+
+.bestshot-list p.writer
+{
+	margin-bottom:15px;
+	font-weight:normal;
+	color:#888;
+}
+
+.bestshot-list li
+{
+	padding-right:20px;
+	float:left;
+	position:relative;
+}
+
+.bestshot-list li.last
+{
+	padding:0;
+}
+
+.screenshot-list li
+{
+	padding:20px 20px 20px 0;
+	border-bottom:1px solid #ccc;
+	float:left;
+}
+
+.screenshot-list li.first
+{	
+    overflow:hidden;
+}
+
+.screenshot-list li.last
+{
+	padding:20px 0;
+}
+
+.screenshot figcaption
+{
+	margin-bottom:7px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+}
+
+.screenshot figcaption .reply-number
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#cc0000;
+}
+
+.bestshot figcaption
+{
+	color:#ccc;
+}
+
+.screenshot-list li.screenshot-search
+{
+	width:100%;
+	padding:20px 0;
+	text-align:center;
+}
+
+/* event list */
+.event-list li, 
+.devnote-list li
+{
+	padding:15px 0;
+	border-bottom:1px solid #ccc;
+}
+
+.event-list li dl dt, 
+.devnote-list li dl dt
+{
+	margin-bottom:5px;
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	font-weight:bold;
+	color:#444;
+}
+
+.event-list .event-thumb, 
+.devnote-list .devnote-thumb
+{
+	width:218px;
+	height:100px;
+	padding-right:20px;
+	float:left;
+}
+
+.event-list li dl
+{
+	width:390px;
+	height:100px;
+	padding-right:20px;
+	float:left;
+}
+
+.event-list li dl dd.date
+{
+	margin-bottom:20px;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+.event-list li dl dd.event-content
+{
+	margin-bottom:20px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#888;
+}
+
+.event-list .event-action
+{
+	width:50px;
+	height:100px;
+	float:left;
+}
+
+/* devnote list */
+.devnote-board
+{
+	margin-bottom:10px;
+	border-top:2px solid #cc0000;
+}
+
+.devnote-list li dl
+{
+	width:462px;
+	height:100px;
+	float:left;
+}
+
+.devnote-list li dl dd.date
+{
+	margin-bottom:20px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.devnote-list li dl dd.davnote-content
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#444;
+}
+
+/* ranking */
+.server, .class, .grade, .connect
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+}
+
+.school{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight: bold;
+	color:#444;
+	text-align: left;
+}
+
+.exp, .level, .club
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.ranking td.name
+{
+	padding-left:10px;
+	font-family: "Verdana", "굴림";
+	font-weight:bold;
+	font-size:11px;
+	text-align:left;
+	color:#444;
+}
+
+.ranking td.ranking
+{
+	padding-left:10px;
+	text-align:left;
+}
+
+.ranking td span.rank-num
+{
+	font-family: "Verdana", "굴림";
+	font-weight:bold;
+	font-size:11px;
+	color:#444;
+}
+
+.ranking td span.rank-change
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.ranking td.top
+{
+	font-weight:bold;
+	font-size:12px;
+	color:#cc0000;
+}
+
+.ranking
+{
+	width:700px;
+	text-align:center;
+	table-layout: fixed;
+	background:url(../Images/Background/tab_bg.gif) repeat-x;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	
+}
+
+.ranking th
+{
+	height:27px;
+	line-height:0;
+	border-bottom:2px solid #cc0000;
+	background:url(../Images/Board/board_top_tab.gif) no-repeat right;
+
+}
+
+.ranking th.last
+{
+	background:none;
+}
+
+.ranking td
+{
+	/*padding:10px 0 8px 0;
+	border-bottom:1px solid #ccc;
+	*/
+	background:#fff;
+}
+
+p.daily-rank-info
+{
+	margin:30px 0 10px 0;
+}
+
+.ranking-search-wrap
+{
+	border:1px solid #ccc;
+}
+
+.ranking-search
+{
+	width:670px;
+	height:23px;
+	padding:13px;
+	border:1px solid #fff;
+	background:#eee;
+}
+
+.ranking-search .search-title
+{
+	padding:5px 10px 0 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#444;
+	display:inline-block;
+	float:left;
+}
+
+.ranking em.up
+{
+    font-style:normal;
+    font-family:Tahoma;
+	font-size:11px;
+	font-weight:normal;
+    color:#f40808;
+}
+
+.ranking em.down
+{
+    font-style:normal;
+    font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:normal;
+    color:#0965ee;
+}
+
+.season-ranking
+{
+	width:680px;
+	height:31px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:22px 0 0 20px;
+	background:url(../Images/Background/season_ranking_bg.gif) no-repeat;
+}
+
+.season-ranking p.season-ranking-info
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#bbb;
+}
+
+.season-ranking p.season-ranking-info strong
+{
+	font-weight:bold;
+	color:#fff;
+}
+
+.season-ranking span.rank-num
+{
+	font-weight:bold;
+	font-size:14px;
+	color:#ff0000;
+}
+
+/* support list */
+.faq-top5-wrapper
+{
+	margin-bottom:20px;
+}
+
+.faq-top5
+{
+	width:309px;
+	margin-right:1px;
+	padding:20px;
+	float:left;
+	background:#f0f0f0;
+}
+
+.faq-top5.last
+{
+	margin-right:0;
+}
+
+.faq-top5 header
+{
+	margin-bottom:20px;
+}
+
+.faq-top5 li
+{
+	margin-bottom:7px;
+}
+
+.board-list td.type
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.faq-search
+{
+	margin-bottom:20px;
+	padding:15px;
+	background:#f0f0f0;
+	border-top:2px solid #555;
+	border-bottom:1px solid #ccc;
+	text-align:center;
+}
+
+.faq-search .txt-faq-search
+{
+	width:270px;
+	height:20px;
+	border:3px solid #cc0000;
+}
+
+.faq-select
+{
+	height:28px;
+	border:3px solid #cc0000;
+}
+
+/* support write */
+textarea.txt-support-write
+{
+	width:492px;
+	height:200px;
+	padding:5px;
+	border:1px solid #ccc;
+	overflow:hidden;
+}
+
+.support p
+{
+	margin-top:5px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	line-height:15px;
+	color:#888;
+}
+
+.support .select-wrapper
+{
+	margin-right:5px;
+}
+
+/* qna list */
+.board-list.qna
+{
+	margin-top:30px;
+}
+
+.board-list td.state
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	font-weight:bold;
+	color:#444;
+}
+
+.board-list.qna
+{
+	width:700px;
+	margin-bottom:10px;
+	text-align:center;
+	background:url(../Images/Background/tab_bg2.gif) repeat-x;
+}
+
+.board-list.qna th
+{
+	border-top:2px solid #000;
+	border-bottom:1px solid #ccc;
+	background:url(../Images/Board/board_top_tab2.gif) no-repeat right;
+}
+
+/* qna view */
+.admin-reply
+{
+	margin-bottom:20px;
+	padding:20px;
+	font-family:Dotum, "돋움";
+	font-size:12px;
+	color:#444;
+	background:#f6f6f6;
+}
+
+.admin-reply .write-date
+{
+	margin-top:20px;
+}
+
+.answer-icon
+{
+	width:40px;
+	padding-right:20px;
+	float:left;
+}
+
+.answer-content
+{
+	width:600px;
+	float:left;
+}
+
+.board-buttons
+{
+	padding-top:10px;
+	border-top:1px solid #ccc;
+}
+
+/* =download
+*************************************************/
+/* multimedia */
+.media-player
+{
+	width:572px;
+	height:387px;
+	padding:19px 64px;
+	background:url(../Images/Library/media_player_bg.gif) no-repeat;
+}
+
+.media-player .media-view
+{
+    width:570px;
+	height:350px;
+	border:1px solid #000;
+}
+
+.media-player .media-buttons
+{
+	margin-top:10px;
+	text-align:right;
+}
+
+.media-info
+{
+	margin-top:30px;
+}
+
+.media-info header
+{
+	width:700px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #ccc;
+}
+
+.media-info .media-subject
+{
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+.media-list
+{
+	width:566px;
+	margin-top:30px;
+	padding:20px 66px 10px 66px;
+	border:1px solid #e9e9e9;
+	background:#f6f6f6;
+	position:relative;
+}
+
+.media-list .prev
+{
+	width:22px;
+	height:34px;
+	position:absolute;
+	top:90px;
+	left:20px;
+}
+
+.media-list .next
+{
+	width:22px;
+	height:34px;
+	position:absolute;
+	top:90px;
+	right:20px;
+}
+
+.media-list ul li
+{
+	width:134px;
+	margin:0 10px 10px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	float:left;
+}
+
+.media-list ul li.first
+{
+	overflow:hidden;
+}
+
+.media-list ul li.last
+{
+	margin-right:0;
+}
+
+.media-list ul li p
+{
+	text-align:center;
+}
+
+.media-list ul li img
+{
+	margin-bottom:5px;
+	border:2px solid #f6f6f6;
+}
+
+.media-list ul li p.selection
+{
+	font-weight:bold;
+}
+
+.media-list ul li img.selection
+{
+	border:2px solid #cc0000;
+}
+
+/*gallery*/
+.gallery-view
+{
+    width:572px;
+	height:387px;
+	margin-top:20px;
+	padding:19px 64px;
+	background:url(../Images/Library/media_player_bg.gif) no-repeat;
+}
+
+.gallery-view img
+{
+	width:570px;
+	height:350px;
+	border:1px solid #000;
+}
+
+/* download */
+.download h4
+{
+	margin-bottom:20px;
+	padding-left:23px;
+	background:url(../Images/Icon/sub_title_icon.gif) no-repeat 0 10%;
+}
+
+.download .client-download
+{
+	margin:20px 0 30px 0;
+}
+
+.download .game-download
+{
+	width:680px;
+	height:65px;
+	padding:40px 20px 0 0;
+	margin-bottom:10px;
+	text-align:right;
+	background:url(../Images/Library/game_download_bg.gif) no-repeat;
+	position:relative;
+}
+
+.download .test-download
+{
+	width:680px;
+	height:65px;
+	padding:40px 20px 0 0;
+	text-align:right;
+	background:url(../Images/Library/test_download_bg.gif) no-repeat;
+	position:relative;
+}
+
+.download .client-version
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#ccc;
+	display:block;
+	position:absolute;
+	top:70px;
+	left:92px;
+}
+
+.download .patch_download
+{
+	margin:30px 0 3px 0;
+	text-align:center;
+}
+
+.download .patch_download p
+{
+	margin-top:3px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.download .system
+{
+	margin-bottom:30px;
+}
+
+.download .system-info
+{
+	border-top:2px solid #d6d6d6;
+	border-bottom:1px solid #d6d6d6;
+}
+
+.download .system-info thead th
+{
+	padding:10px 0;
+	text-align:center;
+	border-left:1px solid #eee;
+	background:#fafafa;
+}
+
+.download .system-info tbody th
+{
+	padding:10px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:center;
+	border-top:1px solid #eee;
+}
+
+.download .system-info thead th.first
+{
+	border-left:0;
+}
+
+.download .system-info tbody td
+{
+	padding:10px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:center;
+	border-left:1px solid #eee;
+	border-top:1px solid #eee;
+}
+
+.download .driver_wrapper
+{
+	width:638px;
+	padding:30px;
+	border:1px solid #e4e4e4;
+	background:#f6f6f6;
+}
+
+.download .driver_wrapper .directx_download
+{
+	margin-bottom:25px;
+}
+
+.download .directx_download .driver-thumb
+{
+	width:77px;
+	padding:0 20px;
+	float:left;
+}
+
+.download .driver-download .driver-thumb
+{
+	width:65px;
+	margin-right:10px;
+	float:left;
+}
+
+.download .driver dl
+{
+	float:left;
+}
+
+.download .driver dt
+{
+	margin-bottom:10px;
+}
+
+.download .driver dl dd.driver-info
+{
+	margin-bottom:8px;
+}
+
+.download .driver-download li
+{
+	width:170px;
+	height:62px;
+	padding:0 20px;
+	background:url(../Images/Icon/path1.gif) repeat-y 100% 0;
+	float:left;
+}
+
+.download .driver-download li.last
+{
+	background:none;
+}
+
+.download .active-x
+{
+	margin-bottom:30px;
+}
+
+/* wallpaper */
+.wallpaper-list
+{
+	float:left;
+}
+
+.wallpaper-list li.first
+{
+	overflow:hidden
+}
+
+.wallpaper-list li
+{
+	width:220px;
+	padding:20px 20px 20px 0;
+	border-bottom:1px solid #ccc;
+	float:left;
+}
+
+.wallpaper-list li.last
+{
+	padding:20px 0;
+}
+
+.wallpaper-list li .wallpaper-thumb
+{
+	width:220px;
+	height:165px;
+	padding-bottom:10px;
+}
+
+.wallpaper-list li .wallpaper-size img
+{
+	margin:0 1px 2px 1px;
+	float:left;
+}
+
+/* policy */
+.policy_date
+{
+	margin-bottom:10px;
+}
+
+.policy_date .application_date
+{
+	margin-top:8px;
+	display:inline;
+	float:left;
+}
+
+.policy_date .before_policy
+{
+	float:right;
+}
+
+.policy_date .before_policy p
+{
+	margin:5px 10px 0 0;
+	float:left;
+}
+
+.policy-list-wrap
+{
+	margin-bottom:20px;
+	border:1px solid #ccc;
+}
+
+.policy-list
+{
+	width:656px;
+	padding:20px;
+	border:1px solid #fff;
+	background:#eee;
+}
+
+.policy-list .policy-list-box
+{
+	width:308px;
+	padding:0 10px;
+}
+
+.policy-list .policy-list-box p
+{
+	margin-bottom:10px;
+}
+
+.policy-list .policy-list-box ul
+{
+	margin-bottom:20px;
+}
+
+.policy-list .policy-list-box ul.last
+{
+	margin-bottom:0;
+}
+
+.policy-list .policy-list-box ul li
+{
+	margin-bottom:5px;
+}
+
+.policy h3
+{
+	height:30px;
+	font-family: "Verdana", "굴림";
+	font-size:13px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+.policy h4
+{
+	height:25px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+}
+
+.policy p, .policy ul
+{
+	line-height:18px;
+	margin:0 0 20px 20px;
+	color:#606060;
+}
+
+.policy table
+{
+	border-top:2px solid #D6D6D6;
+	border-bottom:1px solid #D6D6D6;
+}
+
+.policy table thead th
+{
+	padding:10px 10px;
+	text-align:center;
+	border-left:1px solid #EEE;
+	background: #FAFAFA;
+}
+
+.policy table thead th.first
+{
+	border-left:none;
+}
+
+.policy table tbody th
+{
+	padding:10px 5px;
+	border-top:1px solid #EEE;
+	background: #FAFAFA;
+}
+
+.policy table tbody td
+{
+	padding: 5px 5px;
+	font-family: Dotum, "돋움";
+	font-size: 11px;
+	text-align: center;
+	border-left:1px solid #EEE;
+	border-top:1px solid #EEE;
+}
+
+/* =my page
+*************************************************/
+/* club */
+.ran-club h4
+{
+	margin-bottom: 20px;
+	padding-left: 23px;
+	background:url(../Images/Icon/sub_title_icon.gif) no-repeat 0 10%;
+}
+
+.board-list.white
+{
+	width:700px;
+	margin-bottom:10px;
+	text-align:center;
+	background:url(../Images/Background/tab_bg2.gif) repeat-x;
+}
+
+.board-list.white th
+{
+	border-top:2px solid #000;
+	border-bottom:1px solid #ccc;
+	background:url(../Images/Board/board_top_tab2.gif) no-repeat right;
+}
+
+.board-list.white th.last
+{
+	background:none;
+}
+
+.board-list td.club-name
+{
+	padding-left:10px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+	text-align:left;
+}
+
+.board-list td.club-head
+{
+	padding-left:10px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+	text-align:left;
+}
+
+.ran-club .myclub
+{
+	margin-bottom:40px;
+}
+
+p.daily-club-info
+{
+	margin-bottom:10px;
+}
+
+.result-option
+{
+	margin-bottom:5px;
+}
+
+.result-option .order-by
+{
+	margin:4px 0 0 5px;
+	float:right;
+}
+
+.club-profile
+{
+	margin-bottom:20px;
+}
+
+.club-profile header
+{
+	margin-bottom:10px;
+}
+
+.club-profile header h4
+{
+	padding-top:5px;
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+	font-weight:bold;
+	color:#444;
+	display:inline-block;
+}
+
+.club-profile header h4 em
+{
+	font-family: "Verdana", "굴림";
+	font-size:14px;
+}
+
+.club-profile .club-info-wapper
+{
+	padding:20px;
+	border:1px solid #eee;
+	background:#fafafa;
+}
+
+.club-profile .club-info-wapper .club-info
+{
+	padding:10px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+
+.club-profile .club-info-wapper p.club-introduce
+{
+	margin-bottom:10px;
+}
+
+.club-profile .club-info-wapper .club-info table th
+{
+	padding:5px 0 2px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+	text-align:left;
+}
+
+.club-profile .club-info-wapper .club-info table td
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+}
+
+.state-on
+{
+	font-weight:bold;
+	color:#0397d6
+}
+
+/* =relation
+*************************************************/
+.relation
+{
+	width:210px;
+	margin-bottom:10px;
+	padding:4px;
+	border:1px solid #000;
+	background:#2d2d2d;
+}
+
+.relation header
+{
+	width:210px;
+}
+
+.relation header img
+{
+	padding:3px 0 0 10px;
+	float:left;
+}
+
+.relation header .tabs
+{
+	float:right;
+}
+
+.relation header .tabs li
+{
+	float:left;
+}
+
+.relation header .tabs li span
+{
+	width:50px;
+	padding:5px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	cursor: pointer;
+}
+
+.relation header .tabs li.friends .on, 
+.relation header .tabs li.club .on
+{
+	font-weight:bold;
+	color:#000;
+	background:#fff;
+}
+
+.relation header .tabs li.friends .off, 
+.relation header .tabs li.club .off
+{
+	color:#ccc;
+	background:#2d2d2d;
+}
+
+.relation .relation-list
+{
+	padding:10px;
+	background:#fff;
+	position:relative;
+}
+
+.relation .relation-list li
+{
+	padding:1px 0 2px 0;
+}
+
+.relation .relation-list li.on
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#000;
+}
+
+.relation .relation-list li.off
+{
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.relation .relation-list li.nothing
+{
+	padding:40px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	text-align:center;
+	color:#888;
+}
+
+.relation .relation-list li span.state
+{
+	position:absolute;
+	right:10px;
+}
+
+.relation .relation-count
+{
+	padding:3px;
+	height:15px;
+	background:#eee;
+}
+
+.relation .relation-count p.count
+{
+	padding:2px 0 0 7px;
+}
+
+.no-info
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#bbb;
+}
+
+/* =gameguide
+*************************************************/
+/* system */
+.guide-listbar
+{
+	width:605px;
+	margin-bottom:5px;
+}
+
+.guide-listbar header
+{
+	height:26px;
+	padding:0 15px;
+	background:url(../Images/Guide/guide_openbar.gif) no-repeat;
+}
+
+.guide-listbar header .title
+{
+	padding-top:7px;
+	font-weight:bold;
+	color:#000;
+	display:inline-block;
+	float:left;
+}
+
+.guide-listbar header.open .title
+{
+	color:#cc0000;
+}
+
+.guide-listbar header .arrow
+{
+	width:11px;
+	height:12px;
+	margin-top:8px;
+	background:url(../Images/Icon/arrow_icon.gif) no-repeat ;
+	display:inline-block;
+	float:right;
+}
+
+.guide-listbar header.open .arrow
+{
+	background:url(../Images/Icon/arrow_icon.gif) no-repeat 0 -12px;
+}
+
+.guide-listbar ul
+{
+	padding:5px 15px;
+	overflow:hidden;
+}
+
+.guide-listbar ul li
+{
+	padding-top:10px;
+	font-size:11px;
+}
+
+/* =itemshop
+*************************************************/
+/*category*/
+.item-search
+{
+	height:40px;
+	padding-top:15px;
+	background:#2e2e2e;
+}
+
+.item-search section
+{
+	width:410px;
+	height:24px;
+	margin:0 auto;
+}
+
+.item-search .search-title
+{
+	margin:4px 10px 0 0;
+	float:left;
+}
+
+.item-search .select-wrapper
+{
+	margin:1px 10px 0 0;
+}
+
+.item-search .input-text
+{
+	width:156px;
+	border:2px solid #bbb;
+}
+
+.item-category
+{
+	padding:10px 0;
+	border:3px solid #eee;
+	border-top:1;
+	background:url(../Images/ItemshopNew/item_category_bg.gif) repeat-y;
+}
+
+.item-category dl
+{
+	width:100%;
+	overflow:hidden;
+	clear:both;
+}
+
+.item-category dt
+{
+	width:95px;
+	height:17px;
+	margin-right:17px;
+	padding:5px 0 0 25px;
+	font-weight:bold;
+	float:left;
+}
+
+.item-category dd 
+{
+	height:17px;
+	padding:5px 13px 0 13px;
+	background:url(../Images/Icon/tab_icon.gif) no-repeat right;
+	float:left;
+}
+
+.item-category dd.on a
+{
+	font-weight:bold;
+	color:#cc0000;
+}
+
+.item-category dd.last
+{
+	background:none;
+}
+
+/*list*/
+.item-list header
+{
+	margin-top:30px;
+}
+
+.item-list header h4
+{
+	padding:0 0 15px 23px;
+	font-size:14px;
+	font-weight:bold;
+	background: url(../Images/Icon/sub_title_icon.gif) no-repeat;
+}
+
+.item-list header p.item-count
+{
+	margin-top:5px;
+}
+
+.item-list ul
+{
+	overflow:hidden;
+}
+
+.item-list ul li
+{
+	margin:10px 12px 0 0;
+	float:left;
+}
+
+.item-list ul li.last
+{
+	margin:10px 0 0 0;
+}
+
+.item-list li.no-result
+{
+	width:100%;
+	margin:10px 0 0 0;
+	padding:15px 0;
+	text-align:center;
+	border-top:1px solid #cdcdcd;
+	border-bottom:1px solid #cdcdcd;
+}
+
+.item-list figure
+{
+	width:144px;
+	padding:10px 10px 6px 10px;
+	text-align:center;
+	border:1px solid #cdcdcd;
+	background:#f4f4f4;
+	position:relative;
+}
+
+.item-list figure.discount-item
+{
+	padding:9px 9px 5px 9px;
+	border:2px solid #f58c25;
+	background:#f8eee4;
+}
+
+.item-list figure.limited-item
+{
+	padding:9px 9px 5px 9px;
+	border:2px solid #28b51b;
+	background:#eef4e4;
+}
+
+.item-list figure .sticker
+{
+	position:absolute;
+	top:5px;
+	left:7px;
+	z-index: 1;
+}
+
+.item-list figure .item-wrapper
+{
+	width:80px;
+	margin:0 auto;
+	padding:9px;
+	border:1px solid #e9e9e9;
+	background:#fff;
+}
+
+.item-list figure .item-wrapper img
+{
+	width:80px;
+	height:80px;
+}
+
+.item-list figure figcaption
+{
+	margin:9px 0 7px 0;
+	font-weight:bold;
+	font-size: 10px;
+}
+
+.item-list figure .orignal-price
+{
+	height:14px;
+	text-decoration: line-through;
+	color:#999;
+}
+
+.item-list figure .sale-price
+{
+	margin-bottom:14px;
+}
+
+.item-list figure .sale-price em
+{
+	font-family:Tahoma;
+	font-size:14px;
+	color:#cc0000;
+}
+
+
+.item-list figure .sale-price span em
+{
+	padding-left:12px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#444;
+	background:url(../Images/Icon/discount_icon.gif) no-repeat 0 3px;
+}
+
+.item-list figure .buttons img
+{
+	margin-bottom:4px;
+}
+
+.item-list figure .sale-end
+{
+	padding:15px 0;
+}
+
+/*mileage list*/
+.item-list figure .sale-price em.mileage
+{
+	font-family:Tahoma;
+	font-size:14px;
+	color:#0e6bd4;
+}
+
+.item-list figure .sale-end-mileage
+{
+	margin-bottom:4px;
+}
+
+/*shopping cart*/
+.shopping-cart .item-count
+{
+	margin-bottom:10px;
+}
+
+.shopping-cart ul
+{
+	margin-bottom:10px;
+	border-top:2px solid #444;
+	border-bottom:2px solid #444;
+	overflow:hidden;
+}
+
+.shopping-cart li
+{
+	width:700px;
+	padding:18px 0;
+	border-bottom:1px solid #cdcdcd;
+	overflow:hidden;
+}
+
+.shopping-cart li.last
+{
+	border-bottom:0;
+}
+
+.shopping-cart li .buy-check
+{
+	width:55px;
+	padding-top:30px;
+	text-align:center;
+	float:left;
+}
+
+.shopping-cart li .item
+{
+	width:100%;
+	float:left;
+}
+
+.shopping-cart li .sale-end
+{
+	width:130px;
+	padding-top:10px;
+	text-align:center;
+	float:left;
+}
+
+.item .item-img
+{
+	width:130px;
+	float:left;
+}
+
+.item .item-wrapper
+{
+	width:80px;
+	padding:9px;
+	border:1px solid #e9e9e9;
+	background:#fff;
+}
+
+.item .item-img img
+{
+	width:80px;
+	height:80px;
+}
+
+.item .item-info
+{
+	width:515px;
+	float:left;
+}
+
+.item .item-info header
+{
+	height:55px;
+}
+
+.item .item-info h4
+{
+	font-weight:bold;
+	font-size:14px;
+}
+
+.item .item-info p
+{
+	margin-top:5px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#999;
+}
+
+.item .item-info .item-cost
+{
+	margin-top:20px;
+}
+
+.item-cost{
+	padding: 10px; 
+	border:1px solid #e9e9e9;
+	overflow: hidden;
+}
+
+.price{
+	padding-bottom: 10px;
+
+	background: url(../Images/itemshopNew/line.gif) repeat-x bottom;
+}
+
+.item .item-info .item-cost th
+{
+	width:100px;
+	font-family: "Verdana", "굴림";
+	font-size:10px;
+	font-weight:normal;
+	text-align:left;
+	background:url(../Images/Icon/colon_icon.gif) no-repeat right;
+}
+
+.item .item-info .item-cost td
+{
+	padding:3px 0 3px 20px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+}
+
+.item .item-info .item-cost td .discount em
+{
+	width:70px;
+	font-style:normal;
+	text-align:center;
+	color:#0078cc;
+	display: inline-block;
+}
+
+.item .item-info .item-cost td input
+{
+	width:40px;
+	padding: 0px 5px 0px 5px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	height: 20px;
+}
+
+.item .item-info .item-cost td .num-button
+{
+	width:11px;
+	height:20px;
+	margin-right:5px;
+	font-size:0;
+	line-height:0;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.item .item-info .item-cost td .num-button .num-up, 
+.item .item-info .item-cost td .num-button .num-down
+{
+	font-size: 0;
+	text-indent: -1000px;
+	line-height: 0;
+	overflow: hidden;
+	background:url(../Images/ItemshopNew/num_btn.gif) no-repeat;
+}
+
+.item .item-info .item-cost td .num-button .num-up
+{
+	width: 11px;
+	height: 9px;
+	margin-bottom:2px;
+	display: block;
+}
+
+.item .item-info .item-cost td .num-button .num-down
+{
+	width: 11px;
+	height: 9px;
+	background-position:0 -11px;
+	display: block;
+}
+
+.item .item-info .item-cost td .orignal-price
+{
+	height:14px;
+	padding-right:16px;
+	text-decoration: line-through;
+	color:#999;
+	background:url(../Images/Icon/right_arrow_icon.gif) no-repeat right;
+}
+
+.price-info
+{
+	margin:20px 0 10px 0;
+	padding:15px 15px 15px 0;
+	border:5px solid #ededed;
+	text-transform: uppercase;
+
+}
+
+.price-info header
+{
+	width:160px;
+	padding-top:15px;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	float:left;
+	text-transform: uppercase;
+}
+
+.price-info .total-cost-wrapper
+{
+	width:515px;
+	float:right;
+}
+
+.price-info .total-cost-wrapper .total-cost
+{
+	padding-bottom:9px;
+	text-align:right;
+	border-bottom:1px solid #cdcdcd;
+}
+
+.price-info .total-cost-wrapper .total-cost span
+{
+	padding:0 10px;
+	display:inline-block;
+}
+
+
+.payment
+{
+	margin:10px 10px 0 0;
+	float:right;
+}
+
+.payment th
+{
+	padding:2px 10 5 5;
+	font-size:11px;
+	text-align:left;
+	background:url(../Images/Icon/colon_icon.gif) no-repeat right;
+}
+
+.payment td
+{
+	width:95px;
+	padding:2px 0;
+	text-align:right;
+}
+
+.payment strong
+{
+	font-family:Tahoma;
+	font-size:14px;
+}
+
+.payment .cash-error th, 
+.payment .cash-error td
+{
+	color:#cc0000;
+}
+
+
+
+
+/* mycash */
+.mycash
+{
+	width:180px;
+	height:111px;
+	margin-top:20px;
+	padding:13px 20px 10px 20px;
+	background:url(../Images/ItemShopNew/mycash_bg.gif) no-repeat;
+}
+
+.mycash h2
+{
+	width:70px;
+	height:16px;
+	margin-bottom:12px;
+	background:url(../Images/ItemShopNew/mycash_title.gif) no-repeat;
+}
+
+.mycash h2 span
+{
+	text-indent:-9999px;
+	display:block;
+}
+
+.mycash dl
+{
+	margin-bottom:8px;
+	overflow:hidden;
+	clear:both;
+}
+
+.mycash dt
+{
+	width:70px;
+	height:16px;
+	text-indent:-9999px;
+	display:inline-block;
+	background:url(../Images/ItemShopNew/mycash_title.gif) no-repeat;
+	float:left;
+}
+
+.mycash dd
+{
+	width:105px;
+	text-align:right;
+	color:#fff;
+	line-height:16px;
+	display:inline-block;
+	float:right;
+}
+
+.mycash dt.cash
+{
+	background-position:0 -30px;
+}
+
+.mycash dt.mileage
+{
+	background-position:0 -50px;
+}
+
+/* account history*/
+.cash-account-wrapper
+{
+	width:690px;
+	margin-bottom:20px;
+	padding:15px 0;
+	border:5px solid #ededed;}
+
+.cash-account
+{
+	height:18px;
+	background:url(../Images/Icon/tab_icon.gif) repeat-y center;
+}
+
+.cash-account dl
+{
+	width:265px;
+	padding:0 40px;
+	clear:both;
+}
+
+.cash-account dt
+{
+	width:100px;
+	line-height:18px;
+	background:url(../Images/Icon/colon_icon.gif) no-repeat right;
+	display:inline-block;
+	float:left;
+}
+
+.cash-account dd
+{
+	width:160px;
+	text-align:right;
+	line-height:18px;
+	display:inline-block;
+	float:right;
+}
+
+.account-history header
+{
+	margin-top:20px;
+}
+
+.account-history header .item-count
+{
+	margin-top:10px;
+}
+
+.account-history header .select
+{
+	width:107px;
+	height:22px;
+	margin-left:4px;
+}
+
+.account-history header .select-list
+{
+	width:110px;
+	margin-left:4px;
+}
+
+.account-history table.board-list
+{
+	width:700px;
+	margin:10px 0 0 0;
+	text-align:center;
+	background:url(../Images/Background/tab_bg2.gif) repeat-x;
+}
+
+.account-history table.board-list th
+{
+	border-top:2px solid #000;
+	border-bottom:1px solid #ccc;
+	background:url(../Images/Board/board_top_tab2.gif) no-repeat right;
+}
+
+.account-history table.board-list th.last
+{
+	background:none;
+}
+
+.board-list td.item-name, .board-list td.gift-name
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+	padding-left:10px;
+	text-align:left;
+}
+
+.board-list td.amount
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+	padding-right:10px;
+	text-align:right;
+}
+
+/* guide*/
+.itemshop-guide h4
+{
+	margin-bottom:20px;
+	padding-left:17px;
+	font-weight:bold;
+	font-size:14px;
+	background:url(../Images/Icon/notice_icon.gif) no-repeat;
+}
+
+.itemshop-guide h5
+{
+	margin-bottom:5px;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.itemshop-guide ul
+{
+	margin:0 0 20px 20px;
+}
+
+.itemshop-guide li
+{
+	padding-left:10px;
+	line-height:18px;
+	letter-spacing:-1px;
+	color:#777;
+	background:url(../Images/Icon/red_dot_icon.gif) no-repeat 0 5px;
+}
+
+.itemshop-guide em
+{
+	font-weight:normal;
+}
+
+/* 130516_게임가이드/게임정보/시스템 추가페이지 */
+.guide_tab {width:605px; padding:3px 0 30px 0; background:url(http://image.ran-online.co.kr/Images/guide/tab_bg.gif) no-repeat; overflow:hidden;}
+.guide_tab ul {}
+.guide_tab ul li a {float:left; width:120px; height:17px; margin:0 1px 1px 0; padding:7px 0 0 0; text-align:center; color:#e6e6e6; display:block; background:url(http://image.ran-online.co.kr/Images/guide/tab_off.gif) no-repeat;}
+.guide_tab ul li a:hover {color:#fff; font-weight:bold; text-decoration:none; background:url(http://image.ran-online.co.kr/Images/guide/tab_on.gif) no-repeat;}
+.guide_tab ul li a.on {color:#fff; font-weight:bold; background:url(http://image.ran-online.co.kr/Images/guide/tab_on.gif) no-repeat;} 
+
+.guide_tit {height:25px;}
+.guide_con {padding:0 0 30px 0;}
+
+.guide_txt {line-height:18px;}
+.guide_txt ul {padding:10px 0 0 0;}
+.guide_txt ul li {font-size:11px; line-height:18px;}
+
+.guide_txt02 {line-height:18px; padding:15px; background:#eee; border-top:1px solid #dadada; border-bottom:1px solid #dadada;}
+.guide_txt02 ul {padding:0;}
+.guide_txt02 ul li {font-size:11px; line-height:24px;}
+
+.guide_txt03 {line-height:18px; margin:10px 0 10px 0; padding:15px; background:#eee; border-top:1px solid #dadada; border-bottom:1px solid #dadada;}
+.guide_txt03 ul {padding:0;}
+.guide_txt03 ul li {padding:0 0 0 15px; font-size:11px; line-height:20px; display:inline; background:url(http://image.ran-online.co.kr/images/object/icon03.gif) no-repeat 0 0;}
+
+.guide_txt_t01 {color:#cc0000;}
+.guide_txt_bold {font-weight:bold;}
+.guide_img {padding:15px 0 15px 0;}
+
+/* 130527_추가페이지1 (게임소개-스토리) */
+.lost_island_box {position:relative; padding:0; margin:0;}
+.lost_island_btn {position:absolute; top:1400px; width:100%; text-align:center; z-index:1;}
+
+
+
+
+
+/* 140422~_추가된 부분_아이템샵 */
+/* 리스트부분 */
+.item-list figure.event-item {padding:9px 9px 5px 9px; border:2px solid #9d1bb5; background:#eae4f4;}
+.item-list figure .item-wrapper2_box {position:relative; height:100px;}
+.item-list figure .item-wrapper2 {position:absolute; left:0; bottom:0; width:70px; margin:0 auto; padding:9px; border:1px solid #e9e9e9; background:#fff;}
+.item-list figure .item-wrapper2 img {width:70px; height:70px;}
+.item-list figure .item-wrapper3 {position:absolute; right:0; bottom:0; width:40px; margin:0 auto; padding:4px; border:1px solid #c10404; background:#fff;}
+.item-list figure .item-wrapper3 img {width:40px; height:40px;}
+.item-list figure .item-wrapper3_plus {position:absolute; right:0; bottom:0; z-index:1;}
+.item-list figure .item-wrapper3_plus img {width:18px; height:18px;}
+
+/* 쇼핑,찜목록부분 */
+.item .item-wrapper2 {position:relative; top:5px; width:40px; padding:4px; border:1px solid #c10404; background:#fff; display:inline-block;}
+.item .item-wrapper2 img {width:40px; height:40px;}
+.item .item-wrapper2_plus_line {position:relative; top:3px; display:inline-block; vertical-align:top; }
+.item .item-wrapper2_plus {position:absolute; right:0; bottom:0; z-index:1;}
+.item .item-wrapper2_plus img {width:18px; height:18px;}
+
+/* 추가 부분 (실섭과 .item img 부분이 차이가 있어서 추가  */
+.item .item-wrapper2_plus_line img{width:10px; height:10px;}
+
+
+
+/* 150213_추가작업_메인배너 */
+#main_eb {position:absolute; top:99px; right:-145px; width:135px;}
+#main_eb a {padding-bottom:4px; display:block;}
+
+
+/* 150213_추가작업_이벤트페이지 */
+/* 150316_추가수정부분 */
+.rcoinevent_top_box {position:relative; width:700px; padding-bottom:40px;}
+.rcoinevent_day {position:absolute; top:0; right:15px; width:670px; height:88px; z-index:1; background:url(../images/rcoinevent/day_img.png) no-repeat 0 0;}
+.rcoinevent_day_box {position:absolute; top:22px; right:88px; width:440px; height:29px; text-align:center; }
+.rcoinevent_day span {padding:0 0 0 0; color:#fcc300; font-weight:bold; display:inline-block;}
+.rcoinevent_day img {padding:0 5px 5px 0; display:inline-block;}
+.rcoinevent_notice {position:relative; top:42px;}
+.rn_box_t {height:21px; background:url(../images/rcoinevent/top_box_t.gif) no-repeat top;}
+.rn_box_b {height:21px; display:block; background:url(../images/rcoinevent/top_box_b.gif) no-repeat bottom;}
+.rn_box_c {background:url(../images/rcoinevent/top_box_c.gif) repeat-y;}
+.rn_box_c_box {padding:30px 40px 5px; width:620px;}
+.rn_box_c_tit {text-align:left; color:#c00000; font-weight:bold;}
+.rn_box_c_txt {width:620px; color:#6c6c6c; font-size:11px; line-height:16px; padding:13px 0;overflow-wrap: break-word;word-wrap: break-word;word-break: break-all;overflow: hidden;}
+/* //150310_추가수정부분 */
+
+.rcoinevent_step {padding:30px 0 0 0;}
+.rcoinevent_step_top {height:3px; border-top:2px solid #000; background:#f0f0f0; display:block;}
+.rcoinevent_step_box {position:relative; background:url(../Images/rcoinevent/step_box_bg.gif) repeat-x bottom;}
+.rcoinevent_step_box_first {position:relative; padding-bottom:5px; background:url(../Images/rcoinevent/step_box_bg.gif) repeat-x bottom;}
+.rcoinevent_step_gauge {width:70px; height:105px; background:url(../Images/rcoinevent/gauge_bg.gif) no-repeat;}
+
+.rcoinevent_gauge_01 {position:absolute; top:2px; left:3px; width:64px; height:100px; background:url(../Images/rcoinevent/gauge_on_01.png) no-repeat;}
+.rcoinevent_gauge_02 {position:absolute; top:2px; left:3px; width:64px; height:100px; background:url(../Images/rcoinevent/gauge_on_02.png) no-repeat;}
+.rcoinevent_gauge_03 {position:absolute; top:2px; left:3px; width:64px; height:100px; background:url(../Images/rcoinevent/gauge_on_03.png) no-repeat;}
+.rcoinevent_gauge_04 {position:absolute; top:2px; left:3px; width:64px; height:100px; background:url(../Images/rcoinevent/gauge_on_04.png) no-repeat;}
+.rcoinevent_gauge_05 {position:absolute; top:2px; left:3px; width:64px; height:100px; background:url(../Images/rcoinevent/gauge_on_05.png) no-repeat;}
+.rcoinevent_gauge_off {height:100px; background:url(../Images/rcoinevent/gauge_off.gif) repeat-y;}
+.rcoinevent_gauge_txt {position:relative; margin:0 auto; padding:38px 0 0 0; width:60px; text-align:center; z-index:1;}
+.rcoinevent_gauge_txt span.txt1 {padding:0 0 5px 0; width:100%; color:#fff; font-size:15px; font-weight:bold; display:block;}
+.rcoinevent_gauge_txt span.txt2 {padding:3px 3px 1px; width:50px; height:15px; text-align:center; font-size:11px; color:#fff; background:#000;}
+
+.rcoinevent_step_money {position:absolute; top:2px; left:70px; width:100px; height:102px; background:url(../images/rcoinevent/step_box_line.gif) no-repeat right;}
+.rcoinevent_step_money span.txt1{padding:33px 0 0 0; width:100%; text-align:center; color:#1a1a1c; font-size:11px; display:block;}
+.rcoinevent_step_money span.txt2{padding:2px 0 0 0; width:100%; text-align:center; color:#1a1a1c; font-weight:bold; display:block;}
+
+.rcoinevent_step_item {position:absolute; top:2px; left:170px; padding:5px; width:400px; height:90px; background:url(../Images/rcoinevent/step_box_line.gif) no-repeat right;}
+.rcoinevent_step_item .item_thumb {width:80px; padding:4px; border:1px solid #ccc; background:#fff; display:inline-block;}
+.rcoinevent_step_item .item_thumb_complete {position:absolute; top:10px; left:5px; width:90px; text-align:center; z-index:1;}
+.rcoinevent_step_item .item_txt {float:right; width:300px; display:inline-block;}
+.rcoinevent_step_item .item_txt span.tit {padding:3px 0; height:20px; color:#1a1a1c; font-size:15px; font-weight:bold; display:block;}
+.rcoinevent_step_item .item_txt span.txt {width:300px; height:63px; color:#757575; font-size:11px; display:block; overflow-wrap: break-word;word-wrap: break-word;word-break: break-all;overflow: hidden;}
+
+.rcoinevent_step_item .item_thumb img {width:80px; height:80px;}
+
+.rcoinevent_step_get {position:absolute; top:2px; right:0; width:120px; height:100px; text-align:center;}
+.rcoinevent_step_get .item_get_txt {padding:19px 0 0 0; color:#757575;}
+.rcoinevent_step_get .item_get_txt span.txt {color:#c00000; font-weight:bold;}
+.rcoinevent_step_get .item_get_txt span.txt2 {color:#fff;}
+.rcoinevent_step_get .item_get_btn {margin-top:20px;}
+
+.rcoinevent_getall {margin:30px 0; text-align:center;}
+.rcoinevent_getall .getall_btn {padding:10px 0;}
+
+
+/* 알림함 추가 시작 - 150514 */
+.notifications
+{
+	width: 46px;
+	height: 38px;
+	position: absolute;
+	left: 163px;
+	top: 14px;
+	z-index: 100;
+}
+/* 알림함 New 아이콘 시작 - 150514 */
+.notifications .notifications-new 
+{
+    width: 32px;
+    height: 33px;
+	position: relative;
+	left: 24px;
+	top: -48px;
+	z-index: 101;
+	background-image:url(../Images/Icon/notifications_new01_icon.png);
+    position: relative;
+    -webkit-animation: notifications-new 1s infinite;
+	-moz-animation: notifications-new 1s infinite;
+	-ms-animation: notifications-new 1s infinite;
+    animation: notifications-new 1s infinite;
+
+}
+
+.notifications .notifications-new a
+{
+	width: 32px;
+    height: 33px;
+	display: block;
+	text-indent:-9999px;
+}
+
+@-webkit-keyframes notifications-new 
+{
+    50%  { background-image:url(../Images/Icon/notifications_new02_icon.png); }
+}
+@-moz-keyframes notifications-new
+{
+    50%  { background-image:url(../Images/Icon/notifications_new02_icon.png); }
+}
+@-ms-keyframes notifications-new
+{
+    50%  { background-image:url(../Images/Icon/notifications_new02_icon.png); }
+}
+@keyframes notifications-new
+{
+    50%  { background-image:url(../Images/Icon/notifications_new02_icon.png); }
+}
+/* 알림함 New 아이콘 끝 - 150514 */
+/* 알림함 추가 끝 - 150514 */
+
+/* quick-banner 시작 - 150601 */
+#main #aside #qucik-banner ul
+{
+	position:absolute;
+	top:0;
+	left:230px;
+}
+#main #aside #qucik-banner li
+{
+	margin-bottom:10px;
+}
+/* quick-banner 끝 - 150601 */
+
+/* poll view - 151125 */
+
+.poll-view .poll-subject
+{
+	height:24px;
+	padding:8px 0;
+	font-size:12px;
+	color:#444;
+	background:url(../Images/Board/poll_top_bg.gif) no-repeat;
+}
+
+.poll-view .poll-subject .icon-q
+{
+	width:54px;
+	padding:9px 10px 9px 18px;
+	background:url(../Images/Board/poll_top_tab.gif) right center no-repeat;
+}
+
+.poll-view .poll-subject .main-subject
+{
+	padding:0 5px;
+	font-size:14px;
+	font-weight:Bold;
+	color:#fff;
+	vertical-align:middle;
+}
+
+.poll-view .poll-info
+{
+	padding:9px 20px;
+	border-bottom:1px solid #ccc;
+}
+
+.poll-view .poll-info .poll-info-title
+{
+	padding-right:3px;
+	font-size:11px;
+	color:#888;
+}
+
+.poll-view .poll-info .poll-info-content
+{
+	padding-right:8px;
+	font-family:Verdana, "돋움";
+	font-weight:Bold;
+}
+
+.poll-view .poll-info .poll-info-ing
+{
+	
+	color:#cc0000;
+	font-weight:Bold;
+}
+
+.poll-view .poll-content
+{
+	width:660px;
+	padding:20px 20px 8px 20px;
+	font-size:12px;
+	color:#444;
+	border-bottom:1px solid #ccc;
+}
+
+.poll-view .poll-content li
+{
+	height:26px;
+}
+
+.poll-view .poll-content .poll-list
+{
+	float:left;
+	width:387px;
+}
+
+.poll-view .poll-content .poll-ranking
+{
+	float:left;
+	width:20px;
+	padding-right:10px;
+	text-align:right;
+}
+
+.poll-view .poll-content .poll-ranking-1st
+{
+	float:left;
+	width:20px;
+	padding-right:10px;
+	color:#cc0000;
+	font-weight:Bold;
+	text-align:right;
+}
+
+.poll-view .poll-content .poll-graph-bg
+{
+	float:left;
+	width:200px;
+	height:10px;
+	background:#e1e1e1;
+}
+
+.poll-view .poll-content .poll-graph
+{
+	float:left;
+}
+
+.poll-view .poll-content .poll-percent
+{
+	float:right;
+	padding-left:10px;
+	font-family: "Verdana", "굴림";
+	font-weight:Bold;
+}
+
+.poll-view .poll-content .poll-percent-1st
+{
+	float:right;
+	padding-left:10px;
+	font-family: "Verdana", "굴림";
+	color:#cc0000;
+	font-weight:Bold;
+}
+
+/* Supporters 추가 부분 - 160418 */
+.supporters { width: 638px; margin-bottom: 20px; background: #fdfdfd; border: 1px solid #e0e0e0; padding: 30px; }
+.supporters .supporters_title {	margin-bottom: 10px; }
+.supporters table {	width: 638px; }
+.supporters th { width: 140px; height: 18px; text-align: left; color: #747373; vertical-align: top; border-bottom: 1px solid #e0e0e0; padding-top: 13px; }
+.supporters td { height: 22px; text-align: left; padding: 10px 0; color: #666; border-bottom: 1px solid #e0e0e0; line-height: 1.5em; }
+.supporters .agree { text-align: left; height: 22px; padding-top: 20px; color: #666; }
+.supporters .agree_link { float: right; margin-top: -20px; color: #666; }
+.supporters .pointer { cursor:pointer; }
+
+
+/* Poll 추가 부분 - 160729 */
+.main-poll-banner
+{
+	width:220px;
+	position:relative;
+}
+
+.main-poll-banner figure img
+{
+    border:1px solid #000;
+}
+
+/* 클라이언트 다운로드 버튼 - 180126 */
+.main-client-download
+{
+    position:relative;
+	display:inline-block;
+    overflow:hidden;
+    width:240px;
+	height:104px;
+    margin-bottom: -3px;
+    background:url(../Images/Button/game_client_download_btn02.png) no-repeat;
+}
+
+.main-client-download img
+{
+    position:absolute;
+    border:none;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.main-client-download:hover img
+{
+    -webkit-transform:scale(10);
+    -moz-transform:scale(10);
+    -ms-transform:scale(10);
+    -o-transform:scale(10);
+    transform:scale(10);
+    opacity:0;
+}
+
+
+/* 란온라인 검색순위 배너 - 180126 */
+.search_rank_banner
+{
+	width:220px;
+	height:90px;
+	margin:7px 0 10px 0;
+	position:relative;
+}
+
+
+
+
+/* =left-ranking
+*************************************************/
+.left-ranking
+{
+    width:218px;
+    background:#000 url(../Images/ranking/ranking_bg.gif) repeat-x 0 0;    
+    border:1px solid #000;
+    margin-bottom:20px;
+    position:relative;
+    z-index:99;
+}
+
+.left-ranking table
+{
+    width:193px;    
+    margin:0 auto;
+    padding:0;
+}
+
+.left-ranking table caption
+{    
+    margin:0;
+    padding:0;
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    text-align:left;
+    color:#888;
+    display:table-caption;
+}
+
+.left-ranking table p
+{
+    margin:0;
+    padding:0;
+    line-height:13px;
+}
+
+.left-ranking table figure
+{   
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.left-ranking table figure em
+{
+    font-style:normal;   
+    color:#74aa01;
+}
+
+.left-ranking .title
+{  
+    height:29px; 
+    padding:0 5px;
+    font-family: "Verdana", "굴림";
+    font-size:12px;
+}
+
+.left-ranking .title div
+{
+    padding-top:7px;
+}
+
+.left-ranking .title span
+{   
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    font-weight:bold;
+    color:#ec0b0b;
+    vertical-align:middle;
+}
+
+.left-ranking table .blankline
+{
+    height:3px;
+}
+
+.left-ranking table .blankline2
+{
+    height:10px;
+}
+
+.left-ranking table .blankcell
+{
+    height:3px;
+}
+
+.left-ranking table th
+{
+    width:25px;
+    height:20px;
+    background:url(../Images/ranking/week_bg.gif) repeat-x 0 0;
+    padding:0;
+    margin:0;
+    font-family: "Verdana", "굴림";
+    font-size:10px;
+    font-weight:normal;
+    color:#fff;
+    text-align:center;
+}
+
+.left-ranking table th.blank
+{
+    width:3px;
+}
+
+.left-ranking table td
+{
+    width:25px;
+    height:20px;
+    margin:0;
+    padding:0;
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    color:#888;
+    text-align:center;
+}
+
+.left-ranking table td.blank
+{
+    width:3px;
+}
+
+.left-ranking table td.now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+}
+
+.left-ranking table td.event
+{   
+    background:#303030;
+    font-weight:bold;
+    color:#888;
+}
+
+.left-ranking table td.event-now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+    background:#303030;
+    font-weight:bold;
+}
+
+.left-ranking table td.PlayerName
+{
+    width:100px;
+    color:#444;
+}
+
+.left-ranking .left-ranking-list tr
+{
+	padding:5px 0;
+	height:15px;
+	background:url(../Images/Icon/dot_path.gif) repeat-x 0 100%;
+}
+
+.left-ranking-event-wrapper
+{
+    width:288px;
+    background:#111;
+    border:1px solid #303030;
+    padding-bottom:5px;
+    position:relative;
+    overflow:auto;
+}
+
+.left-ranking-event-wrapper header
+{   
+    width:260px;
+    height:30px;    
+    margin:5px auto 10px auto;
+    padding:0 10px;
+    background:#444;    
+    line-height:30px;
+}
+
+.left-ranking-event-wrapper .event-date
+{
+    color:#ccc;
+}
+
+.left-ranking-event-wrapper dl
+{
+    width:270px;
+    margin:0 auto;
+}
+
+.left-ranking-event-wrapper dl dt
+{
+    width:85px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    float:left;
+    clear:both;
+}
+
+.left-ranking-event-wrapper dl dt span
+{
+    width:83px;
+    height:43px;
+    border:1px solid #666;
+    display:block;
+}
+
+.left-ranking-event-wrapper dl dt img
+{
+    width:81px;
+    height:41px;
+    border:1px solid #000;
+}
+
+.left-ranking-event-wrapper dl dd
+{
+    width:175px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    float:right;
+}
+
+.left-ranking-event-wrapper dl dd .title
+{
+    font-family:굴림;
+    font-size:12px;
+    color:#aaa;
+    display:block;
+}
+
+.left-ranking-event-wrapper dl dd .date
+{
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    color:#666;
+}
+
+.left-ranking-event-wrapper .more
+{   
+    width:270px;
+    margin:0 auto;
+    text-align:right;
+    clear:both;
+}
+
+/* =main-news
+*************************************************/
+.main-news
+{
+    width:460px;
+    margin-bottom:20px;
+    background:#eee url(../Images/News/news_bg.gif) repeat-x 0 0;    
+    border: 1px solid #000;
+    margin-bottom:20px;
+    position:relative;
+    z-index:99;
+    font-family: "Verdana", "굴림";
+}
+
+
+.main-news .title
+{  
+    height:29px; 
+    padding:0 5px;
+    font-family: "Verdana", "굴림";
+    font-size:12px;
+}
+
+
+.main-news .title div
+{
+    padding-top:7px;
+}
+
+.main-news .title span
+{   
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    font-weight:bold;
+    color:#444;
+    vertical-align:middle;
+}
+
+
+
+.main-news-blank
+{
+    height:10px;
+}
+
+
+.main-news-content
+{
+	padding: 10px 10px 0px 10px
+
+
+}
+
+.main-news .main-news-thumb img{
+    margin-right: 10px;
+    border: 1px solid #363636;
+    cursor: pointer;
+    float: left;
+}
+
+.main-news-thumb img 
+{
+	width: 90px;
+    height: 44px;
+}
+
+.news-content
+{
+	height: 55px;
+}
+
+.news-content a
+{	 
+	font-weight: bold;
+	color: #444;
+	font-size: 12px;
+	font-family: "Verdana", "굴림";
+}
+
+.news-content dt a:hover
+{
+	
+	font-weight: bold;
+}
+
+.news-content dd.date
+{
+	color: #888;
+	font-size: 11px;
+}
+
+.news-content dd.info
+{
+
+    color: #555;
+	font-size: 11px;
+}
+
+.main-new-list {
+    border-bottom: 1px solid #dedede;
+    padding-top: 10px;
+}
+
+.main-news dt.main-news-content
+{
+
+}
+
+/* =main-movie
+*************************************************/
+.main-movie
+{
+	width:220px;
+    margin-bottom:20px;
+    background:#eee url(../Images/Movie/media_bg.gif) repeat-x 0 0;    
+    border: 1px solid #000;
+    height: 171px;
+    position:relative;
+    z-index:99;
+    font-family: "Verdana", "굴림";
+}
+
+.main-movie #movie
+{
+    z-index:99;
+}
+
+.title-bar
+{
+	height:31px; 
+    padding:0 5px;
+    font-family: "Verdana", "굴림";
+    font-size:12px;
+}
+
+.title
+{
+    padding-top:7px;
+}
+
+
+/* =main-devnote
+*************************************************/
+.main-devnote
+{
+	width:220px;
+	margin-bottom:20px;
+	position:relative;
+}
+
+.main-devnote figure
+{
+    margin-top:10px;
+}
+
+.main-devnote figure img
+{
+    border:1px solid #000;
+}
+
+.main-devnote figcaption
+{
+    margin-top:5px;
+}
+
+.main-devnote header
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+}
+
+.main-devnote article
+{
+    margin-top:5px;
+	font-size:11px;
+	color:#888;
+	line-height:17px;
+}
+
+.main-devnote a
+{
+    margin-top:5px;
+	font-size:11px;
+	color:#cc0000;
+	line-height:17px;
+	font-family: "Verdana", "굴림";
+}
+.main-devnote a.link1:after{
+	color:black;
+	content: "NOTE";
+}
+
+.main-devnote a:hover{
+
+}
+
+
+
+/* =main-screenshot
+*************************************************/
+.main-screenshot
+{
+	width:220px;
+	margin-bottom:20px;
+	position:relative;
+}
+
+.main-screenshot figure
+{   
+    width:105px;
+    margin-top:10px;
+    float:left;
+}
+
+.main-screenshot figure.last
+{
+    margin-left:10px;
+}
+
+.main-screenshot figure img
+{
+    width:103px;
+	height:73px;
+    border:1px solid #000;
+}
+
+.main-screenshot figcaption
+{
+    margin-top:5px;
+}
+
+.main-screenshot figcaption span.screensubject
+{
+    margin-bottom:5px;
+    font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+	text-align:center;
+    display:block;
+}
+
+.main-screenshot figcaption span.nickname
+{   
+    font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+	text-align:center;
+	display:block;
+}
+
+.main-screenshot a
+{
+	font-weight:bold;
+    margin-top:5px;
+	font-size:11px;
+	color:#cc0000;
+	line-height:17px;
+	font-family: "Verdana", "굴림";
+}
+
+.main-screenshot a.link2:after{
+	color:black;
+	content: "SCREENSHOT";
+}
+
+.main-screenshot a:hover{
+}
+
+
+/* Poll 추가 부분 - 160729 */
+.main-advertise-banner
+{
+	width:220px;
+	position:relative;
+
+}
+.main-advertise-banner a
+{
+	font-weight:bold;
+    margin-top:5px;
+	font-size:11px;
+	color:#cc0000;
+	line-height:17px;
+	font-family: "Verdana", "굴림";
+}
+
+
+.main-advertise-banner a:hover{
+}
+
+.main-advertise-banner figure
+{
+    margin-top:10px;
+}
+
+.main-advertise-banner img
+{
+    border:1px solid #000;
+}
+
+
+/* =server-info
+*************************************************/
+.server-info
+{
+    width:218px;
+    background:#000 url(../Images/ServerInfo/serverinfo_bg.gif) repeat-x 0 0;    
+    border:1px solid #000;
+    margin-bottom:20px;
+    position:relative;
+    z-index:99;
+}
+
+.server-info table
+{
+    width:193px;    
+    margin:0 auto;
+    padding:0;
+}
+
+.server-info table caption
+{    
+    margin:0;
+    padding:0;
+    font-size:11px;
+    text-align:left;
+    color:#888;
+    display:table-caption;
+}
+
+.server-info table p
+{
+    margin:0;
+    padding:0;
+    line-height:13px;
+}
+
+.server-info table figure
+{   
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.server-info table figure em
+{
+    font-style:normal;   
+    color:#74aa01;
+}
+
+.server-info .title
+{  
+    height:29px; 
+    padding:0 5px;
+    font-family: "Verdana", "굴림";
+    font-size:12px;
+}
+
+.server-info .title div
+{
+    padding-top:7px;
+}
+
+.server-info .title span
+{   
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    font-weight:bold;
+    color:#ec0b0b;
+    vertical-align:middle;
+}
+
+.server-info table .blankline
+{
+    height:3px;
+}
+
+.server-info table .blankline2
+{
+    height:10px;
+}
+
+.server-info table .blankcell
+{
+    height:3px;
+}
+
+.server-info table th
+{
+    width:25px;
+    height:20px;
+    background:url(../Images/ranking/week_bg.gif) repeat-x 0 0;
+    padding:0;
+    margin:0;
+    font-size:10px;
+    font-weight:normal;
+    color:#fff;
+    text-align:center;
+}
+
+.server-info table th.blank
+{
+    width:3px;
+}
+
+.server-info table td
+{
+    width:25px;
+    height:20px;
+    margin:0;
+    padding:0;
+    font-size:11px;
+    color:#444;
+    text-align:center;
+}
+
+.server-info table td.blank
+{
+    width:3px;
+}
+
+.server-info table td.now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+}
+
+.server-info table td.event
+{   
+    background:#303030;
+    font-weight:bold;
+    color:#888;
+}
+
+.server-info table td.event-now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+    background:#303030;
+    font-weight:bold;
+}
+
+.server-info table td.PlayerName
+{
+    width:100px;
+    color:#444;
+}
+
+.server-info .server-info-list tr
+{
+	padding:5px 0;
+	height:15px;
+	background:url(../Images/Icon/dot_path.gif) repeat-x 0 100%;
+}
+
+.server-info-event-wrapper
+{
+    width:288px;
+    background:#111;
+    border:1px solid #303030;
+    padding-bottom:5px;
+    position:relative;
+    overflow:auto;
+}
+
+.server-info-event-wrapper header
+{   
+    width:260px;
+    height:30px;    
+    margin:5px auto 10px auto;
+    padding:0 10px;
+    background:#444;    
+    line-height:30px;
+}
+
+.server-info-event-wrapper .event-date
+{
+    color:#ccc;
+}
+
+.server-info-event-wrapper dl
+{
+    width:270px;
+    margin:0 auto;
+}
+
+.server-info-event-wrapper dl dt
+{
+    width:85px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    float:left;
+    clear:both;
+}
+
+.server-info-event-wrapper dl dt span
+{
+    width:83px;
+    height:43px;
+    border:1px solid #666;
+    display:block;
+}
+
+.server-info-event-wrapper dl dt img
+{
+    width:81px;
+    height:41px;
+    border:1px solid #000;
+}
+
+.server-info-event-wrapper dl dd
+{
+    width:175px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    float:right;
+}
+
+.server-info-event-wrapper dl dd .title
+{
+    font-family:굴림;
+    font-size:12px;
+    color:#aaa;
+    display:block;
+}
+
+.server-info-event-wrapper dl dd .date
+{
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    color:#666;
+}
+
+.server-info-event-wrapper .more
+{   
+    width:270px;
+    margin:0 auto;
+    text-align:right;
+    clear:both;
+}
+
+
+/* =club-holder
+*************************************************/
+.club-holder
+{
+    width:218px;
+    background:#000 url(../Images/Club/club_bg.gif) repeat-x 0 0;    
+    border:1px solid #000;
+    margin-bottom:20px;
+    position:relative;
+    z-index:99;
+}
+
+.club-holder table
+{
+    width:193px;    
+    margin:0 auto;
+    padding:0;
+}
+
+.club-holder table caption
+{    
+    margin:0;
+    padding:0;
+    font-size:11px;
+    text-align:left;
+    color:#888;
+    display:table-caption;
+}
+
+.club-holder table p
+{
+    margin:0;
+    padding:0;
+    line-height:13px;
+}
+
+.club-holder table figure
+{   
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.club-holder table figure em
+{
+    font-style:normal;   
+    color:#74aa01;
+}
+
+.club-holder .title
+{  
+    height:29px; 
+    padding:0 5px;
+    font-family: "Verdana", "굴림";
+    font-size:12px;
+}
+
+.club-holder .title div
+{
+    padding-top:7px;
+}
+
+.club-holder .title span
+{   
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    font-weight:bold;
+    color:#ec0b0b;
+    vertical-align:middle;
+}
+
+.club-holder table .blankline
+{
+    height:3px;
+}
+
+.club-holder table .blankline2
+{
+    height:10px;
+}
+
+.club-holder table .blankcell
+{
+    height:3px;
+}
+
+.club-holder table th
+{
+    width:25px;
+    height:20px;
+    background:url(../Images/ranking/week_bg.gif) repeat-x 0 0;
+    padding:0;
+    margin:0;
+    font-size:10px;
+    font-weight:normal;
+    color:#fff;
+    text-align:center;
+}
+
+.club-holder table th.blank
+{
+    width:3px;
+}
+
+.club-holder table td
+{
+    width:25px;
+    height:20px;
+    margin:0;
+    padding:0;
+    font-size:11px;
+    color:#444;
+    text-align:center;
+}
+
+.club-holder table td.blank
+{
+    width:3px;
+}
+
+.club-holder table td.now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+}
+
+.club-holder table td.event
+{   
+    background:#303030;
+    font-weight:bold;
+    color:#888;
+}
+
+.club-holder table td.event-now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+    background:#303030;
+    font-weight:bold;
+}
+
+.club-holder table td.PlayerName
+{
+    width:100px;
+    color:#444;
+}
+
+.club-holder .club-holder-list tr
+{
+    padding:5px 0;
+    height:15px;
+    background:url(../Images/Icon/dot_path.gif) repeat-x 0 100%;
+}
+
+.club-holder-event-wrapper
+{
+    width:288px;
+    background:#111;
+    border:1px solid #303030;
+    padding-bottom:5px;
+    position:relative;
+    overflow:auto;
+}
+
+.club-holder-event-wrapper header
+{   
+    width:260px;
+    height:30px;    
+    margin:5px auto 10px auto;
+    padding:0 10px;
+    background:#444;    
+    line-height:30px;
+}
+
+.club-holder-event-wrapper .event-date
+{
+    color:#ccc;
+}
+
+.club-holder-event-wrapper dl
+{
+    width:270px;
+    margin:0 auto;
+}
+
+.club-holder-event-wrapper dl dt
+{
+    width:85px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    float:left;
+    clear:both;
+}
+
+.club-holder-event-wrapper dl dt span
+{
+    width:83px;
+    height:43px;
+    border:1px solid #666;
+    display:block;
+}
+
+.club-holder-event-wrapper dl dt img
+{
+    width:81px;
+    height:41px;
+    border:1px solid #000;
+}
+
+.club-holder-event-wrapper dl dd
+{
+    width:175px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    float:right;
+}
+
+.club-holder-event-wrapper dl dd .title
+{
+    font-family:굴림;
+    font-size:12px;
+    color:#aaa;
+    display:block;
+}
+
+.club-holder-event-wrapper dl dd .date
+{
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    color:#666;
+}
+
+.club-holder-event-wrapper .more
+{   
+    width:270px;
+    margin:0 auto;
+    text-align:right;
+    clear:both;
+}
+
+
+
+/* =main-fbpage
+*************************************************/
+.main-fbpage
+{
+	width:458px;
+	margin-bottom:20px;
+	position:relative;
+}
+
+.main-fbpage figure
+{
+    margin-top:10px;
+}
+
+.main-fbpage figure img
+{
+    border:1px solid #000;
+}
+
+.main-fbpage figcaption
+{
+    margin-top:5px;
+}
+
+.main-fbpage header
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#444;
+}
+
+.main-fbpage article
+{
+    margin-top:5px;
+	font-size:11px;
+	color:#888;
+	line-height:17px;
+}
+
+.main-fbpage a
+{
+    margin-top:5px;
+	font-size:11px;
+	color:#cc0000;
+	line-height:17px;
+	font-family: "Verdana", "굴림";
+}
+.main-fbpage a.link3:after{
+	color:black;
+	content: "PAGE";
+}
+
+.main-fbpage2 a.link4:after {
+	color: black;
+	content: "PATH";
+}
+
+
+
+
+.item-srch {
+	padding: 5px 1px 1px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Verdana", "굴림";
+    vertical-align: middle;
+    float: left;
+	font-family: "Verdana", "굴림";
+	margin-right: -30px;
+}
+
+/* =MyAccount
+*************************************************/
+.MyAccount
+{
+	width:660px;
+	padding:30px 20px;
+	border:1px solid #CCCCCC;
+	background:#F7F7F7;
+}
+
+.myaccount h4
+{
+
+	width: 170px;
+	font-weight: bold;
+	padding-left: 25px;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	background: url(../Images/Icon/sub_title_icon.gif) no-repeat 0 10%;
+}
+
+.myaccount-notice p{
+	font-family: "HCRDotum";
+	margin-bottom: 0px;
+	padding-left: 15px;
+	padding-top: -10px;
+	font-size: 12px;
+	display: block;
+	background: url(../Images/Member/notice_icon.gif) no-repeat;
+}
+
+ .system
+{
+	margin-bottom:30px;
+}
+
+ .system-info
+{
+	border-bottom:1px solid black;
+}
+
+ .system-info thead th
+{
+	padding:10px 0;
+	text-align:center;
+	/* border-left:1px solid black; */
+	background:#fafafa;
+}
+
+ .system-info tbody th
+{
+	padding:10px 0;
+	font-family: "HCRDotum";
+	font-size:12px;
+	text-align:left;
+	/* border-top:1px solid black; */
+	/* text-transform: uppercase; */
+}
+
+.system-info th.header{
+	border-top:1px solid black;
+	text-transform: uppercase;
+	
+}
+ .system-info thead th.first
+{
+	border-left:0;
+}
+
+ .system-info tbody td
+{
+	/* padding:10px 0; */
+	font-family: "HCRDotum";
+	font-size:14px;
+	text-align:left;
+	/* border-top:1px solid black; */
+}
+
+.system-info tbody td.sysbody{
+	padding:10px 0;
+	border-top:1px solid black;
+}
+
+.btnmyaccount{
+	background-color: #a30015; 
+	border: 0; 
+	height: 22px; 
+	color: white; 
+	border-radius: 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btnmyaccount:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.imageconfig{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    width: 200px;
+    height: 50px;
+    
+    text-align: center;
+    background: grey;
+}
+
+.imageconfig2{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    width: 200px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    background: grey;
+}
+
+span.sss{
+	letter-spacing: 15px;
+    font-size: 19px;
+	line-height: 50px;
+	color: black;
+	font-weight: normal;
+	vertical-align: text-middle;
+	text-align: center;
+}
+
+
+/* =wars-info
+*************************************************/
+.wars-info
+{
+    width:218px;
+    background:#000 url(../Images/Warinfo/Warinfo_bg.gif) repeat-x 0 0;    
+    border:1px solid #000;
+    margin-bottom:20px;
+    position:relative;
+    z-index:99;
+}
+
+.wars-info table
+{
+    width:193px;    
+    margin:0 auto;
+    padding:0;
+}
+
+.wars-info table caption
+{    
+    margin:0;
+    padding:0;
+    font-size:11px;
+    text-align:left;
+    color:#888;
+    display:table-caption;
+}
+
+.wars-info table p
+{
+    margin:0;
+    padding:0;
+    line-height:13px;
+}
+
+.wars-info table figure
+{   
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.wars-info table figure em
+{
+    font-style:normal;   
+    color:#74aa01;
+}
+
+.wars-info .title
+{  
+    height:29px; 
+    padding:0 5px;
+    font-family: "Verdana", "굴림";
+    font-size:12px;
+}
+
+.wars-info .title div
+{
+    padding-top:7px;
+}
+
+.wars-info .title span
+{   
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    font-weight:bold;
+    color:#ec0b0b;
+    vertical-align:middle;
+}
+
+.wars-info table .blankline
+{
+    height:3px;
+}
+
+.wars-info table .blankline2
+{
+    height:10px;
+}
+
+.wars-info table .blankcell
+{
+    height:3px;
+}
+
+.wars-info table th
+{
+    width:25px;
+    height:20px;
+    background:url(../Images/ranking/week_bg.gif) repeat-x 0 0;
+    padding:0;
+    margin:0;
+    font-size:10px;
+    font-weight:normal;
+    color:#fff;
+    text-align:center;
+}
+
+.wars-info table th.blank
+{
+    width:3px;
+}
+
+.wars-info table td
+{
+    width:25px;
+    height:20px;
+    margin:0;
+    padding:0;
+    font-size:11px;
+    color:#444;
+    text-align:center;
+}
+
+.wars-info table td.blank
+{
+    width:3px;
+}
+
+.wars-info table td.now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+}
+
+.wars-info table td.event
+{   
+    background:#303030;
+    font-weight:bold;
+    color:#888;
+}
+
+.wars-info table td.event-now
+{
+    width:23px;
+    height:18px;
+    border:1px solid #cc0000;
+    background:#303030;
+    font-weight:bold;
+}
+
+.wars-info table td.PlayerName
+{
+    width:100px;
+    color:#444;
+}
+
+.wars-info .wars-info-list tr
+{
+	padding:5px 0;
+	height:15px;
+	background:url(../Images/Icon/dot_path.gif) repeat-x 0 100%;
+}
+
+.wars-info-event-wrapper
+{
+    width:288px;
+    background:#111;
+    border:1px solid #303030;
+    padding-bottom:5px;
+    position:relative;
+    overflow:auto;
+}
+
+.wars-info-event-wrapper header
+{   
+    width:260px;
+    height:30px;    
+    margin:5px auto 10px auto;
+    padding:0 10px;
+    background:#444;    
+    line-height:30px;
+}
+
+.wars-info-event-wrapper .event-date
+{
+    color:#ccc;
+}
+
+.wars-info-event-wrapper dl
+{
+    width:270px;
+    margin:0 auto;
+}
+
+.wars-info-event-wrapper dl dt
+{
+    width:85px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    float:left;
+    clear:both;
+}
+
+.wars-info-event-wrapper dl dt span
+{
+    width:83px;
+    height:43px;
+    border:1px solid #666;
+    display:block;
+}
+
+.wars-info-event-wrapper dl dt img
+{
+    width:81px;
+    height:41px;
+    border:1px solid #000;
+}
+
+.wars-info-event-wrapper dl dd
+{
+    width:175px;
+    height:45px;
+    border-bottom:1px solid #333;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    float:right;
+}
+
+.wars-info-event-wrapper dl dd .title
+{
+    font-family:굴림;
+    font-size:12px;
+    color:#aaa;
+    display:block;
+}
+
+.wars-info-event-wrapper dl dd .date
+{
+    font-family: "Verdana", "굴림";
+    font-size:11px;
+    color:#666;
+}
+
+.wars-info-event-wrapper .more
+{   
+    width:270px;
+    margin:0 auto;
+    text-align:right;
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ranking */
+.server,
+.class,
+.grade,
+.connect {
+	font-family: "Verdana", "굴림";
+	font-size: 12px;
+	color: #444;
+}
+
+.school {
+	font-family: "Verdana", "굴림";
+	font-size: 12px;
+	font-weight: bold;
+	color: #444;
+	text-align: left;
+}
+
+.exp,
+.level,
+.club {
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	color: #888;
+}
+
+.system-info .CharacterList td.name {
+	padding-left: 10px;
+	font-family: "Verdana", "굴림";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+	color: #444;
+}
+
+.system-info .CharacterList td.CharacterList {
+	padding-left: 10px;
+	text-align: left;
+}
+
+.system-info .CharacterList td span.rank-num {
+	font-family: "Verdana", "굴림";
+	font-weight: bold;
+	font-size: 11px;
+	color: #444;
+}
+
+.system-info .CharacterList td span.rank-change {
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	color: #888;
+}
+
+.system-info .CharacterList td.top {
+	font-weight: bold;
+	font-size: 12px;
+	color: #cc0000;
+}
+
+.system-info .CharacterList {
+	width: 700px;
+	text-align: center;
+	table-layout: fixed;
+	background: url(../Images/Background/tab_bg.gif) repeat-x;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+
+}
+
+.system-info .CharacterList th {
+	height: 27px;
+	line-height: 0;
+	border-bottom: 2px solid #cc0000;
+	background: url(../Images/Board/board_top_tab.gif) no-repeat right;
+
+}
+
+.system-info .CharacterList th.last {
+	background: none;
+}
+
+.system-info .CharacterList td {
+	/*padding:10px 0 8px 0;
+	border-bottom:1px solid #ccc;
+	*/
+	background: #fff;
+}
+
+.system-info .CharacterList td.format{
+	font-size: 11px;
+	text-align:center;
+}
+
+.system-info p.daily-rank-info {
+	margin: 30px 0 10px 0;
+}
+
+.system-info .CharacterList-search-wrap {
+	border: 1px solid #ccc;
+}
+
+.system-info .CharacterList-search {
+	width: 670px;
+	height: 23px;
+	padding: 13px;
+	border: 1px solid #fff;
+	background: #eee;
+}
+
+.system-info .CharacterList-search .search-title {
+	padding: 5px 10px 0 0;
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	color: #444;
+	display: inline-block;
+	float: left;
+}
+
+.system-info .CharacterList em.up {
+	font-style: normal;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #f40808;
+}
+
+.system-info .CharacterList em.down {
+	font-style: normal;
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	font-weight: normal;
+	color: #0965ee;
+}
+
+
+/* =conqueror
+*************************************************/
+.conqueror {
+	width: 218px;
+	background: #000 repeat-x 0 0;
+	border: 1px solid #1e90ff;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 99;
+}
+
+.conqueror table {
+	width: 193px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.conqueror table caption {
+	/* margin:0; */
+	/* padding:0; */
+	/* font-size:11px; */
+	/* text-align:left; */
+	/* color:#888; */
+	display: table-caption;
+}
+
+.conqueror table p {
+	margin: 0;
+	padding: 0;
+	line-height: 13px;
+}
+
+.conqueror table figure {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.conqueror table figure em {
+	font-style: normal;
+	color: #74aa01;
+}
+
+.conqueror .yearmonth {
+	height: 29px;
+	padding: 0 5px;
+	font-size: 12px;
+}
+
+.conqueror .yearmonth div {
+	padding-top: 7px;
+}
+
+.conqueror .yearmonth span {
+	font-size: 11px;
+	font-weight: bold;
+	color: #ec0b0b;
+	vertical-align: middle;
+}
+
+.conqueror table .blankline {
+	height: 3px;
+}
+
+.conqueror table .blankline2 {
+	height: 10px;
+}
+
+.conqueror table .blankcell {
+	height: 3px;
+}
+
+.conqueror table th {
+	width: 25px;
+	height: 20px;
+	background: url(../Images/calendar/week_bg.gif) repeat-x 0 0;
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+}
+
+.conqueror table th.blank {
+	width: 3px;
+}
+
+.conqueror table td {
+	width: 25px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	color: #888;
+	text-align: center;
+}
+
+.conqueror table td.blank {
+	width: 3px;
+}
+
+.conqueror table td.now {
+	width: 23px;
+	height: 18px;
+	border: 1px solid #cc0000;
+}
+
+.conqueror table td.event {
+	background: #303030;
+	font-weight: bold;
+	color: #888;
+}
+
+.conqueror table td.event-now {
+	width: 23px;
+	height: 18px;
+	border: 1px solid #cc0000;
+	background: #303030;
+	font-weight: bold;
+}
+
+.conqueror-event-wrapper {
+	width: 288px;
+	background: #111;
+	border: 1px solid #303030;
+	padding-bottom: 5px;
+	position: relative;
+	overflow: auto;
+}
+
+.conqueror-event-wrapper header {
+	width: 260px;
+	height: 30px;
+	margin: 5px auto 10px auto;
+	padding: 0 10px;
+	background: #444;
+	line-height: 30px;
+}
+
+.conqueror-event-wrapper .event-date {
+	color: #ccc;
+}
+
+.conqueror-event-wrapper dl {
+	width: 270px;
+	margin: 0 auto;
+}
+
+.conqueror-event-wrapper dl dt {
+	width: 85px;
+	height: 45px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	float: left;
+	clear: both;
+}
+
+.conqueror-event-wrapper dl dt span {
+	width: 83px;
+	height: 43px;
+	border: 1px solid #666;
+	display: block;
+}
+
+.conqueror-event-wrapper dl dt img {
+	width: 81px;
+	height: 41px;
+	border: 1px solid #000;
+}
+
+.conqueror-event-wrapper dl dd {
+	width: 175px;
+	height: 45px;
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	float: right;
+}
+
+.conqueror-event-wrapper dl dd .title {
+	font-family: 굴림;
+	font-size: 12px;
+	color: #aaa;
+	display: block;
+}
+
+.conqueror-event-wrapper dl dd .date {
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	color: #666;
+}
+
+.conqueror-event-wrapper .more {
+	width: 270px;
+	margin: 0 auto;
+	text-align: right;
+	clear: both;
+}
+
+
+
+
+
+
+/* =main-conqueror
+*************************************************/
+.main-conqueror {
+	width: 458px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.main-conqueror figure {
+	margin-top: 10px;
+}
+
+.main-conqueror figcaption {
+	margin-top: 5px;
+}
+
+.main-conqueror header {
+	font-size: 12px;
+	font-weight: bold;
+	color: #444;
+}
+
+.main-conqueror article {
+	margin-top: 5px;
+	font-size: 11px;
+	color: #888;
+	line-height: 17px;
+}
+
+.main-conqueror a {
+	margin-top: 5px;
+	font-size: 11px;
+	color: #cc0000;
+	line-height: 17px;
+	font-family: "Verdana", "굴림";
+}
+
+.main-conqueror .conqueror-left-list tr {
+	padding: 5px 0;
+	height: 15px;
+	background: url(../Images/Icon/dot_path.gif) repeat-x 0 100%;
+}
+
+
+.main-conqueror table td {
+	width: 25px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana", "굴림";
+	font-size: 11px;
+	color: #888;
+	/* text-align: center; */
+}
+
+
+.main-conqueror a.link3:after {
+	color: black;
+	content: "PATH";
+}
+
+
+
+
+
+
+ul#GenBadge li {
+	display: inline-table;
+}
+
+
+.rTable {
+	display: block;
+}
+
+.rTableHeading,
+.rTableBody,
+.rTableFoot,
+.rTableRow {
+	clear: both;
+}
+
+.rTableHead,
+.rTableFoot {
+	background-color: #DDD;
+	font-weight: bold;
+}
+
+.rTableCell,
+.rTableHead {
+	float: left;
+	overflow: hidden;
+}
+
+.rTable:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

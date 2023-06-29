@@ -1,0 +1,554 @@
+﻿/* =item buy
+*************************************************/
+.item-buy
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;v
+	letter-spacing:-0.1px;
+	background:#fff;
+}
+
+.item-buy h1
+{
+	height:32px;
+	padding:10px 0 0 10px;
+	border-bottom:1px solid #000;
+	background:#2e2e2e;
+}
+
+.item-buy .wrapper
+{
+	width:480px;
+	/* height:680px; */
+	height: 100%;
+}
+
+.item-buy .container
+{
+	padding:25px 15px 0 15px;
+	border-top:3px solid #cc0000;
+}
+
+.item-buy footer
+{
+	padding:15px 0;
+	text-align:center;
+}
+
+.item
+{
+	margin-bottom:15px;
+}
+
+.item .item-img
+{
+	width:125px;
+	float:left;
+}
+
+.item .item-wrapper
+{
+	width:80px;
+	margin-bottom:5px;
+	padding:9px;
+	border:1px solid #e9e9e9;
+	background:#fff;
+}
+
+.item .item-wrapper img
+{
+	width:80px;
+	height:80px;
+}
+
+.item .item-title
+{
+	width:325px;
+	float:left;
+}
+
+.item .item-title h2
+{
+	font-weight:bold;
+	font-size:14px;
+}
+
+.item .item-title p
+{
+	padding:5px 0 10px 0;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#999;
+}
+
+.item-info
+{
+	height:66px;
+	margin-bottom:15px;
+	padding:8px;
+	line-height:15px;
+	border:1px solid #cdcdcd;
+	overflow:auto;
+}
+
+.item-info h5
+{
+	font-family: "Verdana", "굴림";
+	font-weight:bold;
+	font-size:12px;
+}
+
+.item-cost
+{
+	margin-bottom:15px;
+	border-top:2px solid #767676;
+}
+
+.item-cost th
+{
+	width:120px;
+	padding:7px 0 6px 20px;
+	text-align:left;
+	border-bottom:1px solid #e5e5e5;
+	background:#f2f2f2;
+}
+
+.item-cost td
+{
+	width:310px;
+	padding:7px 0 6px 20px;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.item-cost td .discount em
+{
+	width:70px;
+	font-style:normal;
+	text-align:center;
+	color:#0078cc;
+	display: inline-block;
+}
+
+.item-cost td input
+{
+	width:40px;
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+}
+
+.item-cost td .num-button
+{
+	width:11px;
+	height:20px;
+	margin-right:5px;
+	font-size:0;
+	line-height:0;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.item-cost td .num-button .num-up, 
+.item-cost td .num-button .num-down
+{
+	font-size: 0;
+	text-indent: -1000px;
+	line-height: 0;
+	overflow: hidden;
+	background:url(../Images/ItemShopNew/num_btn.gif) no-repeat;
+}
+
+.item-cost td .num-button .num-up
+{
+	width: 11px;
+	height: 9px;
+	margin-bottom:2px;
+	display: block;
+}
+
+.item-cost td .num-button .num-down
+{
+	width: 11px;
+	height: 9px;
+	background-position:0 -11px;
+	display: block;
+}
+
+.item-cost td .orignal-price
+{
+	height:14px;
+	padding-right:16px;
+	text-decoration: line-through;
+	color:#999;
+	background:url(../Images/Icon/right_arrow_icon.gif) no-repeat right;
+}
+
+.item-gift
+{
+	margin-bottom:15px;
+	padding:10px;
+	background:#f2f2f2;
+}
+
+.item-gift h3
+{
+	font-size:12px;
+	margin-bottom:7px;
+}
+
+.item-gift input,
+.item-gift select
+{	
+	font-weight:bold;
+}
+
+.item-gift .select-wrapper
+{
+	margin-right:3px;
+}
+
+.item-gift .character-result
+{
+	margin-top:5px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+}
+
+.item-gift .character-result span
+{
+	color:#2ba420;
+}
+
+.item-gift .character-result span.character-error
+{
+	color:#cc0000;
+}
+
+.payment
+{
+	padding:10px 0;
+	border:5px solid #ededed;
+}
+
+.payment table
+{
+	margin:0 auto;
+}
+
+.payment table th
+{
+	width:120px;
+	padding:2px 0;
+	text-align:left;
+	background:url(../Images/Icon/colon_icon.gif) no-repeat right;
+}
+
+.payment table td
+{
+	width:95px;
+	padding:2px 0;
+	text-align:right;
+}
+
+.payment table strong
+{
+	font-family:Tahoma;
+	font-size:14px;
+}
+
+.payment table .cash-error
+{
+	color:#cc0000;
+}
+
+/* =recharge
+*************************************************/
+.recharge
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	color:#444;
+	letter-spacing:-0.1px;
+	background:#fff;
+}
+
+.recharge .wrapper
+{
+	width:500px;
+	/* height:520px; */
+	height: 100%;
+}
+
+.recharge .container
+{
+	padding:25px 15px 0 15px;
+	border-top:3px solid #cc0000;
+}
+
+.recharge footer
+{
+	padding:15px 0;
+	text-align:center;
+}
+
+.recharge h1
+{
+	height:32px;
+	padding:10px 0 0 10px;
+	border-bottom:1px solid #000;
+	background:#2e2e2e;
+}
+
+.recharge h2
+{
+	font-family: "Verdana", "굴림";
+	font-weight:normal;
+	font-size:12px;
+	margin:5px 0
+}
+
+.payment-Info
+{
+	border-top:2px solid #767676;
+}
+
+.payment-Info th
+{
+	width:100px;
+	/* padding:10px 0 10px 15px; */
+	text-align:center;
+	border-bottom:1px solid #e5e5e5;
+	background:#f2f2f2;
+}
+
+.payment-Info td
+{
+	width:370px;
+	padding:10px 0 10px 15px;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.payment-Info td em a
+{
+	font-family: "Verdana", "굴림";
+	font-weight:bold;
+	font-style:normal;
+	font-size:12px;
+	text-decoration:none;
+	color:#cc0000;
+}
+
+.payment-Info .info
+{
+	margin-top:10px;
+	font-family: "Verdana", "굴림";
+	font-size:11px;
+	color:#888;
+}
+
+.payment-Info label
+{
+	line-height:16px;
+	display:inline-block;
+}
+
+.payment-Info label.on
+{
+	font-weight:bold;
+}
+
+.payment-Info .amount-select label
+{
+	width:70px;
+}
+
+.payment-Info .payment-select label
+{
+	width:95px;
+}
+
+.payment-Info .mobile .mobile-number
+{
+	width:70px;
+	font-family: "Verdana", "굴림";
+	font-weight:bold;
+	font-size:12px;
+}
+
+.payment-Info .mobile input
+{
+	width:50px;
+	font-family: "Verdana", "굴림";
+	font-weight:bold;
+	font-size:12px;
+}
+
+.payment-result
+{
+	width:470px;
+	padding:25px 0 10px 0;
+	text-align:center;
+}
+
+.payment-result dl
+{
+	overflow:hidden;
+	clear:both;
+}
+
+.payment-result dt
+{
+	padding:0 2px;
+	margin-bottom:3px;
+	display:inline;
+	height:22px;
+	vertical-align:top;
+}
+
+.payment-result dd
+{
+	padding:0 8px;
+	text-align:right;
+	display:inline;
+}
+
+.payment-result dd.amount strong
+{
+	font-family:Tahoma;
+	font-size:18px;
+	color:#cc0000;
+}
+
+.payment-result dd.payment-way strong
+{
+	font-size:16px;
+	color:#cc0000;
+}
+
+/* =cash agreement*/
+.cash-agreement
+{
+	width:430px;
+	height:525px;
+	padding:10px;
+	letter-spacing:-1px;
+	line-height:16px;
+	overflow:auto;
+}
+
+.cash-agreement h4
+{
+	height:20px;
+	font-size:13px;
+	color:#cc0000;
+}
+
+.cash-agreement p, 
+.cash-agreement ul
+{
+	margin-bottom:20px;
+}
+
+.cash-agreement li
+{
+	margin-bottom:5px;
+}
+
+
+/* =cash agreement*/
+.cash-agreement
+{
+	width:450px;
+	height:377px;
+	padding:10px;
+	letter-spacing:-1px;
+	line-height:16px;
+	overflow:auto;
+}
+
+.cash-agreement h4
+{
+	height:20px;
+	font-size:13px;
+	color:#cc0000;
+}
+
+.cash-agreement p, 
+.cash-agreement ul
+{
+	margin-bottom:20px;
+}
+
+.cash-agreement li
+{
+	margin-bottom:5px;
+}
+
+/* =recharge result
+*************************************************/
+.guide
+{
+	margin-top:15px;
+}
+
+.guide h3
+{
+	font-family: "Verdana", "굴림";
+	font-size:12px;
+	font-weight:bold;
+}
+
+.guide ul
+{
+	margin-top:5px;
+}
+
+.guide li
+{
+	padding-left:10px;
+	line-height:16px;
+	letter-spacing:-1px;
+	background:url(../Images/Icon/red_dot_icon.gif) no-repeat 0 5px;
+}
+
+.recharge-result
+{
+	border-top:2px solid #767676;
+}
+
+.recharge-result th
+{
+	width:120px;
+	padding:10px 0 10px 15px;
+	text-align:left;
+	border-bottom:1px solid #e5e5e5;
+	background:#f2f2f2;
+}
+
+.recharge-result td
+{
+	width:320px;
+	padding:10px 0 10px 15px;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.recharge-result-warpper
+{
+	width:470px;
+	height:250px;
+	overflow:auto;
+}
+
+
+/* 140422~_추가된 부분_아이템샵 */
+/* 구매 및 선물 팝업부분 */
+.item2 {margin-bottom:15px; padding:10px; background:#f2f2f2; border-top:2px solid #9d1bb5; border-bottom:1px solid #e5e5e5;}
+.item2 .item-img {float:left; width:95px;}
+.item2 .item-wrapper {float:left; width:64px; margin-bottom:5px; padding:9px; border:1px solid #e9e9e9; background:#fff;}
+.item2 .item-wrapper img {width:64px; height:64px;}
+.item2 .item_titie_event {float:left; width:50px;}
+.item2 .item-title {float:left; width:325px; padding:7px 0 0 0;}
+.item2 .item-title h2 {font-weight:bold; font-size:14px; color:#9d1bb5;}
+.item2 .item-title p {padding:5px 0 10px 0; font-family: "Verdana", "굴림"; font-size:11px; color:#999;}
+.item-info2 {float:left; width:315px; height:66px; padding:8px; line-height:15px; background:#fff; border:1px solid #cdcdcd; overflow:auto;}
+.item-info2 h5{font-family: "Verdana", "굴림"; font-weight:bold; font-size:12px;}

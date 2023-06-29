@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CheckUserID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IsGF" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckUserIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckUserIDResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckUserNickName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserNickName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckUserNickNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckUserNickNameResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestEmailAuthCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="to" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestEmailAuthCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RequestEmailAuthCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAddressList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dong" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAddressListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAddressListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUserRan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserSNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserNickName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPhone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserTel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPasswordQuestion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPasswordAnswer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserBirthDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IsEmail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IsSMS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IsEmailAuth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IsTransfer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserSNOSex" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ZipCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IsAccredit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccreditCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccreditKind" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertUserRanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertUserRanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteGFUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserGID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reason" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteGFUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteGFUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Heartbeat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCalendar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nowYear" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nowMonth" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCalendarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCalendarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainPollQuestion">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMainPollQuestionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainPollQuestionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainPollAnswer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="seq" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainPollAnswerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainPollAnswerResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainAdminBoardsList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="boardsel" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainAdminBoardsListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainAdminBoardsListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainItemShopList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMainItemShopListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainItemShopListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainItemShopGMList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMainItemShopGMListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainItemShopGMListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainItemSearchAutoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CategoryFirst" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="SearchString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainItemSearchAutoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainItemSearchAutoListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainGuildRegionList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ServerFlag" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainGuildRegionListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainGuildRegionListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainRankingList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ServerFlag" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainRankingListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainRankingListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainEventList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nowDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMainEventListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMainEventListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerDate">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServerDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServerDateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerHour">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetServerHourResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServerHourResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="int" type="s:int" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckUserIDSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckUserID" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserIDSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckUserIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserNickNameSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckUserNickName" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserNickNameSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckUserNickNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestEmailAuthCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestEmailAuthCode" />
+  </wsdl:message>
+  <wsdl:message name="RequestEmailAuthCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestEmailAuthCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAddressList" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAddressListResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserRanSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertUserRan" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserRanSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertUserRanResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGFUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteGFUser" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGFUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteGFUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginUser" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCalendar" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCalendarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollQuestionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainPollQuestion" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollQuestionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainPollQuestionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollAnswerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainPollAnswer" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollAnswerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainPollAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainAdminBoardsListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainAdminBoardsList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainAdminBoardsListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainAdminBoardsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainItemShopList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainItemShopListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopGMListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainItemShopGMList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopGMListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainItemShopGMListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemSearchAutoListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainItemSearchAutoList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemSearchAutoListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainItemSearchAutoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainGuildRegionListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainGuildRegionList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainGuildRegionListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainGuildRegionListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainRankingListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainRankingList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainRankingListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainRankingListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMainEventListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMainEventList" />
+  </wsdl:message>
+  <wsdl:message name="GetMainEventListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMainEventListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerDate" />
+  </wsdl:message>
+  <wsdl:message name="GetServerDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerHourSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerHour" />
+  </wsdl:message>
+  <wsdl:message name="GetServerHourSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerHourResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserIDHttpGetIn">
+    <wsdl:part name="UserID" type="s:string" />
+    <wsdl:part name="IsGF" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserNickNameHttpGetIn">
+    <wsdl:part name="UserNickName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserNickNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="RequestEmailAuthCodeHttpGetIn">
+    <wsdl:part name="to" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestEmailAuthCodeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressListHttpGetIn">
+    <wsdl:part name="dong" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserRanHttpGetIn">
+    <wsdl:part name="UserID" type="s:string" />
+    <wsdl:part name="UserPassword" type="s:string" />
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserSNO" type="s:string" />
+    <wsdl:part name="UserNickName" type="s:string" />
+    <wsdl:part name="UserPhone" type="s:string" />
+    <wsdl:part name="UserTel" type="s:string" />
+    <wsdl:part name="UserEmail" type="s:string" />
+    <wsdl:part name="UserPasswordQuestion" type="s:string" />
+    <wsdl:part name="UserPasswordAnswer" type="s:string" />
+    <wsdl:part name="UserBirthDate" type="s:string" />
+    <wsdl:part name="IsEmail" type="s:string" />
+    <wsdl:part name="IsSMS" type="s:string" />
+    <wsdl:part name="IsEmailAuth" type="s:string" />
+    <wsdl:part name="IsTransfer" type="s:string" />
+    <wsdl:part name="UserSNOSex" type="s:string" />
+    <wsdl:part name="ZipCode" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="IsAccredit" type="s:string" />
+    <wsdl:part name="AccreditCode" type="s:string" />
+    <wsdl:part name="AccreditKind" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserRanHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGFUserHttpGetIn">
+    <wsdl:part name="UserGID" type="s:string" />
+    <wsdl:part name="Reason" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGFUserHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserHttpGetIn">
+    <wsdl:part name="UserID" type="s:string" />
+    <wsdl:part name="UserPassword" type="s:string" />
+    <wsdl:part name="Heartbeat" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarHttpGetIn">
+    <wsdl:part name="nowYear" type="s:string" />
+    <wsdl:part name="nowMonth" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollQuestionHttpGetIn" />
+  <wsdl:message name="GetMainPollQuestionHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollAnswerHttpGetIn">
+    <wsdl:part name="seq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollAnswerHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainAdminBoardsListHttpGetIn">
+    <wsdl:part name="boardsel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainAdminBoardsListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopListHttpGetIn" />
+  <wsdl:message name="GetMainItemShopListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopGMListHttpGetIn" />
+  <wsdl:message name="GetMainItemShopGMListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemSearchAutoListHttpGetIn">
+    <wsdl:part name="CategoryFirst" type="s:string" />
+    <wsdl:part name="SearchString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemSearchAutoListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainGuildRegionListHttpGetIn">
+    <wsdl:part name="ServerFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainGuildRegionListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainRankingListHttpGetIn">
+    <wsdl:part name="ServerFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainRankingListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainEventListHttpGetIn">
+    <wsdl:part name="nowDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainEventListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerDateHttpGetIn" />
+  <wsdl:message name="GetServerDateHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerHourHttpGetIn" />
+  <wsdl:message name="GetServerHourHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserIDHttpPostIn">
+    <wsdl:part name="UserID" type="s:string" />
+    <wsdl:part name="IsGF" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserNickNameHttpPostIn">
+    <wsdl:part name="UserNickName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckUserNickNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="RequestEmailAuthCodeHttpPostIn">
+    <wsdl:part name="to" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestEmailAuthCodeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressListHttpPostIn">
+    <wsdl:part name="dong" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAddressListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserRanHttpPostIn">
+    <wsdl:part name="UserID" type="s:string" />
+    <wsdl:part name="UserPassword" type="s:string" />
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserSNO" type="s:string" />
+    <wsdl:part name="UserNickName" type="s:string" />
+    <wsdl:part name="UserPhone" type="s:string" />
+    <wsdl:part name="UserTel" type="s:string" />
+    <wsdl:part name="UserEmail" type="s:string" />
+    <wsdl:part name="UserPasswordQuestion" type="s:string" />
+    <wsdl:part name="UserPasswordAnswer" type="s:string" />
+    <wsdl:part name="UserBirthDate" type="s:string" />
+    <wsdl:part name="IsEmail" type="s:string" />
+    <wsdl:part name="IsSMS" type="s:string" />
+    <wsdl:part name="IsEmailAuth" type="s:string" />
+    <wsdl:part name="IsTransfer" type="s:string" />
+    <wsdl:part name="UserSNOSex" type="s:string" />
+    <wsdl:part name="ZipCode" type="s:string" />
+    <wsdl:part name="Address1" type="s:string" />
+    <wsdl:part name="Address2" type="s:string" />
+    <wsdl:part name="IsAccredit" type="s:string" />
+    <wsdl:part name="AccreditCode" type="s:string" />
+    <wsdl:part name="AccreditKind" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertUserRanHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGFUserHttpPostIn">
+    <wsdl:part name="UserGID" type="s:string" />
+    <wsdl:part name="Reason" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteGFUserHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserHttpPostIn">
+    <wsdl:part name="UserID" type="s:string" />
+    <wsdl:part name="UserPassword" type="s:string" />
+    <wsdl:part name="Heartbeat" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarHttpPostIn">
+    <wsdl:part name="nowYear" type="s:string" />
+    <wsdl:part name="nowMonth" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCalendarHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollQuestionHttpPostIn" />
+  <wsdl:message name="GetMainPollQuestionHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollAnswerHttpPostIn">
+    <wsdl:part name="seq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainPollAnswerHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainAdminBoardsListHttpPostIn">
+    <wsdl:part name="boardsel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainAdminBoardsListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopListHttpPostIn" />
+  <wsdl:message name="GetMainItemShopListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemShopGMListHttpPostIn" />
+  <wsdl:message name="GetMainItemShopGMListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemSearchAutoListHttpPostIn">
+    <wsdl:part name="CategoryFirst" type="s:string" />
+    <wsdl:part name="SearchString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainItemSearchAutoListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainGuildRegionListHttpPostIn">
+    <wsdl:part name="ServerFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainGuildRegionListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainRankingListHttpPostIn">
+    <wsdl:part name="ServerFlag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainRankingListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetMainEventListHttpPostIn">
+    <wsdl:part name="nowDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMainEventListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerDateHttpPostIn" />
+  <wsdl:message name="GetServerDateHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServerHourHttpPostIn" />
+  <wsdl:message name="GetServerHourHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="NoAuthWebServiceSoap">
+    <wsdl:operation name="CheckUserID">
+      <wsdl:input message="tns:CheckUserIDSoapIn" />
+      <wsdl:output message="tns:CheckUserIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <wsdl:input message="tns:CheckUserNickNameSoapIn" />
+      <wsdl:output message="tns:CheckUserNickNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <wsdl:input message="tns:RequestEmailAuthCodeSoapIn" />
+      <wsdl:output message="tns:RequestEmailAuthCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <wsdl:input message="tns:GetAddressListSoapIn" />
+      <wsdl:output message="tns:GetAddressListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <wsdl:input message="tns:InsertUserRanSoapIn" />
+      <wsdl:output message="tns:InsertUserRanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <wsdl:input message="tns:DeleteGFUserSoapIn" />
+      <wsdl:output message="tns:DeleteGFUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <wsdl:input message="tns:LoginUserSoapIn" />
+      <wsdl:output message="tns:LoginUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <wsdl:input message="tns:GetCalendarSoapIn" />
+      <wsdl:output message="tns:GetCalendarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <wsdl:input message="tns:GetMainPollQuestionSoapIn" />
+      <wsdl:output message="tns:GetMainPollQuestionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <wsdl:input message="tns:GetMainPollAnswerSoapIn" />
+      <wsdl:output message="tns:GetMainPollAnswerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <wsdl:input message="tns:GetMainAdminBoardsListSoapIn" />
+      <wsdl:output message="tns:GetMainAdminBoardsListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <wsdl:input message="tns:GetMainItemShopListSoapIn" />
+      <wsdl:output message="tns:GetMainItemShopListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <wsdl:input message="tns:GetMainItemShopGMListSoapIn" />
+      <wsdl:output message="tns:GetMainItemShopGMListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <wsdl:input message="tns:GetMainItemSearchAutoListSoapIn" />
+      <wsdl:output message="tns:GetMainItemSearchAutoListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <wsdl:input message="tns:GetMainGuildRegionListSoapIn" />
+      <wsdl:output message="tns:GetMainGuildRegionListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <wsdl:input message="tns:GetMainRankingListSoapIn" />
+      <wsdl:output message="tns:GetMainRankingListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <wsdl:input message="tns:GetMainEventListSoapIn" />
+      <wsdl:output message="tns:GetMainEventListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <wsdl:input message="tns:GetServerDateSoapIn" />
+      <wsdl:output message="tns:GetServerDateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <wsdl:input message="tns:GetServerHourSoapIn" />
+      <wsdl:output message="tns:GetServerHourSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="NoAuthWebServiceHttpGet">
+    <wsdl:operation name="CheckUserID">
+      <wsdl:input message="tns:CheckUserIDHttpGetIn" />
+      <wsdl:output message="tns:CheckUserIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <wsdl:input message="tns:CheckUserNickNameHttpGetIn" />
+      <wsdl:output message="tns:CheckUserNickNameHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <wsdl:input message="tns:RequestEmailAuthCodeHttpGetIn" />
+      <wsdl:output message="tns:RequestEmailAuthCodeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <wsdl:input message="tns:GetAddressListHttpGetIn" />
+      <wsdl:output message="tns:GetAddressListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <wsdl:input message="tns:InsertUserRanHttpGetIn" />
+      <wsdl:output message="tns:InsertUserRanHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <wsdl:input message="tns:DeleteGFUserHttpGetIn" />
+      <wsdl:output message="tns:DeleteGFUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <wsdl:input message="tns:LoginUserHttpGetIn" />
+      <wsdl:output message="tns:LoginUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <wsdl:input message="tns:GetCalendarHttpGetIn" />
+      <wsdl:output message="tns:GetCalendarHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <wsdl:input message="tns:GetMainPollQuestionHttpGetIn" />
+      <wsdl:output message="tns:GetMainPollQuestionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <wsdl:input message="tns:GetMainPollAnswerHttpGetIn" />
+      <wsdl:output message="tns:GetMainPollAnswerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <wsdl:input message="tns:GetMainAdminBoardsListHttpGetIn" />
+      <wsdl:output message="tns:GetMainAdminBoardsListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <wsdl:input message="tns:GetMainItemShopListHttpGetIn" />
+      <wsdl:output message="tns:GetMainItemShopListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <wsdl:input message="tns:GetMainItemShopGMListHttpGetIn" />
+      <wsdl:output message="tns:GetMainItemShopGMListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <wsdl:input message="tns:GetMainItemSearchAutoListHttpGetIn" />
+      <wsdl:output message="tns:GetMainItemSearchAutoListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <wsdl:input message="tns:GetMainGuildRegionListHttpGetIn" />
+      <wsdl:output message="tns:GetMainGuildRegionListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <wsdl:input message="tns:GetMainRankingListHttpGetIn" />
+      <wsdl:output message="tns:GetMainRankingListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <wsdl:input message="tns:GetMainEventListHttpGetIn" />
+      <wsdl:output message="tns:GetMainEventListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <wsdl:input message="tns:GetServerDateHttpGetIn" />
+      <wsdl:output message="tns:GetServerDateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <wsdl:input message="tns:GetServerHourHttpGetIn" />
+      <wsdl:output message="tns:GetServerHourHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="NoAuthWebServiceHttpPost">
+    <wsdl:operation name="CheckUserID">
+      <wsdl:input message="tns:CheckUserIDHttpPostIn" />
+      <wsdl:output message="tns:CheckUserIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <wsdl:input message="tns:CheckUserNickNameHttpPostIn" />
+      <wsdl:output message="tns:CheckUserNickNameHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <wsdl:input message="tns:RequestEmailAuthCodeHttpPostIn" />
+      <wsdl:output message="tns:RequestEmailAuthCodeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <wsdl:input message="tns:GetAddressListHttpPostIn" />
+      <wsdl:output message="tns:GetAddressListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <wsdl:input message="tns:InsertUserRanHttpPostIn" />
+      <wsdl:output message="tns:InsertUserRanHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <wsdl:input message="tns:DeleteGFUserHttpPostIn" />
+      <wsdl:output message="tns:DeleteGFUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <wsdl:input message="tns:LoginUserHttpPostIn" />
+      <wsdl:output message="tns:LoginUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <wsdl:input message="tns:GetCalendarHttpPostIn" />
+      <wsdl:output message="tns:GetCalendarHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <wsdl:input message="tns:GetMainPollQuestionHttpPostIn" />
+      <wsdl:output message="tns:GetMainPollQuestionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <wsdl:input message="tns:GetMainPollAnswerHttpPostIn" />
+      <wsdl:output message="tns:GetMainPollAnswerHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <wsdl:input message="tns:GetMainAdminBoardsListHttpPostIn" />
+      <wsdl:output message="tns:GetMainAdminBoardsListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <wsdl:input message="tns:GetMainItemShopListHttpPostIn" />
+      <wsdl:output message="tns:GetMainItemShopListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <wsdl:input message="tns:GetMainItemShopGMListHttpPostIn" />
+      <wsdl:output message="tns:GetMainItemShopGMListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <wsdl:input message="tns:GetMainItemSearchAutoListHttpPostIn" />
+      <wsdl:output message="tns:GetMainItemSearchAutoListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <wsdl:input message="tns:GetMainGuildRegionListHttpPostIn" />
+      <wsdl:output message="tns:GetMainGuildRegionListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <wsdl:input message="tns:GetMainRankingListHttpPostIn" />
+      <wsdl:output message="tns:GetMainRankingListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <wsdl:input message="tns:GetMainEventListHttpPostIn" />
+      <wsdl:output message="tns:GetMainEventListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <wsdl:input message="tns:GetServerDateHttpPostIn" />
+      <wsdl:output message="tns:GetServerDateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <wsdl:input message="tns:GetServerHourHttpPostIn" />
+      <wsdl:output message="tns:GetServerHourHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NoAuthWebServiceSoap" type="tns:NoAuthWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckUserID">
+      <soap:operation soapAction="http://tempuri.org/CheckUserID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <soap:operation soapAction="http://tempuri.org/CheckUserNickName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <soap:operation soapAction="http://tempuri.org/RequestEmailAuthCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <soap:operation soapAction="http://tempuri.org/GetAddressList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <soap:operation soapAction="http://tempuri.org/InsertUserRan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <soap:operation soapAction="http://tempuri.org/DeleteGFUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap:operation soapAction="http://tempuri.org/LoginUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <soap:operation soapAction="http://tempuri.org/GetCalendar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <soap:operation soapAction="http://tempuri.org/GetMainPollQuestion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <soap:operation soapAction="http://tempuri.org/GetMainPollAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <soap:operation soapAction="http://tempuri.org/GetMainAdminBoardsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <soap:operation soapAction="http://tempuri.org/GetMainItemShopList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <soap:operation soapAction="http://tempuri.org/GetMainItemShopGMList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <soap:operation soapAction="http://tempuri.org/GetMainItemSearchAutoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <soap:operation soapAction="http://tempuri.org/GetMainGuildRegionList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <soap:operation soapAction="http://tempuri.org/GetMainRankingList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <soap:operation soapAction="http://tempuri.org/GetMainEventList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <soap:operation soapAction="http://tempuri.org/GetServerDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <soap:operation soapAction="http://tempuri.org/GetServerHour" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NoAuthWebServiceSoap12" type="tns:NoAuthWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckUserID">
+      <soap12:operation soapAction="http://tempuri.org/CheckUserID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <soap12:operation soapAction="http://tempuri.org/CheckUserNickName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <soap12:operation soapAction="http://tempuri.org/RequestEmailAuthCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <soap12:operation soapAction="http://tempuri.org/GetAddressList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <soap12:operation soapAction="http://tempuri.org/InsertUserRan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <soap12:operation soapAction="http://tempuri.org/DeleteGFUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap12:operation soapAction="http://tempuri.org/LoginUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <soap12:operation soapAction="http://tempuri.org/GetCalendar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <soap12:operation soapAction="http://tempuri.org/GetMainPollQuestion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <soap12:operation soapAction="http://tempuri.org/GetMainPollAnswer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainAdminBoardsList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainItemShopList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainItemShopGMList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainItemSearchAutoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainGuildRegionList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainRankingList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <soap12:operation soapAction="http://tempuri.org/GetMainEventList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <soap12:operation soapAction="http://tempuri.org/GetServerDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <soap12:operation soapAction="http://tempuri.org/GetServerHour" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NoAuthWebServiceHttpGet" type="tns:NoAuthWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="CheckUserID">
+      <http:operation location="/CheckUserID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <http:operation location="/CheckUserNickName" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <http:operation location="/RequestEmailAuthCode" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <http:operation location="/GetAddressList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <http:operation location="/InsertUserRan" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <http:operation location="/DeleteGFUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <http:operation location="/LoginUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <http:operation location="/GetCalendar" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <http:operation location="/GetMainPollQuestion" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <http:operation location="/GetMainPollAnswer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <http:operation location="/GetMainAdminBoardsList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <http:operation location="/GetMainItemShopList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <http:operation location="/GetMainItemShopGMList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <http:operation location="/GetMainItemSearchAutoList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <http:operation location="/GetMainGuildRegionList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <http:operation location="/GetMainRankingList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <http:operation location="/GetMainEventList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <http:operation location="/GetServerDate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <http:operation location="/GetServerHour" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NoAuthWebServiceHttpPost" type="tns:NoAuthWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CheckUserID">
+      <http:operation location="/CheckUserID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckUserNickName">
+      <http:operation location="/CheckUserNickName" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestEmailAuthCode">
+      <http:operation location="/RequestEmailAuthCode" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddressList">
+      <http:operation location="/GetAddressList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertUserRan">
+      <http:operation location="/InsertUserRan" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGFUser">
+      <http:operation location="/DeleteGFUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <http:operation location="/LoginUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCalendar">
+      <http:operation location="/GetCalendar" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollQuestion">
+      <http:operation location="/GetMainPollQuestion" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainPollAnswer">
+      <http:operation location="/GetMainPollAnswer" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainAdminBoardsList">
+      <http:operation location="/GetMainAdminBoardsList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopList">
+      <http:operation location="/GetMainItemShopList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemShopGMList">
+      <http:operation location="/GetMainItemShopGMList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainItemSearchAutoList">
+      <http:operation location="/GetMainItemSearchAutoList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainGuildRegionList">
+      <http:operation location="/GetMainGuildRegionList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainRankingList">
+      <http:operation location="/GetMainRankingList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMainEventList">
+      <http:operation location="/GetMainEventList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDate">
+      <http:operation location="/GetServerDate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerHour">
+      <http:operation location="/GetServerHour" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NoAuthWebService">
+    <wsdl:port name="NoAuthWebServiceSoap" binding="tns:NoAuthWebServiceSoap">
+      <soap:address location="http://www.ran-online.co.kr/WebService/NoAuthWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NoAuthWebServiceSoap12" binding="tns:NoAuthWebServiceSoap12">
+      <soap12:address location="http://www.ran-online.co.kr/WebService/NoAuthWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NoAuthWebServiceHttpGet" binding="tns:NoAuthWebServiceHttpGet">
+      <http:address location="http://www.ran-online.co.kr/WebService/NoAuthWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NoAuthWebServiceHttpPost" binding="tns:NoAuthWebServiceHttpPost">
+      <http:address location="http://www.ran-online.co.kr/WebService/NoAuthWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

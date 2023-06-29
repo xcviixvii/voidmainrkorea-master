@@ -1,0 +1,9 @@
+truncate all table
+
+use RanGame1 EXEC sp_MSForEachTable 'TRUNCATE TABLE ?'
+
+use RanLog EXEC sp_MSForEachTable 'TRUNCATE TABLE ?'
+
+use RanUser EXEC sp_MSForEachTable 'TRUNCATE TABLE ?'
+
+use RanShop EXEC sp_MSForEachTable 'TRUNCATE TABLE ?'

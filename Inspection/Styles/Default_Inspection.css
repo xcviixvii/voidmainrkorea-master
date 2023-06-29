@@ -1,0 +1,36 @@
+@charset "euc-kr";
+
+/* 란KR 점검안내 */
+
+body { font-family:Verdana, 굴림; color:#b7b7b7; font-size:12px; line-height:21px; text-align:left; }
+body { margin:0; padding:0; background:url('../Images/inspection_bg_150422.jpg') repeat; background-color: black;}
+ul,li { list-style:none; margin:0; padding:0; }
+img,p { margin:0; border:0; vertical-align:top; display:block; }
+
+#inspection { width:100%; height:933px; background:url('../Images/inspection_bg01_150422.png'); background-repeat:no-repeat; background-position:top center; }
+.content { margin: 0 auto; width:1020px; height:100%; }
+.content ul {  float:left; width:540px; margin-bottom:68px; }
+.content li { margin:0 0 15px 50px; }
+.content li .txt01 { font-size:14px; color:#fff; font-weight:600; }
+.content li .txt02 { font-size:14px; color:#fff568; font-weight:600; }
+.logo { float:left; width:193px; border:0; margin:100px 13px 42px 6px; }
+.title { clear:both; width:550px; height:166px; border:0; margin:0 0 82px 6px; }
+.txt_title { clear:both; width:133px; height:26px; border:0; margin:0 0 18px 46px; }
+.copyright { clear:both; width:532px; height:60px; border:0; }
+
+.download_box { float:left; margin-top: 108px; }
+
+.main_download_btn { position:relative; float:left; display:inline-block; overflow:hidden; width:168px; height:68px; 
+background:url(../Images/inspection_main_download_btn02_180129.png) no-repeat; border:1px solid #555; margin-right: 10px; }
+.main_download_btn img { position:absolute; border:none; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; 
+transition:all 0.2s ease-in-out; }
+.main_download_btn:hover { border:1px solid #8c6239; }
+.main_download_btn:hover img { -webkit-transform:scale(10); -moz-transform:scale(10); -ms-transform:scale(10); -o-transform:scale(10); transform:scale(10); opacity:0; }
+
+.test_download_btn { position:relative; float:left; display:inline-block; overflow:hidden; width:168px; height:68px; 
+background:url(../Images/inspection_test_download_btn02_180129.png) no-repeat; border:1px solid #555; }
+.test_download_btn img { position:absolute; border:none; -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; 
+transition:all 0.2s ease-in-out; }
+.test_download_btn:hover { border:1px solid #0076a3;}
+.test_download_btn:hover img { -webkit-transform:scale(10); -moz-transform:scale(10); -ms-transform:scale(10); -o-transform:scale(10); transform:scale(10); opacity:0; }
+

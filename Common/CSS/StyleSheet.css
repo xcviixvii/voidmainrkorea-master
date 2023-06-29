@@ -1,0 +1,2605 @@
+﻿/************************************************************
+* Ran-World Style Sheet
+* Made By 김현우
+* Made Date : 2010-04-27
+* Modify Date : 2010-06-04
+************************************************************/
+*
+{
+    padding:0;
+    margin:0;
+}
+
+html
+{
+    overflow-y:scroll;
+}
+
+body
+{
+    background:#000000;
+    background:#000 url(../../Images/web_concept_BG_01.jpg) no-repeat 50% 0%; 
+	color:#cccccc;
+    font-size:11px;
+}
+
+body,h1,h2,h3,h4,h5,h6,input,textarea
+{
+	color:#cccccc;
+    font-size:11px;
+	font-family:Tahoma, Arial, sans-serif;
+	font-weight:normal;	
+}
+
+h1
+{   
+	width:648px;
+	border: 1px solid #333333;
+	border-bottom:none;
+}
+
+h3
+{
+    font-weight:bold;
+	background:url(http://www4.slikomat.com/10/0417/6bk-subtit.gif) no-repeat;
+	width:650px;
+	height:35px;
+	color:#FFFFFF;
+	padding:10px 20px 0 10px;
+}
+
+.caption1
+{
+    font-weight:bold;
+	background:url(http://www4.slikomat.com/10/0417/6bk-subtit.gif) no-repeat;
+	width:650px;
+	height:35px;
+	color:#FFFFFF;
+	text-align:left;
+	display:table-caption;
+	caption-side:top;
+}
+
+/************************************************************
+* text box
+************************************************************/
+textarea
+{ 
+    scrollbar-3dlight-color:#333333;
+    scrollbar-arrow-color:#555555;
+    scrollbar-track-color:#222222;
+    scrollbar-darkshadow-color:#222222;
+    scrollbar-face-color:#333333;
+    scrollbar-highlight-color:#555555;
+    scrollbar-shadow-color:#111111;
+}
+
+a{cursor:pointer;}
+a:link{ color:#cccccc; text-decoration:none; }
+a:visited{ color:#cccccc; text-decoration:none; }
+a:active{ color:#cccccc; text-decoration:none; }
+a:hover{ color:#C00000; text-decoration:underline; }
+
+p
+{
+    line-height:18px;
+}
+
+.pointer 
+{
+    cursor:pointer;
+}
+
+ul
+{
+    list-style:none;
+}
+
+input
+{
+    vertical-align:middle;
+}
+
+input[type="text"], input[type="password"]
+{
+    color:#FFFFFF;
+    background-color:#110f13;
+    border:1px solid #878686;
+    padding:2px 0;    
+    font-size:12px;
+    vertical-align:middle;
+    padding-left:2px;
+	height:15px;
+}
+
+textarea
+{
+    color:#FFFFFF;
+    background-color:#2c2a30;
+    border:1px solid #8a8888;    
+    padding:5px;
+}
+
+select, button
+{
+    vertical-align:middle;
+}
+
+select
+{
+    background-color:#2c2a30;
+    color:#999999;
+}
+
+img
+{
+    border:0;
+    vertical-align:middle;
+}
+
+img.bottom
+{
+    vertical-align:bottom;
+}
+
+.left
+{
+    float:left;
+}
+
+.right
+{
+    float:right;
+}
+
+.textCenter
+{
+    text-align:center;
+}
+
+.textRight
+{
+    text-align:right;
+}
+
+.textLeft
+{
+    text-align:left;
+}
+
+.displayNone
+{
+    display:none;
+}
+
+.displayBlock
+{
+    display:block;
+}
+
+.displayInline
+{
+    display:inline;
+}
+
+.clear
+{
+    clear:both;
+    padding:0;
+    margin:0;        
+}
+
+.clear span
+{
+    padding:0;
+    margin:0;    
+}
+
+.bgNone
+{
+    background:none;
+}
+
+/************************************************************
+* text box
+************************************************************/
+.txt75
+{
+    width:75px;
+}
+
+.txt95
+{
+    width:95px;
+}
+
+.txt100
+{
+    width:100px;
+}
+
+.txt115_login
+{
+    width:115px;
+	height:13px;
+}
+
+.txt150
+{
+    width:150px;
+}
+
+.txt225
+{
+    width:225px;
+}
+
+.txt235
+{
+    width:235px;
+}
+
+.txt300
+{
+    width:300px;
+}
+
+.txt380
+{
+    width:380px;
+	height:13px;
+}
+
+.txt390
+{
+    width:390px;
+}
+
+.txt490
+{
+    width:490px;
+}
+
+.txtCommon
+{
+    width:95%;
+}
+
+.textCenter
+{
+    text-align:center;
+}
+
+/************************************************************
+* font
+************************************************************/
+
+.tahoma10
+{
+    font-family:Tahoma;
+    font-size:10px;
+    color:#999999;
+}
+
+.tahoma10-red
+{
+    font-family:Tahoma;
+    font-size:10px;
+    color:#C00000;
+}
+
+.tahoma11-red
+{
+    font-family:Tahoma;
+    font-size:11px;
+    color:#C00000;
+}
+
+.tahoma11-redB
+{
+    font-family:Tahoma;
+    font-size:11px;
+    color:#c00000;
+	font-weight:bold;
+}
+
+.tahoma12
+{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#999999;
+}
+
+.tahoma12-white
+{
+    font-family:Tahoma;
+    font-size:12px;
+    color:#FFFFFF;
+}
+
+.tahoma12-whiteB
+{
+    font-family:Tahoma;
+	font-weight:bold;
+    font-size:11px;
+    color:#FFFFFF;
+}
+
+.tahoma10-white
+{
+    font-family:Tahoma;
+    font-size:10px;
+    color:#FFFFFF;
+}
+
+/************************************************************
+* div
+************************************************************/
+.search
+{
+    width:650px;
+    text-align:center;
+	padding-top:10px;
+}
+
+.btn
+{
+	width:650px;    
+	margin:0 auto;
+	padding-top:5px;
+	height:30px;
+}
+
+.btnCenter
+{
+    width:650px;    
+    text-align:center;
+}
+
+.btnLeft
+{
+    width:650px;    
+    text-align:left;
+}
+
+.btnRight
+{
+    width:650px;    
+    text-align:right;
+}
+
+.div100
+{
+    width:100px;
+}
+
+.div160
+{
+    width:160px;
+}
+
+.div320
+{
+    width:320px;
+}
+
+.div550
+{
+    margin-left:50px;
+    width:550px;
+}
+
+
+.div600
+{
+    margin-left:50px;
+    width:600px;
+}
+
+.contentBox
+{
+    width:650px;
+    margin:0 auto;
+}
+
+/************************************************************
+* padding
+************************************************************/
+.pt1{padding-top:1px;}.pt2{padding-top:2px;}.pt3{padding-top:3px;}.pt4{padding-top:4px;}.pt5{padding-top:5px;}.pt6{padding-top:6px;}.pt7{padding-top:7px;}.pt8{padding-top:8px;}.pt9{padding-top:9px;}.pt10{padding-top:10px;}.pt11{padding-top:11px;}.pt12{padding-top:12px;}.pt13{padding-top:13px;}.pt14{padding-top:14px;}.pt15{padding-top:15px;}.pt16{padding-top:16px;}.pt17{padding-top:17px;}.pt18{padding-top:18px;}.pt19{padding-top:19px;}.pt20{padding-top:20px;}.pt21{padding-top:21px;}.pt22{padding-top:22px;}.pt23{padding-top:23px;}.pt24{padding-top:24px;}.pt25{padding-top:25px;}.pt26{padding-top:26px;}.pt27{padding-top:27px;}.pt28{padding-top:28px;}.pt29{padding-top:29px;}.pt30{padding-top:30px;}.pt31{padding-top:31px;}.pt32{padding-top:32px;}.pt33{padding-top:33px;}.pt34{padding-top:34px;}.pt35{padding-top:35px;}.pt36{padding-top:36px;}.pt37{padding-top:37px;}.pt38{padding-top:38px;}.pt39{padding-top:39px;}.pt40{padding-top:40px;}.pt41{padding-top:41px;}.pt42{padding-top:42px;}.pt43{padding-top:43px;}.pt44{padding-top:44px;}.pt45{padding-top:45px;}.pt46{padding-top:46px;}.pt47{padding-top:47px;}.pt48{padding-top:48px;}.pt49{padding-top:49px;}.pt50{padding-top:50px;} .pt70{padding-top:70px;}
+.pb1{padding-bottom:1px;}.pb2{padding-bottom:2px;}.pb3{padding-bottom:3px;}.pb4{padding-bottom:4px;}.pb5{padding-bottom:5px;}.pb6{padding-bottom:6px;}.pb7{padding-bottom:7px;}.pb8{padding-bottom:8px;}.pb9{padding-bottom:9px;}.pb10{padding-bottom:10px;}.pb11{padding-bottom:11px;}.pb12{padding-bottom:12px;}.pb13{padding-bottom:13px;}.pb14{padding-bottom:14px;}.pb15{padding-bottom:15px;}.pb16{padding-bottom:16px;}.pb17{padding-bottom:17px;}.pb18{padding-bottom:18px;}.pb19{padding-bottom:19px;}.pb20{padding-bottom:20px;}.pb21{padding-bottom:21px;}.pb22{padding-bottom:22px;}.pb23{padding-bottom:23px;}.pb24{padding-bottom:24px;}.pb25{padding-bottom:25px;}.pb26{padding-bottom:26px;}.pb27{padding-bottom:27px;}.pb28{padding-bottom:28px;}.pb29{padding-bottom:29px;}.pb30{padding-bottom:30px;}.pb31{padding-bottom:31px;}.pb32{padding-bottom:32px;}.pb33{padding-bottom:33px;}.pb34{padding-bottom:34px;}.pb35{padding-bottom:35px;}.pb36{padding-bottom:36px;}.pb37{padding-bottom:37px;}.pb38{padding-bottom:38px;}.pb39{padding-bottom:39px;}.pb40{padding-bottom:40px;}.pb41{padding-bottom:41px;}.pb42{padding-bottom:42px;}.pb43{padding-bottom:43px;}.pb44{padding-bottom:44px;}.pb45{padding-bottom:45px;}.pb46{padding-bottom:46px;}.pb47{padding-bottom:47px;}.pb48{padding-bottom:48px;}.pb49{padding-bottom:49px;}.pb50{padding-bottom:50px;} 
+.pl1{padding-left:1px;}.pl2{padding-left:2px;}.pl3{padding-left:3px;}.pl4{padding-left:4px;}.pl5{padding-left:5px;}.pl6{padding-left:6px;}.pl7{padding-left:7px;}.pl8{padding-left:8px;}.pl9{padding-left:9px;}.pl10{padding-left:10px;}.pl11{padding-left:11px;}.pl12{padding-left:12px;}.pl13{padding-left:13px;}.pl14{padding-left:14px;}.pl15{padding-left:15px;}.pl16{padding-left:16px;}.pl17{padding-left:17px;}.pl18{padding-left:18px;}.pl19{padding-left:19px;}.pl20{padding-left:20px;}.pl21{padding-left:21px;}.pl22{padding-left:22px;}.pl23{padding-left:23px;}.pl24{padding-left:24px;}.pl25{padding-left:25px;}.pl26{padding-left:26px;}.pl27{padding-left:27px;}.pl28{padding-left:28px;}.pl29{padding-left:29px;}.pl30{padding-left:30px;}.pl31{padding-left:31px;}.pl32{padding-left:32px;}.pl33{padding-left:33px;}.pl34{padding-left:34px;}.pl35{padding-left:35px;}.pl36{padding-left:36px;}.pl37{padding-left:37px;}.pl38{padding-left:38px;}.pl39{padding-left:39px;}.pl40{padding-left:40px;}.pl41{padding-left:41px;}.pl42{padding-left:42px;}.pl43{padding-left:43px;}.pl44{padding-left:44px;}.pl45{padding-left:45px;}.pl46{padding-left:46px;}.pl47{padding-left:47px;}.pl48{padding-left:48px;}.pl49{padding-left:49px;}.pl50{padding-left:50px;} 
+.pr1{padding-right:1px;}.pr2{padding-right:2px;}.pr3{padding-right:3px;}.pr4{padding-right:4px;}.pr5{padding-right:5px;}.pr6{padding-right:6px;}.pr7{padding-right:7px;}.pr8{padding-right:8px;}.pr9{padding-right:9px;}.pr10{padding-right:10px;}.pr11{padding-right:11px;}.pr12{padding-right:12px;}.pr13{padding-right:13px;}.pr14{padding-right:14px;}.pr15{padding-right:15px;}.pr16{padding-right:16px;}.pr17{padding-right:17px;}.pr18{padding-right:18px;}.pr19{padding-right:19px;}.pr20{padding-right:20px;}.pr21{padding-right:21px;}.pr22{padding-right:22px;}.pr23{padding-right:23px;}.pr24{padding-right:24px;}.pr25{padding-right:25px;}.pr26{padding-right:26px;}.pr27{padding-right:27px;}.pr28{padding-right:28px;}.pr29{padding-right:29px;}.pr30{padding-right:30px;}.pr31{padding-right:31px;}.pr32{padding-right:32px;}.pr33{padding-right:33px;}.pr34{padding-right:34px;}.pr35{padding-right:35px;}.pr36{padding-right:36px;}.pr37{padding-right:37px;}.pr38{padding-right:38px;}.pr39{padding-right:39px;}.pr40{padding-right:40px;}.pr41{padding-right:41px;}.pr42{padding-right:42px;}.pr43{padding-right:43px;}.pr44{padding-right:44px;}.pr45{padding-right:45px;}.pr46{padding-right:46px;}.pr47{padding-right:47px;}.pr48{padding-right:48px;}.pr49{padding-right:49px;}.pr50{padding-right:50px;} 
+
+/************************************************************
+* margin
+************************************************************/
+.mt5{margin-top:5px;}
+.mb5{margin-bottom:5px;}
+.mr2{margin-left:2px;}.ml5{margin-left:5px;}
+.mr5{margin-right:5px;}
+
+
+/************************************************************
+* border
+************************************************************/
+.board .bt1{border-top:1px solid #474344;}
+
+
+/************************************************************
+* table
+************************************************************/
+table
+{
+    /*table-layout:fixed;*/
+	background:#333333;
+}
+
+caption
+{
+	display:none;
+}
+
+th
+{
+	font-size:10px;
+	font-weight:normal;
+	color:#999999;
+	background:url(http://www4.slikomat.com/10/0417/u8p-alt.gif) repeat-x 0 100%;
+	border:1px solid #181818;
+	text-align:center;
+}
+
+td
+{	
+	color:#999999;
+	border:1px solid #181818;
+	text-align:center;
+}
+
+.trStyle1
+{
+	 background:url(http://www4.slikomat.com/10/0417/ckc-alt1.gif) repeat-x 0 100%;
+}
+
+.trStyle2
+{
+	background:url(http://www4.slikomat.com/10/0417/4sz-alt2.gif) repeat-x 0 100%;
+}
+
+.tdIcon_Import
+{
+	border:1px solid #181818;
+	/*background:url(/Images/board/file_icon1.gif)  no-repeat 50% 50%;*/
+}
+
+.tdIcon1
+{
+	border:1px solid #181818;
+	/*background:url(/Images/board/file_icon2.gif)  no-repeat 50% 50%;*/
+}
+
+.tdIcon2
+{
+	border:1px solid #181818;
+	background:url(../../Images/board/prev2_btn.gif)  no-repeat 50% 50%;
+}
+
+.tdIcon3
+{
+	border:1px solid #181818;
+	background:url(../../Images/board/Next2_btn.gif)  no-repeat 50% 50%;
+}
+
+.tdSubject_Import
+{
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:11px;
+	text-align:left;
+	color:#CCCCCC;
+	border:1px solid #181818;
+}
+
+.tdSubject
+{
+	color:#CCCCCC;
+	text-align:left;
+	border:1px solid #181818;
+}
+
+.tdAdmin_Import
+{	
+	text-align:left;
+	font-size:12px;
+	color:#FFFFFF;
+	border:1px solid #181818;
+}
+
+.tdAdmin
+{	
+	color:#999999;
+	text-align:left;
+	border:1px solid #181818;
+}
+
+.tdDate_Import
+{	
+	text-align:center;
+	font-size:10px;
+	color:#FFFFFF;
+	border:1px solid #181818;
+}
+
+.tdDate
+{	
+	font-size:10px;
+	color:#999999;
+	text-align:center;
+	border:1px solid #181818;
+}
+	
+.lineStyle1
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:17px;
+	padding-top:7px;
+	padding-left:10px;
+}
+
+.lineStyle2
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:17px;
+	padding-top:7px;
+}
+
+.tdSubject_Import a:link{ color:#FFFFFF; text-decoration:none; }
+.tdSubject_Import a:visited{ color:#FFFFFF; text-decoration:none; }
+.tdSubject_Import a:active{ color:#999999; text-decoration:none; }
+.tdSubject_Import a:hover{ color:#C00; text-decoration:underline; }
+
+/* 게시판 목록 */
+
+.board
+{
+    width:650px;
+    color:#999999;
+}
+
+.pager
+{
+    width:600px;    
+    text-align:center;    
+    margin-left:50px;    
+    font-size:12px;
+    color:#999999;
+	padding-top:10px;
+}
+
+/************************************************************
+* forum
+************************************************************/
+
+.trStyle3
+{
+	 background:url(../../Images/board/alt3.gif) repeat-x 0 100%;
+}
+
+.trStyle4
+{
+	background:url(../../Images/board/alt4.gif) repeat-x 0 100%;
+}
+
+.lineStyle3
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:27px;
+	padding:5px 5px;
+	padding-left:10px;
+}
+
+.lineStyle4
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:27px;
+	padding:5px 5px;
+}
+
+.lineStyle5
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:30px;
+	padding:15px 15px;
+	padding-left:10px;
+}
+
+.lineStyle6
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:30px;
+	padding:15px 10px;
+}
+
+.lineStyle4 a { color:#b16565; }
+.lineStyle6 a { color:#b16565; }
+
+.tdSubject2
+{	
+	font-size:10px;
+	color:#999999;
+	text-align:left;
+}
+
+.tdSubject2 a:link{color:#cccc99; text-decoration:none; }
+.tdSubject2 a:visited{color:#cccc99; text-decoration:none; }
+.tdSubject2 a:active{ color:#999999; text-decoration:none; }
+.tdSubject2 a:hover{ color:#C00; text-decoration:underline; }
+
+.tdDate a:link{color:#b16565; text-decoration:none; }
+.tdDate a:visited{color:#b16565; text-decoration:none; }
+.tdDate a:active{ color:#b16565; text-decoration:none; }
+.tdDate a:hover{ color:#b16565; text-decoration:none; }
+
+a.forumList
+{
+	/*display:block;*/
+	font-weight:bold;
+	font-size:11px;
+}
+
+/* 목록2 */
+.trStyle5
+{
+	 background:url(../../Images/board/alt5.gif) repeat-x 0 100%;
+}
+
+.trStyle6
+{
+	background:url(../../Images/board/alt6.gif) repeat-x 0 100%;
+}
+
+a.forumList2
+{
+	display:block;
+	font-weight:bold;
+	font-size:11px;
+	padding-top:5px;
+}
+
+.lineStyle7
+{
+	display:block;
+	border:1px solid #2c2c2c;
+	height:22px;
+	padding-top:2px;
+	padding-left:10px;
+}
+
+.tdText-notice
+{
+    background:#000000;
+	padding:5px 5px;
+	color:#FFFFFF;
+	text-align:left;	
+	line-height:120%;
+}
+
+/*
+white-space: pre-wrap;       
+white-space: -moz-pre-wrap;  /* Mozilla, since 1999 
+white-space: -pre-wrap;      /* Opera 4-6 
+white-space: -o-pre-wrap;    /* Opera 7 
+word-wrap: break-word;       /* Internet Explorer 5.5+  css-3 
+*/
+
+.tdText
+{
+	background:#000000;
+	padding:5px;
+	color:#FFFFFF;
+	text-align:left;		
+}
+
+.tdText2
+{
+	background:#000000;		
+	color:#FFFFFF;
+	text-align:left;
+	padding:5px 10px;	
+}
+
+.tdText3
+{
+	background:#000000;
+	padding:5px 10px;
+	color:#FFFFFF;
+	text-align:left;	
+}
+
+/************************************************************
+* support
+************************************************************/
+.supportComment
+{
+    width:650px;
+    margin-top:10px;
+    margin:0 auto;
+}
+
+.supportComment .supportLine1
+{
+	border:1px solid #333333;
+	border-bottom:none;
+}
+
+.supportComment .supportLine2
+{
+	border:1px solid #181818;
+	height:28px;
+}
+
+.supportComment .supportLine3
+{
+	border:1px solid #2c2c2c;
+	height:26px;
+	background:url(../../Images/support/alt1.gif) repeat-x 0 100%; 
+}
+
+.supportComment .textBox
+{ 
+	text-align:right;
+	background:#1a1a1a;
+	border:1px solid #333333;
+	padding:5px;
+}
+
+/************************************************************
+* QNA
+************************************************************/
+
+.questionBox 
+{
+	/*background:#333333;*/
+	width:650px;
+}
+
+.Qbox
+{
+	background:url(../../Images/support/box1_1.gif) no-repeat; 
+	float:left;
+	width:35px;
+	height:22px;
+	text-align:center;
+	padding-top:8px;
+}
+
+.question
+{
+	width:605px;	
+	height:14px;
+	background:url(../../Images/support/box1_2.gif);
+	float:left;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:10px;
+}
+
+.Abox
+{
+	float:left;
+	width:23px;	
+	padding-top:10px;
+	padding-bottom:10px;
+    padding-left:14px;
+    /*
+	border-bottom:1px solid #1b1b1b;
+	border-left:1px solid #1b1b1b;
+	border-top:1px solid #1b1b1b;	
+    */
+	background:#000000;
+	color:#c00000;
+}
+
+.answer
+{
+	width:549px;		
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:13px;	
+	/*border:1px solid #1b1b1b;*/
+	background:#000000;
+	color:#FFFFFF;
+}
+
+/************************************************************
+* Tab
+************************************************************/
+
+.tab
+{
+	width:600px;
+}
+
+.tab li
+{
+	float:left;
+}
+
+.subList
+{
+	background:#333333;
+	clear:both;
+}
+
+.subList_in
+{
+	border:1px solid #1b1b1b;
+	padding:8px;
+	color:#900;
+	font-weight:bold;	
+}
+
+.subList_in p
+{
+	margin-bottom:3px;
+}
+
+
+
+/************************************************************
+* ItemShop
+************************************************************/
+.itemShop
+{
+    width:650px;
+    margin:0 auto;
+}
+
+.itemShop .primium-ribon {
+	z-index: 1;
+	position:absolute;
+}
+
+.itemShop .premium
+{
+    padding:10px 0;
+    border:3px solid #900;
+}
+
+.itemShop .itemArea
+{
+	border:3px solid #202020;           
+	margin-top:-3px;     
+	padding-top:10px;
+}
+
+
+.itemShop dl
+{
+    width:95px;
+    text-align:center;
+}
+
+.itemShop dd
+{
+    margin-top:5px;
+}
+
+.itemShop .FirstItem
+{
+    float:left;
+    margin-left:100px;
+}
+.itemShop .Item
+{
+    float:left;
+    margin-left:28px;
+}
+
+.itemShop .itemName {	
+	color: #CCCCCC;
+	font-weight: bold;
+	text-align: center;	
+}
+
+.itemShop .itemMoney {
+	color: #ffcc00;
+	font-weight: bold;	
+}
+
+.itemShop .new_ribon {
+	position:absolute;
+	float:left;
+	margin-left:5px;
+}
+
+.itemShop .hot_ribon {
+	position:absolute;
+	float:left;
+	margin-left:5px;
+}
+
+#ItemInfoBox
+{
+    position:absolute;
+}        
+        
+.itemView
+{
+	width:225px;
+	border:1px solid #1c1c1c;	
+}
+
+.itemView_in
+{
+	width:223px;
+	border:1px solid #2e2e2e;
+	border-bottom:none;
+	background:#242424;
+	padding:10px 0 10px 0;
+	text-align:center;
+}
+
+.itemImg img
+{
+	border:1px solid #c00000;
+}
+
+.itemInfo
+{
+	width:223px;
+	border:1px solid #2e2e2e;
+	background:#181818;	
+}
+
+.itemInfo_in
+{
+	padding:10px;
+}
+
+.itemInfo .money
+{
+	color:#ffcc00;
+	font-weight:bold;
+}
+
+/************************************************************
+* sign up
+************************************************************/
+.signup
+{
+    width:600px;
+    margin:0 auto;
+}
+
+.signup h1
+{
+    padding:0;
+    margin-bottom:40px;
+    border:none;
+}
+
+.findBox h1
+{
+    padding:0;
+    margin-bottom:40px;
+    border:none;
+}
+
+.signup select
+{
+    background:#2c2a30;
+    color:#999999;
+}
+
+.signup .select300
+{
+    width:300px;   
+}
+
+.signup div
+{   
+    width:500px;    
+    height:25px;
+    padding:5px 5px;
+    margin:0 auto;    
+    background:url(http://www4.slikomat.com/10/0417/ghu-DotPat.gif) repeat-x 0 100%;
+    clear:both;
+}
+
+.signup .caption
+{   
+    width:500px;    
+    padding:5px 5;
+    height:50px;
+    margin:0 auto;    
+    background:url(http://www4.slikomat.com/10/0417/ghu-DotPat.gif) repeat-x 0 100%;
+    clear:both;
+}
+
+.signup  p.left
+{
+    width:160px;
+    padding-top:5px;
+    padding-left:15px;
+    float:left;
+    background:url(http://www4.slikomat.com/10/0417/wwy-RedDot.gif) no-repeat 0% 70%;    
+}
+
+.signup p.code
+{
+    width:160px;
+    padding-top:35px;
+    padding-left:15px;
+    float:left;
+    background:url(http://www4.slikomat.com/10/0417/wwy-RedDot.gif) no-repeat 0% 86%;    
+}
+
+.signup  p.right
+{
+    width:320px;                
+    float:right;
+}
+
+.signup .last
+{
+    background:none;
+}
+
+/************************************************************
+* Login
+************************************************************/
+.login_wrap
+{
+	width:960px;
+	height:356px;
+	background:url(http://www4.slikomat.com/10/0417/uvq-login-.png) no-repeat;
+}
+
+.loginBox
+{
+	width:240px;
+	margin:0 auto;
+	padding-top:90px;
+}
+
+fieldset
+{
+	border:none;
+}
+
+.loginBox p.left
+{
+	width:170px;
+    padding-top:5px;
+    float:left;
+}
+
+.loginBox p.right
+{
+	float:right;
+	width:70px;
+	padding-top:15px;
+}
+
+.txt160
+{
+    width:160px;
+	height:15px;
+}
+
+.loginBox div
+{   
+    width:240px;
+	padding-top:10px;
+    clear:both;
+	color:#FFFFFF;
+}
+
+.loginBox .formArea
+{
+	width:170px;
+	float:left;
+}
+
+
+/************************************************************
+* Layout : MainPage의 여러 목록들 포함.
+************************************************************/
+.wrapper
+{
+    width:990px;
+    margin:0 auto;   
+    /*
+    min-width:960px;
+    max-width:960px;    
+    */
+}
+
+.mainAll
+{
+    width:960px;
+    float:left;
+}
+
+.rightTop
+{
+    width:20px;
+    float:right;
+}
+
+.scrollTop
+{   
+    left:900px;
+    top:100px;
+}
+
+.header
+{
+    width:100%;    
+}
+
+.logo
+{
+    width:100%;
+    height:100px;
+    /*ackground:url(/Images/main/logo.png) no-repeat 50% 0;*/
+    position:relative;    
+}
+
+.logo .logoImg
+{
+    position:absolute; 
+    left:270px;
+}
+
+.logo .rantime
+{
+    height:100px;
+    float:left;
+    /*margin-top:74px;*/
+    position:relative;
+    background:url(http://www4.slikomat.com/10/0417/x49-rantim.png) no-repeat 0 0;
+    padding-left:80px;
+}
+
+.logo .rantime .timer
+{
+    position:absolute;
+    top:7px;
+    left:295px;
+	margin-top:74px;
+}
+
+.logo .rantime .time
+{
+    width:230px;
+    margin-top:74px;
+    letter-spacing:normal;
+    font-weight: bold;    
+    position:absolute;
+    line-height:23px;
+	background:#000000;
+	border:1px solid #666666;
+}
+
+.logo .rantime .hour
+{   
+    font-size:15px;
+    color:#BB0000;
+    letter-spacing:normal;
+}
+
+.logo .top-search
+{
+    float:right;
+    /*margin-top:74px;*/
+    height:100px;
+    background:url(http://www4.slikomat.com/10/0417/cnb-chain-.png) no-repeat 75% 100%;
+}
+
+.logo .searchTxt
+{
+    height:17px;
+    margin-top:70px;
+}
+
+.nav
+{
+    width:100%;
+    margin:0 auto;
+}
+
+.topBox
+{
+    width:100%;
+    
+}
+
+.topBox .movie
+{
+    width:630px;
+    height:230px;
+    float:left;    
+    background:url(../../Images/main/movie_frame.gif) no-repeat; 
+}
+
+.topBox .down
+{
+    width:330px;
+    height:230px;
+    float:right;
+    background:url(http://www4.slikomat.com/10/0417/m5d-down-A.png) no-repeat;
+}
+
+.topBox .down .client { position:absolute; z-index:2; margin:15px 0 0 9px; }
+.topBox .down .instruction { position:absolute; z-index:1; margin:127px 0 0 97px; }
+
+.main
+{
+    width:100%;
+}
+
+.subNav
+{
+    width:240px;
+    float:left;
+}
+
+.login
+{
+    width:240px;
+}
+
+.login .loginTop
+{
+    width:240px;
+    height:60px;
+    background:url(http://www4.slikomat.com/10/0417/8cw-login-.png) no-repeat;
+}
+
+.login .loginForm
+{   
+    height:100px;
+    background:url(http://www4.slikomat.com/10/0417/oq-login-.gif) no-repeat;
+}
+
+.login .loginForm h1
+{
+    font-size:12px;
+	color:#b16565;
+	font-weight:bold;
+}
+
+.login .loginForm .user
+{
+    width:210px;
+    text-align:center;
+	color:#cccc99;
+	font-weight:bold;
+}
+
+.login .loginForm .user h1
+{
+    border:none;
+    width:210px;
+}
+
+.login .loginForm .account
+{
+    font-size:13px;
+    padding-bottom:3px;
+}
+
+.mainrank
+{
+    width:240px;   
+}
+
+.mainrank .mainrankTop
+{
+    height:50px;
+    background:url(http://www4.slikomat.com/10/0417/g4-rankin.png) no-repeat;
+}
+
+.mainrank .mainrankMiddle
+{   
+    height:215px; 
+    background:url(http://www4.slikomat.com/10/0417/p3e-rankin.png) no-repeat;
+}
+
+.mainrank ul
+{
+    width:216px;    
+    margin-left:12px;
+    margin-top:10px;
+    margin-bottom:4px;    
+    float:left;
+}
+
+.mainrank li
+{
+    width:98px;
+    text-align:center;
+    float:left;
+}
+
+.mainrank dl
+{
+    width:213px;    
+    color:#999999;    
+    padding-bottom:3px;    
+    margin-bottom:2px;
+    margin-left:9px;    
+    float:left;
+    background:url(http://www4.slikomat.com/10/0417/xpy-path.png) repeat-x 0% 100%;
+	height:15px;
+}
+
+.mainrank .last
+{
+    background:none;
+    padding:0;
+    margin-left:9px;
+}
+
+.mainrank dt, .mainrank dd
+{
+    float:left;
+}
+
+.mainrank dl .number 
+{
+    width:20px;
+}
+
+.mainrank dl .nickname
+{
+    width:128px;
+}
+
+.mainrank dl .class
+{ 
+    width:35px;  
+}
+
+.mainrank dl .school
+{
+    width:30px;
+    text-align:center; 
+}
+
+.social
+{
+    width:240px;
+}
+
+.social .socialTop
+{
+    height:50px;
+    background:url(http://www4.slikomat.com/10/0417/mqi-social.png) no-repeat;
+}
+
+.social .socialMiddle
+{
+    height:103px;
+    background:url(http://www4.slikomat.com/10/0417/cj5-social.gif) no-repeat;
+}
+
+.social .socialBottom
+{
+    height:40px;
+    background:url(http://www4.slikomat.com/10/0417/m-chain-.png) no-repeat;
+}
+
+.social ul
+{
+    width:216px;    
+    margin-left:6px;
+    margin-top:25px;
+    float:left;
+}
+
+.social li
+{
+    width:72px;
+    text-align:center;
+    float:left;
+}
+
+.contentZone
+{
+    width:720px;
+    float:right;
+}
+
+.leftZone
+{
+    width:480px;
+    float:left;
+}
+
+.leftZone .part
+{
+    width:480px;    
+}
+
+.leftZone .part .newsTop
+{   
+    height:58px;    
+    background:url(http://www4.slikomat.com/10/0417/jbh-news-t.png) no-repeat;
+}
+
+.leftZone .part .newsMiddle
+{    
+    height:100px;
+    background:url(http://www4.slikomat.com/10/0417/l7r-news-b.png) no-repeat;    
+}
+
+.mainBoard
+{
+    table-layout:fixed;
+	background:none;
+}
+
+.mainBoard td
+{	
+	border-style:none;
+	padding-bottom:3px;
+}
+
+.mainBoard .td-left
+{
+    padding-left:5px;
+	font-size:12px;
+	text-align:left;
+}
+
+.mainBoard .td-center
+{
+    text-align:center;
+}
+
+.leftZone .part .hotTop
+{
+    height:50px; 
+    background:url(../../Images/main/issue_title.png) no-repeat; 
+}
+
+.leftZone .part .hotMiddle
+{
+    height:130px;
+    background:url(../../Images/main/issue_bg.png) no-repeat;
+}
+
+.hotTitle a
+{
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.leftZone .part .screenTop
+{
+    height:50px;
+    background:url(http://www4.slikomat.com/10/0417/z8o-chat-t.png) no-repeat;
+}
+
+.leftZone .part .screenMiddle
+{   
+    height:405px;
+    background:url(../../Images/main/chat_bg.gif) no-repeat;    
+}
+
+.bestImgBox
+{
+    position:relative;
+    overflow:hidden;
+    width:452px;
+    height:405px;
+}
+
+.bestImage
+{   
+	width:2000px;
+	padding-top:5px;
+	padding-left:1px;
+	position:absolute; 
+}
+
+.bestImage div
+{
+    padding-right:5px;
+	float:left;
+}
+
+.bestImage img
+{
+	border:1px solid #1d1d1d;
+}
+
+.leftZone .part .screenBottom
+{   
+    height:70px;
+    background:url(http://www4.slikomat.com/10/0417/k2c-chain-.png) no-repeat;
+}
+
+.side
+{
+    width:240px;
+    float:right;
+}
+
+.side .recharge
+{
+    width:240px; 
+    height:100px;
+    background:url(http://www4.slikomat.com/10/0417/r2v-rechar.png) no-repeat; 
+    padding:0 0 0 35px;
+}
+
+.side .itemshop
+{
+    width:240px;    
+}
+
+.side .itemshop .itemshopTop
+{
+    height:40px;
+    background:url(http://www4.slikomat.com/10/0417/zul-itemsh.png) no-repeat;
+}
+
+.side .itemshop .itemshopMiddle
+{
+    height:500px;
+    padding:17px 10px 20px 30px;
+    background:url(http://www4.slikomat.com/10/0417/hms-itemsh.png) no-repeat;
+}
+
+.side .itemshop dl
+{
+    width:190px;
+    height:78px;
+	padding-left:10px;
+    margin-bottom:5px;
+    float:left;
+}
+
+.side .itemshop dt 
+{   
+    float:left;
+}
+
+.side .itemshop dd
+{
+    margin-left:5px;
+    float:left;
+}
+
+.side .itemshop dl .item
+{   
+    border:1px solid #666666;
+}
+
+.side .itemshop dl .item:hover
+{   
+    border:1px solid #FF0000;
+}
+
+.side .itemshop dl span
+{
+    display:block;
+}
+
+.side .itemshop dl .title
+{
+    width:105px;
+    font-weight:bold;
+	color:#cccc99;
+}
+
+.side .itemshop dl .money
+{
+    width:105px;
+    padding-top:5px;
+    font-weight:bold;
+}
+
+.side .itemshop dl .caption
+{
+    width:110px;
+    padding-top:5px;
+}
+
+.content
+{   
+    width:720px;    
+}
+
+.footer
+{
+    clear:both;
+    text-align:center;
+}
+
+/************************************************************
+* leftmenu
+************************************************************/
+.leftMenu
+{
+    width:225px;
+    list-style:none;
+    display:none;
+    font-size:0px;
+}
+
+.leftMenu .leftMenuTop
+{
+    height:27px;    
+    padding:23px 0 0 30px;
+    background:url(http://www4.slikomat.com/10/0417/tj2-subnav.png) no-repeat;    
+    font-size:0px;
+}
+
+.leftMenu .leftMenuRoll
+{
+    height:30px;
+    padding-top:10px;
+    text-align:center;
+    background:url(http://www4.slikomat.com/10/0417/qbn-btn-ro.gif) no-repeat;
+}
+
+.leftMenu .leftMenuTitle
+{
+    height:30px;
+    padding-top:10px;
+    text-align:center;
+    background:url(http://www4.slikomat.com/10/0417/bmw-subbtn.gif) no-repeat;
+}
+
+.leftMenu .leftMenuBlank
+{
+    height:5px;
+    background:url(http://www4.slikomat.com/10/0417/x8-subnav.png) no-repeat 0% 0%;
+}
+
+.leftMenu .leftMenuBottom
+{
+    height:80px;
+    background:url(http://www4.slikomat.com/10/0417/gpw-subnav.png) no-repeat;
+}
+
+/************************************************************
+* content
+************************************************************/
+.contentTop
+{
+    height:78px;
+    background:url(http://www4.slikomat.com/10/0417/3zb-subrig.png) no-repeat;
+    padding-top:37px;
+    padding-left:45px;
+    padding-right:60px;
+}
+
+.contentMiddle
+{   
+    background:url(http://www4.slikomat.com/10/0417/pp6-subrig.png) repeat-y;
+}
+
+.contentBottom
+{
+    height:110px;
+    background:url(http://www4.slikomat.com/10/0417/wye-subrig.png) no-repeat;
+}
+
+/************************************************************
+* Profile
+************************************************************/
+
+.profileBox
+{
+	width:550px;
+	margin:0 auto;
+	padding-top:30px;
+}
+
+.profileBox .leftArea
+{
+	width:100px;
+	float:left;
+}
+
+.profileBox .rightArea
+{
+	width:440px;
+	float:right;
+}
+
+.profileBox .rightArea div
+{   
+    width:430px;    
+    height:25px;
+    padding:5px 5px;
+    margin:0 auto;    
+    background:url(../../Images/board/DotPath4.gif) repeat-x 0 100%;
+    clear:both;
+}
+
+.profileBox  p.left
+{
+    width:100px;
+    padding-top:5px;
+    padding-left:15px;
+    float:left;
+    background:url(../../Images/board/RedDot.gif) no-repeat 0% 70%;
+}
+
+.profileBox  p.right
+{
+    padding-top:5px;
+	width:215px;                
+    float:right;
+}
+
+.profileBox .btnRight
+{
+	float:right;
+	width:100px;
+	height:100px;
+	padding-top:10px;
+}
+
+
+/************************************************************
+* FAQ
+************************************************************/
+.accordion 
+{
+    width:600px;
+    margin-left:50px;
+}
+
+.accordion div
+{
+    padding:0;
+    margin:0;
+}
+
+.accordion p
+{
+    padding:0;
+    margin:0;
+}
+
+
+/************************************************************
+* Change PW
+************************************************************/
+
+.changeBox
+{
+	width: 300px;
+	margin:0 auto;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.changeBox  p.left
+{
+    width:120px;
+    padding-top:5px;
+    padding-left:15px;
+    float:left;
+    background:url(../../Images/board/RedDot.gif) no-repeat 0% 70%;    
+}
+
+.changeBox  p.right
+{
+    width:160px;                
+    float:left;
+}
+
+.pwTxt
+{
+	width:160px;
+}
+
+.changeBox div
+{   
+    width:300px;    
+    height:25px;
+    padding:10px 0px;
+    margin:0 auto;    
+    background:url(../../Images/board/DotPath.gif) repeat-x 0 100%;
+    clear:both;
+}
+
+/************************************************************
+* Find PW
+************************************************************/
+
+.findBox
+{
+	width: 600px;
+	margin-left:50px;
+	padding-top:30px;
+	padding-bottom:70px;
+}
+
+.findBox .Hstyle
+{
+	margin:0;
+	background:none;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.addTxt
+{
+	margin-right:5px;
+	width: 340px;
+}
+
+.findBox  p.left
+{
+    width:120px;
+    padding-top:5px;
+    padding-left:15px;
+    float:left;
+    background:url(../../Images/board/RedDot.gif) no-repeat 0% 70%;    
+}
+
+.findBox  p.right
+{
+    width:425px;                
+    float:left;
+}
+
+.findBox div
+{   
+    width:560px;    
+    height:25px;
+    padding:10px 0px;
+    margin:0 auto;    
+    background:url(../../Images/board/DotPath.gif) repeat-x 0 100%;
+    clear:both;
+}
+
+/************************************************************
+* Paypal
+************************************************************/
+.whatcoin
+{
+	padding-top:20px;
+	margin:0 auto;    
+	background:url(../../Images/recharge/rcoin.gif) no-repeat 100% 100%;
+	height:100px;
+}
+
+.cointxt
+{
+	width:330px;
+}
+
+.path
+{
+	background:url(../../Images/board/DotPath.gif) repeat-x 0 50%;
+	width:650px;
+	height:1px;
+	clear:both;
+	padding:30px 0 30px 0;
+}
+
+.howcoin
+{
+    width:650px;
+}
+
+.howbox
+{
+	background:url(../../Images/recharge/rcoin_bg.gif) no-repeat;
+	border:1px solid #ffcc00;
+	width:153px;
+	height:42px;
+	float:left;
+	padding-top:20px;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.yellow
+{
+	color:#ffcc00;
+	font-weight:bold;
+}
+
+.next
+{
+	width:92px;
+	height:42px;
+	float:left;
+	padding-top:20px;
+	text-align:center;
+}
+
+.rcoinselectBox
+{
+	width:400px;
+	margin:0 auto;
+}
+
+.rcoinselectBox p
+{
+	padding-bottom:5px;
+}
+
+.rcoinselectBox .select_left
+{
+	float:left;
+	width:140px;
+}
+
+.rcoinselectBox .select_right
+{
+	float:right;
+	width:140px;
+}
+
+.select_recharge
+{
+	width:400px;
+	margin:0 auto;
+}
+
+.select_recharge p
+{	
+	float:left;
+}
+
+.next_btn
+{
+	padding-left:250px;
+}
+
+/************************************************************
+* Tab
+************************************************************/
+.tabArea
+{	
+	width:650px; 
+	padding:30px 0 0 0;
+}
+
+.tabArea ul.tabBox
+{
+	float:left; 
+	width:650px;
+}
+
+.tabArea ul.tabBox li
+{	
+	float: left;  
+}
+
+
+/************************************************************
+*History
+************************************************************/
+.Balance 
+{
+	background:#333333;
+	padding:15px;
+}
+
+/************************************************************
+*Modal
+************************************************************/
+/* modalBackground */
+#modalBackground { background-color:#000000; }
+
+/* modalContainer */
+#modalContainer 
+{ 
+	/*color:#4295C2;*/
+	color:#FFFFFF;
+	height:100px; 
+	width:200px;
+	text-align:left; 
+	background:#000000; 
+	border:1px solid #336699;
+}
+
+/************************************************************
+* Gallery
+************************************************************/
+
+.galleryList
+{
+	width:200px;
+	text-align:center;
+	float:left;
+	padding:0 0 30px 10px;
+}
+
+.galleryList dt
+{
+	width:200px;
+	height:150px;
+	border:1px solid #1d1d1d;
+}
+
+.galleryList dd
+{
+    width:202px;
+	padding:2px 0 5px 0;
+	background:#1d1d1d;
+}
+
+/************************************************************
+* Game Guide
+************************************************************/
+
+/* Game System */
+
+.systemList
+{
+    float:left;
+    width:648px;
+    padding-left:2px;
+}
+
+.systemList li
+{
+    width:216px;
+	float:left;
+	text-align:center;
+}
+
+.systemInfo
+{   
+	width:650px;
+	padding-top:20px;
+}
+
+/* GameSystem*/
+
+
+.systemInfo td
+{
+	color:#FFFFFF;
+	background:#1f1f1f;
+	border:1px solid #2a2a2a;
+	padding:10px;
+	text-align:left;
+}
+
+/* Skill */
+
+.skillBox
+{
+	width:650px;
+	margin-left:28px;
+}
+
+.skillBox li
+{
+	float:left;
+}
+
+.skillList
+{
+	width:650px;
+	margin-left:28px;
+}
+
+.skillList th
+{
+	background:#141414;
+	border:-1px solid #2a2a2a;
+	padding:7px 0 7px 0;
+}
+
+.skillList td
+{
+	background:#1f1f1f;
+	padding:7px 0 7px 0;
+}
+
+.skillList .descrpion
+{
+	text-align:left;
+	color:#cccccc;
+}
+
+.skillList .skillSTR
+{
+	font-weight:bold;
+	font-size:12px;
+	color:#b16565;
+	text-align:left;	
+}
+
+.skillList .skillINT
+{
+	font-weight:bold;
+	font-size:12px;
+	color:#346e81;
+	text-align:left;
+}
+
+.skillList .skillDEX
+{
+	font-weight:bold;
+	font-size:12px;
+	color:#577731;
+	text-align:left;
+}
+
+.skillList .skillMISC
+{
+	font-weight:bold;
+	font-size:12px;
+	color:#837034;
+	text-align:left;
+}
+
+/************************************************************
+* Download
+************************************************************/
+
+.downBox
+{
+	width:650px;
+	margin-left:28px;
+}
+
+.downBox .down_bg
+{
+    position:relative;
+	background:url(../../Images/download/download_img.gif) no-repeat;
+	width:650px;
+	height:224px;
+}
+.downBox .down_bg2
+{
+	background:url(../../Images/download/download_img2.gif) no-repeat;
+	width:650px;
+	height:224px;
+}
+.downBox .down_btn
+{
+    position:absolute;
+    left:40px;
+    top:40px;
+}
+
+.downBox .upgrade_btn
+{
+    position:absolute;
+    left:380px;
+    top:40px;
+}
+
+.downBox .down_btn2
+{
+	padding:40px 0 0 300px;
+}
+.downBox .mirror
+{
+	text-align:center;
+	margin:20px 0 20px 0;
+}
+
+.downBox .mirror p
+{
+	padding:10px 0 10px 0;
+}
+
+.Requirement .info
+{
+	
+	background:#141414;
+	border:-1px solid #2a2a2a;
+	padding:7px 0 7px 0;
+	font-weight:bold;
+	color:#666666;
+	
+}
+
+.Requirement td
+{
+	color:#FFFFFF;
+	background:#1f1f1f;
+	border:-1px solid #2a2a2a;
+	padding:7px 0 7px 0;
+}
+
+/* Control */
+.titleBox
+{
+	font-weight:bold;
+	background:url(http://www4.slikomat.com/10/0417/y87-subtit.gif) no-repeat;
+	width:650px;
+	height:35px;
+	padding-bottom:20px;
+}
+
+.imgCenter
+{
+	text-align:center;
+}
+
+.titleText
+{
+	font-weight:bold;
+	padding:10px 0 0 10px;
+	color:#FFFFFF;
+}
+
+.chat .info
+{
+	font-weight:bold;
+	text-align:center;
+}
+
+.chat td
+{
+	color:#FFFFFF;
+	background:#1f1f1f;
+	border:-1px solid #2a2a2a;
+	padding:7px 0 7px 7px;
+	text-align:left;
+	color:#cccccc;
+}
+
+.controlBox div
+{
+	padding-bottom:50px;
+}
+
+/* Character */
+.characterList
+{
+    width:650px;
+    float:left;
+}
+
+.characterList li
+{
+    width:130px;
+    text-align:center;
+	float:left;
+}
+
+.characterInfo
+{
+    padding-top:20px;
+    position:relative;
+}
+
+.character_bg1
+{
+	background:url(../../Images/gameguide/brawler_bg.gif) no-repeat;	
+	height:550px;
+}
+
+.character_bg2
+{
+	background:url(../../Images/gameguide/archer_bg.gif) no-repeat;	
+	height:550px;
+}
+
+.character_bg3
+{
+	background:url(../../Images/gameguide/swordman_bg.gif) no-repeat;	
+	height:550px;
+}
+
+.character_bg4
+{
+	background:url(../../Images/gameguide/shaman_bg.gif) no-repeat;	
+	height:550px;
+}
+
+.character_bg5
+{
+	background:url(../../Images/gameguide/extreme_bg.gif) no-repeat;	
+	height:550px;
+}
+
+.character_info
+{
+    position:absolute;
+    top:280px;
+    left:15px;
+}
+
+/* News Comment */ 
+.commentBox
+{
+	width:650px;
+	margin:0 auto;
+	padding-top:5px;
+}
+.txtComment
+{
+	width:543px; /* 560 = borderLR -2px, paddingLR -10px, marginR -5px */  
+	height:31px;  /*   43 = borderLR -2px, paddingLR -10px */
+	margin-right:5px;
+}
+
+/* Agreement */
+
+.agreementBox
+{
+	width:650px;
+	margin:0 auto;
+	line-height:15px;
+}
+
+.agreementBox .field
+{ 
+	padding:0 0 20px 0;
+}
+
+.agreementBox ol
+{
+    list-style:none;
+}
+
+.agreementBox h2
+{
+	padding:20px;
+	color:#FFFFFF;
+}
+.agreementBox h3
+{
+	color:#FFFFFF;
+}
+
+.agreementBox .bx
+{
+	height:150px; 
+	padding:20px 18px 0 20px; 
+	margin:0 0 8px 0;
+	border:1px solid #3d3d3d; 
+	overflow:auto; 
+}
+
+.agreementBox .check input
+{ 
+	margin:-4px; 
+	vertical-align:middle;
+}
+
+.agreementBox .check label
+{ 
+	position:relative; 	
+	padding:0 0 0 3px;
+}
+
+.agreementBox .field legend
+{
+	margin-left:-7px;
+	display:block;
+}
+
+.agreementTable
+{
+	width:550px;
+}
+
+.agreementTable .info
+{	
+	background:#141414;
+	border:-1px solid #2a2a2a;
+	padding:7px 0 7px 0;
+	font-weight:bold;
+	font-size:11px;
+	color:#666666;
+}
+
+.agreementTable td
+{
+	color:#FFFFFF;
+	background:#1f1f1f;
+	border:-1px solid #2a2a2a;
+	padding:7px 0 7px 0;
+}
+.agreementBox .bx2
+{
+	padding:20px 18px 0 20px; 
+	margin:0 0 8px 0; border:1px solid #3d3d3d; 
+	overflow:auto; 
+}
+
+/* Ran Comic*/
+.comicList
+{
+	width:90px;
+	float:left;
+}
+
+.comicView
+{
+	float:right;
+	width:550px;                            
+	text-align:center;
+	/*border-left:1px solid #333333;*/
+}
+
+.comicList li
+{
+	padding-bottom:5px;
+}
+.comicList li img
+{
+	border:1px solid #2a2a2a;
+}
+
+/* User Profile */
+.userinfoBox
+{
+	width:350px;	
+	padding-top:30px;
+	background:#000000;
+}
+
+.userinfoBox .rightArea
+{
+	width:350px;
+}
+
+.userinfoBox .rightArea div
+{   
+    width:350px;    
+    height:25px;    
+    margin:0 auto;    
+    background:url(../../Images/board/DotPath4.gif) repeat-x 0 100%;
+    clear:both;
+    padding:5px 0;
+}
+
+.userinfoBox  p.left
+{
+    width:75px;
+    padding-top:5px;    
+    padding-left:20px;
+    float:left;
+    background:url(../../Images/board/RedDot.gif) no-repeat 10% 70%;
+}
+
+.userinfoBox  p.right
+{
+    padding-top:5px;
+	width:220px;                
+    float:right;
+}
+
+.userinfoBox .btnRight
+{
+    width:350px;
+	text-align:right;	
+	padding-top:10px;
+}
+
+
+.login_wrap
+{
+	width:960px;
+	height:356px;
+	background:url(../../Images/sub/login_bg.png) no-repeat;
+}
+
+.movieBox
+{
+	width:650px;
+	margin:0 auto;
+}
+
+
+/* Rank */
+.rank
+{
+    width:650px;
+}
+
+.rankLeftTop
+{
+    float:left;  
+    position:absolute;
+    z-index:0;
+    z-index:2;
+}
+
+.rankLeftBottom
+{
+    top:654px;
+    position:absolute;
+    z-index:2;
+}
+
+.rankRightTop
+{
+    left:543px;
+    position:absolute;
+    z-index:2;
+}
+
+.rankRightBottom
+{
+    top:654px;
+    left:543px;
+    position:absolute;
+    z-index:2;
+}
+
+.rank .rankList
+{   
+    width:650px;
+    padding:0 5px;
+    /*
+    filter:alpha(Opacity=10);
+    */
+    background:url(../../Images/ranking/rank_bg.jpg) no-repeat;
+}
+
+.rank .rankList .rankClass
+{
+    height:70px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.rank .ranking
+{
+    width:160px;
+}
+
+.rank .last-ranking
+{
+    width:160px;
+}
+
+.rank .rankOrder
+{
+    background:url(../../Images/board/DotPath.gif) repeat-x 0 100%;
+}
+
+.rank ul
+{
+    float:left;
+    width:650px;
+    margin-bottom:10px;
+}
+
+.rank li
+{
+    width:70px;
+    float:left;
+    padding:5px 0;
+    font-size:15px;
+    font-weight:bold;    
+    text-align:center;
+    cursor:pointer;
+}
+
+.rank li.blank
+{   
+    border:none;
+    width:363px;
+    border-bottom:1px solid #EEE;
+}
+
+.test1
+{
+	width:300px;
+	margin:0 auto;
+	border:0px solid #FFFFFF;
+	top:300px;
+	position:relative;
+}

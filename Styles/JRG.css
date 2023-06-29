@@ -1,0 +1,91 @@
+.pointer{
+ cursor: pointer;
+}
+
+.dodgerblue {
+    color:#1e90ff;
+}
+
+.cyan {
+    color: #00ffff;
+}
+
+.lightskyblue {
+    color: #87cefa;
+}
+
+.darkmagenta {
+    color: #8b008b;
+}
+
+.crimson {
+    color: #dc143c;
+}
+
+.hotpink {
+    color: #ff69b4;
+}
+
+.purple {
+    color: #800080;
+}
+
+
+.indigo {
+    color: #800080;
+}
+
+
+.limegreen {
+    color: #32cd32;
+}
+
+.springgreen {
+    color: #00ff7f;
+}
+
+.mediumseagreen {
+    color: #3cb371;
+}
+
+.mediumspringgreen {
+    color: #00fa9a;
+}
+
+.gold {
+    color: #ffd700;
+}
+
+
+.d-flex {
+    height: 100vh;
+    /* Changed purely for Stack example */
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    overflow-y: auto;
+}
+
+.badge {
+    font-weight: 400;
+}
+
+/* NEW */
+.bodyTicket {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.text-left,
+.text-right {
+    margin-top: auto;
+}
+
+.text-left {
+    margin-bottom: 20px;
+}

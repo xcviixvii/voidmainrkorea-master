@@ -1,0 +1,35 @@
+:Install CGI
+:Install Php Manager = PHPManagerForIIS_V1.5.0
+:Install UrlRewrite (incase magkaproblem sa WebConfig)
+:Download Php 7.2+
+:Download SQL SERVER Component (sql_srv)
+===================================================
+:Go To Default Document : Add index.php (fix HTTP Error 403.14 Forbidden)
+===================================================
+:Change WebConfig to 
+<?xml version="1.0" encoding="UTF-8"?>
+  <configuration>
+      <system.webServer>
+        <rewrite>
+          <rules>
+              <rule name="Index">
+              <match url="^(.*)$" />
+              <conditions>
+                <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+              </conditions>
+                    <action type="Rewrite" url="index.php/{R:1}" />
+            </rule>
+          </rules>
+        </rewrite>
+        <directoryBrowse enabled="false" />
+        <defaultDocument enabled="true">
+            <files>
+                <add value="index.php" />
+            </files>
+        </defaultDocument>
+     
+      </system.webServer>
+</configuration>
+===================================================
+: SET wwwroot Public For Everyone For Uploading

@@ -1,0 +1,388 @@
+﻿td {	font-family: "Verdana", "굴림";	font-size: 9pt;	color: #404040;}
+
+
+.t_11 {	font-family:"돋움"; font-size: 8pt;}
+.t_11:link   {font-family:"돋움"; text-decoration:none; font-size: 8pt;}
+.t_11:visited   {font-family:"돋움"; text-decoration:none; font-size: 8pt;}
+.t_11:active   {font-family:"돋움"; text-decoration:none; font-size: 8pt;}
+.t_11:hover   {font-family:"돋움"; text-decoration:none; font-size: 8pt; }
+
+.t_111 {	font-family:"돋움"; font-size: 9pt; letter-spacing:-1px;}
+.t_111:link   {font-family:"돋움"; text-decoration:none; font-size: 9pt; letter-spacing:-1px;}
+.t_111:visited   {font-family:"돋움"; text-decoration:none; font-size: 9pt; letter-spacing:-1px;}
+.t_111:active   {font-family:"돋움"; text-decoration:none; font-size: 9pt;}
+.t_111:hover   {font-family:"돋움"; font-size: 9pt; text-decoration:underline; letter-spacing:-1px;}
+
+.t_112 {	font-family:"돋움"; font-size: 9pt; line-height:16px}
+
+.t_11f {	font-family:"돋움"; font-size: 9pt; color: #FFFFFF; letter-spacing:-1px;}
+.t_11f:link   {font-family:"돋움"; text-decoration:none; font-size: 9pt; color: #FFFFFF; letter-spacing:-1px;}
+.t_11f:visited   {font-family:"돋움"; text-decoration:none; font-size: 9pt; color: #FFFFFF; letter-spacing:-1px;}
+.t_11f:active   {font-family:"돋움"; text-decoration:none; font-size: 9pt; color: #FFFFFF; letter-spacing:-1px;}
+.t_11f:hover   {font-family:"돋움"; font-size: 9pt; text-decoration:underline; color: #FFFFFF; letter-spacing:-1px;}
+
+.t_no  {font-family:"Verdana"; font-size: 9pt; color: #FFFFFF;}
+.t_no01  {font-family:"Verdana"; font-size: 9pt; color: #000000; letter-spacing:-1px; font-weight: bold; }
+.t_no03  {font-family:"Verdana"; font-size: 9pt; color: #777777; letter-spacing:-1px; padding:3px 0 15px 22px;}
+.t_no02  {font-family:"Verdana"; font-size: 9pt;}
+
+.t_16:link   {font-family:"돋움"; text-decoration:none; font-size: 9pt; line-height:16px;}
+.t_16:visited   {font-family:"돋움"; text-decoration:none; font-size: 9pt; line-height:16px;}
+.t_16:active   {font-family:"돋움"; text-decoration:none; font-size: 9pt; line-height:16px;}
+.t_16:hover   {font-family:"돋움"; font-size: 9pt; text-decoration:underline; line-height:16px;}
+
+
+.t_w {	font-family:"돋움";	font-size:9pt;	font-weight: bold; color: #FFFFFF; letter-spacing:-1px; padding: 3px 0 0 0;}
+
+.c_line {	font-family:"돋움"; font-size: 9pt; color: #FFFFFF; }
+.c_line:link   {font-family:"돋움"; text-decoration:none; font-size: 9pt;color: #FFFFFF; }
+.c_line:visited   {font-family:"돋움"; text-decoration:none; font-size: 9pt;color: #FFFFFF; }
+.c_line:active   {font-family:"돋움"; text-decoration:none; font-size: 9pt;color: #FFFFFF; }
+.c_line:hover   {font-family:"돋움"; font-size: 9pt; text-decoration:underline;color: #FFFFFF; }
+
+.t_ls   {letter-spacing:-1px; }
+
+
+/* Main */
+
+.t_bold:link   {font-family: "굴림"; text-decoration:underline; color:#404040; font-size:9pt; letter-spacing:-1px;	font-weight: bold}
+.t_bold:visited {font-family: "굴림"; text-decoration:underline; color:#404040; font-size:9pt; letter-spacing:-1px;	font-weight: bold}
+.t_bold:active {font-family: "굴림"; text-decoration:underline; color:#404040; font-size:9pt; letter-spacing:-1px;	font-weight: bold}
+.t_bold:hover {font-family: "굴림"; text-decoration:underline; color:#404040; font-size:9pt; letter-spacing:-1px;	font-weight: bold}
+
+.t_bold11:link   {font-family: "돋움"; text-decoration:none; color:#404040; font-size:9pt; font-weight: bold}
+.t_bold11:visited {font-family: "돋움"; text-decoration:none; color:#404040; font-size:9pt; font-weight: bold}
+.t_bold11:active {font-family: "돋움"; text-decoration:none; color:#404040; font-size:9pt; font-weight: bold}
+.t_bold11:hover {font-family: "돋움"; text-decoration:underline; color:#404040; font-size:9pt; font-weight: bold}
+
+.t_n:link   {font-family: "굴림"; text-decoration:none; color:#333333; font-size:9pt; }
+.t_n:visited {font-family: "굴림"; text-decoration:none; color:#333333; font-size:9pt; }
+.t_n:active {font-family: "굴림"; text-decoration:none; color:#333333; font-size:9pt; }
+.t_n:hover {font-family: "굴림"; text-decoration:underline; color:#333333; font-size:9pt; }
+
+
+/* Community */
+
+.input_b {	Background-color:f1f1f1;	border:1px SOLID dadada;font-family:"돋움"; font-size:9pt; color:#666666;}
+.input_w {	Background-color:#ffffff;	border:1px SOLID #b1b1b1;font-family:"돋움"; font-size:9pt; color: #666666; height:19px;}
+.input1 {	Background-color:#ffffff;	border:1px SOLID #b1b1b1;}
+.input2 {	Background-color:#ffffff;	border:1px SOLID #b1b1b1;font-family:"돋움"; font-size:9pt; }
+
+.b_title {	font-family:"Verdana","굴림";	font-size: 9pt;	color: #3d61d7;	font-weight: bold; padding:3px 0 0 0;}
+.b_number {	font-family:"Verdana";	font-size: 9pt;	color: 666666;	font-weight: normal;	text-align: center;}
+.b_rc {	font-family:"굴림";	font-size: 9pt;	color: ff5400;	font-weight: bold;}
+
+.page11:link   {font-family:"Verdana"; text-decoration:none; font-size: 9pt;	color:868686}
+.page11:visited   {font-family:"Verdana"; text-decoration:none; font-size: 9pt;	color:868686}
+.page11:active   {font-family:"Verdana"; text-decoration:none; font-size: 9pt;	color:868686}
+.page11:hover   {font-family:"Verdana"; font-size: 9pt; text-decoration:underline;	color:3d61d7}
+
+.b_view {	font-family:"굴림";	font-size: 9pt;	color: #666666;	padding:3px 0 0 15px;}
+
+/* Subject */
+
+.t_14 {	FONT-WEIGHT: bold;	FONT-SIZE: 14px;	COLOR: #555555;	letter-spacing:-2px;	FONT-FAMILY: 돋움;}
+.t_14:link   {	FONT-WEIGHT: bold;	FONT-SIZE: 14px;	COLOR: #555555;	letter-spacing:-2px;	FONT-FAMILY: 돋움;}
+.t_14:visited   {FONT-WEIGHT: bold;	FONT-SIZE: 14px;	COLOR: #555555;	letter-spacing:-2px;	FONT-FAMILY: 돋움;}
+.t_14:active   {	FONT-WEIGHT: bold;	FONT-SIZE: 14px;	COLOR: #555555;	letter-spacing:-2px;	FONT-FAMILY: 돋움;}}
+.t_14:hover   {	FONT-WEIGHT: bold;	FONT-SIZE: 14px;	COLOR: #555555;	letter-spacing:-2px;	FONT-FAMILY: 돋움;}
+.t_141 {	FONT-WEIGHT: bold;	FONT-SIZE: 14px;	COLOR: #575556;	FONT-FAMILY: "Verdana"; padding:9px 0 0 0;text-align: center;	vertical-align: top;}
+
+
+.t_11v:link   {font-family:"Verdana"; text-decoration:underline; font-size: 9pt;	color:666666}
+.t_11v:visited   {font-family:"Verdana"; text-decoration:underline; font-size: 9pt;	color:666666}
+.t_11v:active   {font-family:"Verdana"; text-decoration:underline; font-size: 9pt;	color:666666}
+.t_11v:hover   {font-family:"Verdana"; font-size: 9pt; text-decoration:underline;	color:666666}
+
+.t_112 {	font-family:"돋움"; font-size:9pt; 	color:666666; }
+/* Background */
+
+.background {	background-attachment: fixed;	background-repeat: repeat-x;	background-position: top;}
+.background01 {	background-attachment: fixed;	background-repeat: no-repeat;	background-position: left bottom;}
+.background02 {	background-attachment: fixed;	background-repeat: no-repeat;	background-position: left top;}
+.background03 {	background-attachment: fixed;	background-repeat: no-repeat;	background-position: right bottom;}
+.background04 {	background-attachment: fixed;	background-repeat: repeat-y;	background-position: top;}
+
+.c_line01 {	background-image: url(../img/common/c_lineboard.gif);	vertical-align: bottom; padding:0 0 6px 7px;}
+/*.subject {	background-image: url(../img/community/subject_m.gif);	background-repeat: no-repeat; padding:2px 0 0 6px;}*/
+.b_write {	font-family:"Verdana","굴림";	font-size: 9pt;	color: #3d61d7;	font-weight: bold;	background-image: url(../img/common/b_w_bg.gif);	background-repeat: no-repeat;}
+.c_music {	background-image: url(../img/community/m_music02.gif);	text-align: right;	vertical-align: bottom; padding:0 0 12px 0;}
+
+
+/* Administration */
+.input_a {	Background-color:ffffff;	 border:0px SOLID dadada;font-family:"돋움"; font-size:9pt; color: BE6940;	font-weight: bold; }
+.input_b {	Background-color:ffffff;	 border:1px SOLID dadada;font-family:"돋움"; font-size:9pt; color: ff5400;	font-weight: bold; }
+.input_c {	Background-color:ffffff;	 border:1px SOLID dadada;font-family:"돋움"; font-size:9pt; color: 333333;	font-weight: none; }
+.input_d {	Background-color:ffffff;	 border:0px SOLID dadada;font-family:"돋움"; font-size:9pt; color: ff5400;	font-weight: bold; }
+.input_e {	Background-color:ffffff;	 border:0px SOLID dadada;font-family:"돋움"; font-size:9pt; color: 0D79BF;	font-weight: bold; }
+
+.c_11r  {font-family:"Verdana"; font-size: 9pt; color: ec1f02; vertical-align: top; padding:5px 0 0 9px;}
+.c_11  {font-family:"Verdana"; font-size: 9pt; color: 666666; vertical-align: top; }
+.c_11p  {
+	font-family:"Verdana";
+	font-size: 9pt;
+	color: 666666;
+	vertical-align: top;
+	padding:5px 0 0 9px;
+	background-image: url(../img/administration_n/c_point.gif);
+}
+
+/* About */
+
+.h_no  {font-family:"Verdana"; font-size: 9pt; color: #ff5400;	font-weight: bold; padding:0 6px 0 0;}
+.m_picture {	background-image: url(../img/main_n/c_img_bg.gif);	vertical-align: top; padding:6px 0 0 6px;}
+
+.contents2 {padding:0 0 3px 0;}
+.contents2icon {padding:2px 0 0 0;}
+.contents {padding:11px 0 0 43px;}
+.contents3 {padding:10px 0 0 10px;}
+
+
+A.regulation:link   {font-family:"돋움"; text-decoration:none; color:#94a7b4; font-size:11px; letter-spacing:-0.5px;}
+A.regulation:visited {font-family:"돋움"; text-decoration:none; color:#94a7b4; font-size:11px; letter-spacing:-0.5px;}
+A.regulation:active {font-family:"돋움"; text-decoration:none; color:#94a7b4; font-size:11px; letter-spacing:-0.5px;}
+A.regulation:hover {font-family:"돋움"; text-decoration:underline; color:#669abe; font-size:11px; letter-spacing:-0.5px;}
+.history{color:#7a9fbd; font-weight:bold}
+
+
+.pro A:link {text-decoration:none; font-family:굴림; font-size:12px; color:#000000;}
+.pro A:visited {text-decoration:none; font-family:굴림; font-size:12px; color:#000000; }
+.pro A:active {text-decoration:none; font-family:굴림; font-size:12px; color:#000000; }
+.pro A:hover {text-decoration:none; font-family:굴림; font-size:12px; color:#000000; text-decoration:underline; }
+
+.joinstitle {padding:0 0 0 24px;}
+.joinstitle2 {padding:0 0 0 17px;}
+.joinstitle3 {padding:0 0 0 5px;}
+.joinstitle4 {padding:0 17px 0 0;}
+.joinstitle5 {padding:10px 10px 10px 10px;}
+
+/* 로그인 */
+.sub_input_text {
+	BORDER-RIGHT: #D1D1D1 1px solid; BORDER-LEFT: #D1D1D1 1px solid; BORDER-BOTTOM: #D1D1D1 1px solid; BORDER-TOP: #D1D1D1 1px solid; PADDING-LEFT: 7px; PADDING-TOP: 4px; FONT-SIZE: 9pt; COLOR: 888888; BACKGROUND-COLOR: #ffffff
+}
+
+/* location bar */
+.navi { font-family: 돋움; font-size: 9pt; color: #ffffff;letter-spacing:-1;padding:2px 0 0 3px;}
+
+.8p { font-size: 9pt;letter-spacing:-1;} 
+.navi { font-family: 돋움; font-size: 9pt; color: #ffffff;letter-spacing:-1;padding:2px 0 0 3px;}
+ 
+/* main */
+.mranking_1 { padding:0 0 0 5px;}
+.mranking_2 { font-family: 돋움; font-size: 9pt; color: #666666;letter-spacing:-1;}
+
+.poll_1 { font-family: 돋움; font-size: 9pt; color: #7F7F7F;font-weight: bold;letter-spacing:-1;padding:4px 10px 2px 10px;}
+.poll_2 { font-family: 돋움; font-size: 9pt; color: #7F7F7F;letter-spacing:-1;padding:3px 0 0 0;}
+.poll_3 { font-family: 돋움; font-size: 9pt; color: #7F7F7F;letter-spacing:-1;padding:3px 0 3px 5px;}
+
+.hot {  font-size: 9pt; color: #FFFFFF;font-weight: bold;padding:2px 0 0 0;}
+.hot :link {   font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none;font-weight: bold;padding:2px 0 0 0;}
+.hot :visited{   font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none;font-weight: bold;padding:2px 0 0 0;}
+.hot :hover{   font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none;font-weight: bold;padding:2px 0 0 0;}
+
+
+.mnews_1 {  font-size: 9pt; color: #808080;padding:0 0 3px 0;}
+.mnews_1 :link {  font-size: 9pt; font-style: normal; line-height: 140%; color: #808080; text-decoration: none;padding:0 0 3px 0;}
+.mnews_1 :visited{   font-size: 9pt; font-style: normal; line-height: 140%; color: #808080; text-decoration: none;padding:0 0 3px 0;}
+.mnews_1 :hover{   font-size: 9pt; font-style: normal; line-height: 140%; color: #808080; text-decoration: none;padding:0 0 3px 0;}
+.mnews_2 {  font-size: 9pt; color: #808080;padding:0 10px 3px 0;}
+
+.mitem_1 { font-family: 돋움; font-size: 9pt; color: #FF7200;font-weight:bold;letter-spacing:-1;padding:2px 5px 0 0;}
+.mitem_2 { padding:3px 0 0 0;}
+.mitem_3 { font-family: 돋움; font-size: 9pt; color: #7F7F7F;line-height:130%;letter-spacing:-1;padding:2px 10px 0 0;}
+
+
+ /* board */
+.tit_guide { font-family: 돋움; font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;padding:0 10 0 0;}
+.tit_1 { font-family: 돋움; font-size: 9pt; color: #4C4C4C;font-weight: bold}
+
+.tit_2 { font-family: 돋움; font-size: 9pt; color: #FFFFFF;font-weight: bold}
+.tit_2 :link {  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none}
+.tit_2 :visited{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none}
+.tit_2 :hover{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none}
+
+.list_1 {  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+.list_1 :link {  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+.list_1 :visited{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+.list_1 :hover{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: underline}
+
+.view_1 { font-family: 돋움; font-size: 9pt; color: #4C4C4C;line-height: 150%;padding:20px 20px 30px 20px;}
+.view_2 { font-family: 돋움; font-size: 9pt; color: #4C4C4C;line-height: 150%;padding:10px 0 10px 0;}
+.view_3 { font-family: 돋움; font-size: 9pt; color: #4C4C4C;line-height: 150%;padding:10px 0 20px 0;}
+
+.event_1 { font-family: 돋움; font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;padding:4px 10px 0 0;}
+.event_2 { font-family: 돋움; font-size: 9pt; color: #FFFFFF;font-weight: bold}
+.event_2 :link {  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none}
+.event_2 :visited{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none}
+.event_2 :hover{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #FFFFFF; text-decoration: none}
+
+.pa_1 {  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+.pa_1 :link {  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+.pa_1 :visited{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+.pa_1 :hover{  font-family: 돋움; font-size: 9pt; font-style: normal; line-height: 140%; color: #6C6C6C; text-decoration: none}
+
+/*.pa_1ov {  font-family: 돋움; font-size: 11pt; font-style: normal; line-height: 140%; color: #0C84C1; text-decoration: none}*/
+.pa_1ov {  font-family: 돋움; font-size: 11pt; font-style: normal; line-height: 140%; color: #cc0000; text-decoration: none}
+
+.board_re { font-family: verdana;font-size: 7pt; color: #F26521;font-weight: bold;}
+.board_reall{ font-size: 9pt; color: #F26521;letter-spacing:-1;padding-top: 8px;padding-bottom: 8px;padding-left: 10px;text-decoration: underline;}
+.board_1s{  font-family: verdana; font-size: 9pt; letter-spacing:-1; color: #9B9B9B;}
+.free_1{ font-family: 돋움; font-size: 9pt; color: #7F7F7F;}
+.free_2{ font-family: 돋움; font-size: 9pt; color: #7F7F7F;padding:3px 0 0 0;}
+.free_3
+{
+    BORDER-RIGHT: #ffffff 1px solid;
+    BORDER-TOP: #ffffff 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #ffffff 1px solid;
+    COLOR: #333333;
+    BORDER-BOTTOM: #ffffff 1px solid;
+    FONT-FAMILY: 돋움;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+
+.fansite_1 { font-family: 돋움; font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;padding:0 0 0 5px;}
+.fansite_1 :link { font-family: 돋움; font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;}
+.fansite_1 :visited{ font-family: 돋움; font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;}
+.fansite_1 :hover{ font-family: 돋움; font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;}
+
+.fansite_2 { font-family: 돋움; font-size: 9pt; color: #383838;letter-spacing:-1;padding:4px 10px 4px 10px;}
+.fansite_3 { font-family: 돋움; font-size: 9pt; color: #7F7F7F;padding:4px 10px 4px 10px;}
+.fansite_4 { font-family: 돋움; font-size: 9pt; color: #666666; padding-top: 6px; padding-bottom: 6px; }
+
+.sshot_1 {  font-size: 9pt; color: #2890D1;font-weight: bold;letter-spacing:-1;padding:10px 0 2px 0;}
+.sshot_2 {  font-size: 9pt; color: #535353;padding:3px 0 2px 0;}
+.sshot_3 {  font-size: 9pt; color: #797979;padding:3px 0 2px 0;}
+.sshot_4 {  font-size: 9pt; color: #535353;padding:3px 0 0 0;}
+
+ /* shop */
+.shop_1 {  font-size: 9pt; color: #333333;letter-spacing:-1;padding:0 0 0 0;}
+.shop_2 {  font-size: 9pt; color: #FF6600;font-weight: bold;letter-spacing:-1;padding:3px 0 2px 0;}
+.shop_3 { padding:2px 0 2px 10px;}
+.shop_4 { font-family: 돋움;font-size: 9pt; color: #666666;letter-spacing:-1;padding:2px 0 2px 0;}
+.shop_5 { font-family: 돋움;font-size: 9pt; color: #666666;letter-spacing:-1;padding:5px 5px 5px 5px;}
+
+.detail_1 {  font-size: 9pt; color: #FFFFFF;font-weight: bold;letter-spacing:-1;padding:5px 0 0 0;}
+.detail_2 {  font-size: 9pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;padding:0 0 0 0;}
+
+.shop_6 { font-family: 돋움;font-size: 11pt; color: #0E7AC2;font-weight: bold;letter-spacing:-1;padding:15px 0 5px 10px;}
+.shop_7 {padding:8px 5px 0 5px;}
+.shop_8 { font-size: 9pt; color: #383838;letter-spacing:-1;line-height: 160%;padding:4px 10px 0 0;}
+
+.shop_9 {  font-size: 9pt; color: #FF6600;font-weight: bold;letter-spacing:-1;}
+.shop_9 :link { font-size: 9pt; color: #FF6600;font-weight: bold;letter-spacing:-1;}
+.shop_9 :visited{font-size: 9pt; color: #FF6600;font-weight: bold;letter-spacing:-1;}
+.shop_9 :hover{ font-size: 9pt; color: #FF6600;font-weight: bold;letter-spacing:-1;}
+.shop_10{ font-family: 돋움;font-size: 9pt; color: #FFFFFF;font-weight: bold;letter-spacing:-1;padding:0 10px 0 20px;}
+.shop_11{ font-family: 돋움;font-size: 9pt; color: #383838;letter-spacing:-1;padding:10px 10px 10px 10px;}
+.shop_12{font-size: 9pt; color: #FF6600;letter-spacing:-1;font-weight: bold;padding:5px 0 5px 5px;}
+.shop_13{font-size: 9pt; color: #FF6600;letter-spacing:-1;font-weight: bold;padding:0 0 0 10px;}
+
+.shop_14 {  font-size: 9pt; color: #0000FF;font-weight: bold;letter-spacing:-1;padding:3px 0 2px 0;}
+.shop_15 {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#525252;}
+.shop_15B {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#525252;}
+.shop_15B :link {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#525252;}
+.shop_15B : visited {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#525252;}
+.shop_15B : hover {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#fd6500;}
+.shop_16 {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#fd6500; font-weight:bold;}
+/*.shop_17 {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#0e7ac2; font-weight:bold;}*/
+.shop_17 {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal; font-weight:bold;}
+.shop_18 {font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#525252; font-weight:bold;}
+.shop_19 {font-family:dotum; font-size:12px;line-height:18px;letter-spacing:normal;color:#fd6500; font-weight:bold;}
+
+.white12B {font-family:dotum, Arial, Helvetica, sans-serif; font-size:12px;line-height:15px;letter-spacing:normal;color:#ffffff;font-weight:bold;}
+.dark_gray12B {font-family:dotum, Arial, Helvetica, sans-serif; font-size:12px;line-height:15px;letter-spacing:normal;color:#222222;font-weight:bold;}
+
+.input_text4{ 		
+	font-family:dotum; font-size:11px;line-height:18px;letter-spacing:normal;color:#525252; 	
+	border:#0e7ac2 2px solid;
+	border-right: #0e7ac2 2px solid;
+	border-top: #0e7ac2 2px solid;  
+	border-left: #0e7ac2 2px solid;
+	border-bottom: #0e7ac2 2px solid;
+}
+
+.input_text3{ 		
+	FONT-SIZE: 9pt; COLOR: #FF6600;background-color:#FFC29E; padding:2px,7px,2px,7px; 	
+	border:#FF6600 1px solid;
+	border-right: #FF6600 1px solid;
+	border-top: #FF6600 1px solid;  
+	border-left: #FF6600 1px solid;
+	border-bottom: #FF6600 1px solid;
+ }
+
+.input_text2{ 		
+	FONT-SIZE: 9pt; COLOR: #FFFFFF;background-color:#0E7AC2; padding:2px,7px,2px,7px; 	
+	border:#0E7AC2 1px solid;
+	border-right: #0E7AC2 1px solid;
+	border-top: #0E7AC2 1px solid;  
+	border-left: #0E7AC2 1px solid;
+	border-bottom: #0E7AC2 1px solid;
+ }
+
+
+.btn {  font-size: 9pt; color: #FFFFFF; background-color: #8543AF; border: 1px #C2A0E6 solid}
+.white_8p {  font-size: 9pt; color: #ffffff}
+.black_8p {  font-size: 9pt; color: #000000}
+
+.8p {  font-size:9pt;font-family:돋움,돋움체;}
+
+.write {  font-size: 9pt; color: #FFFFFF}
+.black {  font-size: 9pt; color: #000000}
+
+.logout { font-size:9pt;font-family:돋움;color: #666666;padding:3px 0 0 0;}
+
+.input_text1{ 	
+	
+	FONT-SIZE: 9pt; 
+	padding:2px,7px,2px,7px; 	
+	background-color:#FFFFFF;
+	border:#268FD0 1px solid;
+	border-right: #268FD0 1px solid;
+	border-top: #268FD0 1px solid;  
+	border-left: #268FD0 1px solid;
+	border-bottom: #268FD0 1px solid;
+ }
+ 
+ .input_text { 	
+
+	
+	FONT-SIZE: 9pt; 
+	COLOR: #888888;
+	padding:2px,7px,2px,7px; 	
+	background-color:#FFFFFF;
+	border:#C3C3C3 1px solid;
+	border-right: #C3C3C3 1px solid;
+	border-top: #C3C3C3 1px solid;  
+	border-left: #C3C3C3 1px solid;
+	border-bottom: #C3C3C3 1px solid;
+ }
+
+
+ .textarea
+{
+    BORDER-RIGHT: #D4D0C8 1px solid;
+    BORDER-TOP: #404040 1px solid;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #404040 1px solid;
+    COLOR: #333333;
+    BORDER-BOTTOM: #D4D0C8 1px solid;
+    FONT-FAMILY: 돋움;
+    BACKGROUND-COLOR: #fffff7;
+    TEXT-DECORATION: none
+}
+
+
+.foot_1 { font-family: 돋움; font-size: 9pt; color: #666666;}
+.foot_2 { font-family: 돋움; font-size: 9pt; color: #666666;letter-spacing:-1;}
+
+.sub_input_text {
+	BORDER-RIGHT: #D1D1D1 1px solid; BORDER-LEFT: #D1D1D1 1px solid; BORDER-BOTTOM: #D1D1D1 1px solid; BORDER-TOP: #D1D1D1 1px solid; PADDING-LEFT: 7px; PADDING-TOP: 4px; FONT-SIZE: 9pt; COLOR: 888888; BACKGROUND-COLOR: #ffffff
+}
+.sub_input_text2 {
+	BORDER-RIGHT: #C5C5C5 1px solid; BORDER-LEFT: #C5C5C5 1px solid; BORDER-BOTTOM: #C5C5C5 1px solid; BORDER-TOP: #C5C5C5 1px solid; PADDING-LEFT: 7px; PADDING-TOP: 4px; FONT-SIZE: 9pt; COLOR: 888888; BACKGROUND-COLOR: #ffffff
+}
+.sub_txt {
+	font-size: 9pt; PADDING-LEFT: 12px;
+}
